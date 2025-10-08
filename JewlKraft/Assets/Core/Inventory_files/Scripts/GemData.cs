@@ -15,11 +15,11 @@ namespace Core.Scripts
     }
 
 
-    [CreateAssetMenu(fileName = "GemData", menuName = "Custom/GemData")]
+    [CreateAssetMenu(fileName = "GemData", menuName = "Custom/Scriptable Objects/GemData")]
     public class GemData : ScriptableObject
     {
         public GemTypes gemType;
         public Sprite gemSprite;
-        //public ShapeData shapeData;
+        public bool[][] ShapeData;
     }
 }
