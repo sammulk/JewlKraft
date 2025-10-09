@@ -5,11 +5,6 @@ using UnityEngine;
 public class TimeCounter : MonoBehaviour
 {
     public static event Action OnTimeRanOut;
-
-    public static void InvokeTimeRanOut()
-    {
-        OnTimeRanOut?.Invoke();
-    }
     
     [SerializeField] 
     private float maxTime = 69;
