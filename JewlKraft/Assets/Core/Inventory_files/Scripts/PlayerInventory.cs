@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Core.Inventory_files.Scripts;
 using UnityEngine;
 using UnityEngine.Serialization;
 

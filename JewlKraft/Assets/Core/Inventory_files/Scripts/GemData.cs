@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
-namespace Core.Scripts
+namespace Core.Inventory_files.Scripts
 {
     public enum GemTypes
     {
@@ -20,6 +21,9 @@ namespace Core.Scripts
     {
         public GemTypes gemType;
         public Sprite gemSprite;
-        public bool[][] ShapeData;
+
+        public int height;
+        public int width;
+        //public bool[][] ShapeData;
     }
 }

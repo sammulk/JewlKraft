@@ -1,0 +1,42 @@
+using UnityEngine;
+
+namespace Core.Inventory_files.Scripts
+{
+    public class InventoryHighlight : MonoBehaviour
+    {
+        [SerializeField] RectTransform highlightRect;
+
+        public void Show(bool b)
+        {
+            highlightRect.gameObject.SetActive(b);
+        }
+
+        public void SetSize(InventoryItem item)
+        {
+            Vector2 size = new Vector2();
+            size.x = item.Width * ItemGrid.TileSizeWidth;
+            size.y = item.Height * ItemGrid.TileSizeHeight;
+            highlightRect.sizeDelta = size;
+        }
+
+        public void SetPosition(ItemGrid grid, InventoryItem item)
+        {
+            SetParent(grid);
+            
+            Vector2 pos = grid.CalcGridPosition(item, item.gridPosX, item.gridPosY);
+            highlightRect.localPosition = pos;
+        }
+
+        public void SetParent(ItemGrid grid)
+        {
+            if (grid == null) return;
+            highlightRect.SetParent(grid.GetComponent<RectTransform>());
+        }
+
+        public void SetPosition(ItemGrid grid, InventoryItem item, int posX, int posY)
+        {
+            Vector2 pos = grid.CalcGridPosition(item, posX, posY);
+            highlightRect.localPosition = pos;
+        }
+    }
+}
