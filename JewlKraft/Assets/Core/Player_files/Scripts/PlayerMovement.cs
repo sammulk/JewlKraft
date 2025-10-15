@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float MoveSpeed;
+
+    public Rigidbody2D rb;
+    private Vector2 moveInput;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
     void Start()
     {
         
@@ -12,10 +20,18 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        float vertical = Input.GetAxis("Vertical");
-        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
 
-        transform.position += new Vector3(horizontal, vertical, 0) * MoveSpeed * Time.deltaTime;
+        //transform.position += new Vector3(horizontal, vertical, 0) * MoveSpeed * Time.deltaTime;
+        moveInput = new Vector2(horizontal, vertical).normalized; //valdib kiiruse suurenemist diagonaalis
+    }
+
+    void FixedUpdate()
+    {
+        // Liigutame Rigidbody kaudu -> collisionid
+        Vector2 targetPos = rb.position + moveInput * MoveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(targetPos);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

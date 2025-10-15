@@ -476,6 +476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 3
+  rb: {fileID: 1097288057}
 --- !u!60 &1097288056
 PolygonCollider2D:
   m_ObjectHideFlags: 0
