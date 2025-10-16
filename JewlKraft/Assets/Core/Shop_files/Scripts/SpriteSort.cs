@@ -14,6 +14,6 @@ public class SpriteSort : MonoBehaviour
 
     void LateUpdate()
     {
-        spriteRenderer.sortingOrder = (int) (sortingOrderBase - transform.position.y - offset);
+        spriteRenderer.sortingOrder = sortingOrderBase - Mathf.RoundToInt(transform.position.y * 100) - offset;
     }
 }
