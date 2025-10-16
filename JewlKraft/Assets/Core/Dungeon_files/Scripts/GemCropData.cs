@@ -9,6 +9,6 @@ public class GemCropData : ScriptableObject
     public int HitsToMine;
     public int ShardCount;
     public GameObject DustPrefab;
-    public GameObject GemPrefab;
+    
 
 }
