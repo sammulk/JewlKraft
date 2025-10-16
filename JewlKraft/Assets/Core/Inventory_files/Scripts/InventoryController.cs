@@ -83,6 +83,20 @@ namespace Core.Inventory_files.Scripts
             _selectedGrid.PlaceItem(insertItem, gridPos.Value.x, gridPos.Value.y);
         }
 
+        private void HandleClick(Vector3 mousePosition)
+        {
+            Vector2Int gridPosition = GetRootCoordinate(mousePosition);
+
+            if (_selectedItem == null)
+            {
+                PickUpItemAt(gridPosition);
+            }
+            else
+            {
+                PlaceItemAt(gridPosition);
+            }
+        }
+
         private void HandleHighlight(Vector2 mousePosition)
         {
             Vector2Int positionOnGrid = GetRootCoordinate(mousePosition);
@@ -113,20 +127,6 @@ namespace Core.Inventory_files.Scripts
                     _selectedItem.Height));
                 _inventoryHighlight.SetSize(_selectedItem);
                 _inventoryHighlight.SetPosition(_selectedGrid, _selectedItem, positionOnGrid.x, positionOnGrid.y);
-            }
-        }
-
-        private void HandleClick(Vector3 mousePosition)
-        {
-            Vector2Int gridPosition = GetRootCoordinate(mousePosition);
-
-            if (_selectedItem == null)
-            {
-                PickUpItemAt(gridPosition);
-            }
-            else
-            {
-                PlaceItemAt(gridPosition);
             }
         }
 

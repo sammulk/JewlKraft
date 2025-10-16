@@ -1,17 +1,16 @@
+using System;
 using System.Collections.Generic;
-using Core.Inventory_files.Scripts;
-using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Core.Scripts
+namespace Core.Inventory_files.Scripts
 {
-    [CreateAssetMenu(fileName = "PlayerInventory", menuName = "Custom/Scriptable Objects/PlayerInventory")]
-    public class PlayerInventory : ScriptableObject
+    [Serializable]
+    public class PlayerInventory
     {
-        public List<GemData> contents;
+        public List<InventoryItem> contents;
 
-        private int _sizeX = 5;
-        private int _sizeY = 5;
+        public int sizeX = 10;
+        public int sizeY = 10;
         
         
     }

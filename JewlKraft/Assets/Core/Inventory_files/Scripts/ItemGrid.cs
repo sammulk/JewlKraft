@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Core.Inventory_files.Scripts
@@ -10,6 +11,8 @@ namespace Core.Inventory_files.Scripts
 
         [SerializeField] private int gridWidth;
         [SerializeField] private int gridHeight;
+        
+        private readonly List<InventoryItem> _contents = new ();
         
         private RectTransform _rectTransform;
         private InventoryItem[,] _itemSlot;
@@ -33,6 +36,7 @@ namespace Core.Inventory_files.Scripts
             }
             
             PlaceItem(item, posX, posY);
+            _contents.Add(item);
             return true;
         }
 
@@ -112,6 +116,8 @@ namespace Core.Inventory_files.Scripts
                     _itemSlot[item.gridPosX + i, item.gridPosY + j] = null;
                 }
             }
+            
+            _contents.Remove(item);
         }
 
         private bool OverlapCheck(int posX, int posY, int width, int height, ref InventoryItem overlapItem)
@@ -159,6 +165,9 @@ namespace Core.Inventory_files.Scripts
             
             int x = Mathf.FloorToInt(localPoint.x / TileSizeWidth * _rootCanvas.scaleFactor);
             int y = Mathf.FloorToInt(localPoint.y / TileSizeHeight * _rootCanvas.scaleFactor);
+            
+            x = Mathf.Clamp(x, 0, gridWidth - 1);
+            y = Mathf.Clamp(y, 0, gridHeight - 1);
 
             return new Vector2Int(x, y);
         }
