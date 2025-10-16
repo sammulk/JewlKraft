@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PickaxeSwing : MonoBehaviour
 {
-    [SerializeField] private float swingRange = 1.5f;
+    [SerializeField] private float swingRange = 3.5f;
     [SerializeField] private float swingCooldown = 0.4f;
     [SerializeField] private LayerMask gemLayer;
 
@@ -30,7 +30,7 @@ public class PickaxeSwing : MonoBehaviour
 
         if (hit.collider != null)
         {
-            Gem gem = hit.collider.GetComponent<Gem>();
+            GemCrop gem = hit.collider.GetComponent<GemCrop>();
             if (gem != null)
             {
                 gem.OnHit();

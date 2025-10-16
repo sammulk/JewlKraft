@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
-  m_Name: SingleData
+  m_Name: DiamondAsset
   m_EditorClassIdentifier: 
   gemType: 1
-  gemSprite: {fileID: 3244622203517571467, guid: 9a794946c47e217429a5f401c90d91f8, type: 3}
+  gemSprite: {fileID: -8458715595561043805, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
   height: 1
   width: 1
