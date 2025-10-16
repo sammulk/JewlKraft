@@ -21,6 +21,7 @@ namespace Core.Inventory_files.Scripts
     {
         public GemTypes gemType;
         public Sprite gemSprite;
+        public Color gemColor;
 
         public int height;
         public int width;

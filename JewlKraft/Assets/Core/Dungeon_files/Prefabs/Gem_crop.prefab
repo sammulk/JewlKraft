@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d61a65793871c4cb8b3736c40efe83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 99831deb5e2119c42aad902805c80eee, type: 2}
+  data: {fileID: 0}
+  shardPrefab: {fileID: 2303622884331392742, guid: dfe8df51951b4f14dbd139b3e702e365, type: 3}
 --- !u!212 &478007543796278635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,7 +92,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +100,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!58 &8352284185206359596
@@ -136,5 +137,5 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.21133333}
-  m_Radius: 0.5
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.85

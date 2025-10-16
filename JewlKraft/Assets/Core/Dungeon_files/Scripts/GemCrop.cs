@@ -3,12 +3,14 @@ using UnityEngine;
 public class GemCrop : MonoBehaviour
 {
     [SerializeField] private GemCropData data;
+    [SerializeField] private GameObject shardPrefab;
+
+    private GameObject dustPrefab;
+    private Color gemDustColor;
     private int hitsToBreak;
     private int currentHits = 0;
     private Sprite gemCropSprite;
-    private Sprite shardSprite;
-    private GameObject dustPrefab;
-    private GameObject shardPrefab;
+    private Sprite shardSprite;   
     private int shardCount;
 
     private void Awake()
@@ -38,7 +40,16 @@ public class GemCrop : MonoBehaviour
     private void SpawnDust()
     {
         if (dustPrefab == null) return;
-        Instantiate(dustPrefab, transform.position, Quaternion.Euler(180f, 0f, 0f));
+        GameObject dust = Instantiate(dustPrefab, transform.position, Quaternion.Euler(180f, 0f, 0f));
+        ParticleSystem ps = dust.GetComponent<ParticleSystem>();
+        if (ps != null)
+        {
+            var main = ps.main;
+            main.startColor = new ParticleSystem.MinMaxGradient(
+            gemDustColor * 0.8f,
+            gemDustColor * 1.2f
+        );
+        }
     }
 
     private void SpawnShards()
@@ -68,7 +79,7 @@ public class GemCrop : MonoBehaviour
         shardCount = data.ShardCount;
         shardSprite = data.GemType.gemSprite;
         gemCropSprite = data.GemCropSprite;
-        shardPrefab = data.GemPrefab;
         dustPrefab = data.DustPrefab;
+        gemDustColor = data.GemType.gemColor;
     }
 }
