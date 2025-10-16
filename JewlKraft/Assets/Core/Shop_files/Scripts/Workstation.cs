@@ -5,45 +5,20 @@ public class Workstation : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Color defaultColor;
     [SerializeField] private Color highlightColor = Color.white;
-    private bool playerNearby = false;
 
-    void Awake()
+    protected virtual void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         defaultColor = spriteRenderer.color;
     }
 
-    void Update()
+    public void SetHighlight(bool active)
     {
-        if (playerNearby && Input.GetKeyDown(KeyCode.E))
-        {
-            Interact();
-        }
+        spriteRenderer.color = active ? highlightColor : defaultColor;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public virtual void Interact()
     {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("In range");
-            playerNearby = true;
-            spriteRenderer.color = highlightColor;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("Out of range");
-            playerNearby = false;
-            spriteRenderer.color = defaultColor;
-        }
-    }
-
-    private void Interact()
-    {
-        // Siin teeb iga workstation erinevat asja
-        Debug.Log("Interacted with " + gameObject.name);
+        Debug.Log("Interacted with generic workstation: " + name);
     }
 }
