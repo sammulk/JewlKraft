@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -492,72 +492,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: World of Solaria Blacksmith New Style DEMO_17
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a8a8c0959fbb8f4984c9ac849360726
-      internalID: -475482615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: World of Solaria Blacksmith New Style DEMO_18
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1cc4326854f6734cb0bbf86a8f18247
-      internalID: 183571377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: World of Solaria Blacksmith New Style DEMO_19
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 160
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ecdb5e7b9126674fbb94c5d9fbc94b9
-      internalID: -828832692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: World of Solaria Blacksmith New Style DEMO_20
       rect:
         serializedVersion: 2
@@ -712,13 +646,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: World of Solaria Blacksmith New Style DEMO_27
+      name: Large_table
       rect:
         serializedVersion: 2
         x: 112
         y: 144
-        width: 16
-        height: 16
+        width: 48
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,50 +663,6 @@ TextureImporter:
       bones: []
       spriteID: b9028f604f2dc094593cc85c73a9801b
       internalID: 1662442053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: World of Solaria Blacksmith New Style DEMO_28
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5441992717a3da142a67c8ebf6418abe
-      internalID: 1796577157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: World of Solaria Blacksmith New Style DEMO_29
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 144
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e8c77a8b151aef4ea680a91f8e10818
-      internalID: -59821358
       vertices: []
       indices: 
       edges: []
@@ -1525,6 +1415,7 @@ TextureImporter:
       Furnace: -1257384032
       Kummut: -880685306
       Lamp: -1308833414
+      Large_table: 1662442053
       Painting: 1941194931
       Rug: -269784231
       Shelf: 1535060566
@@ -1553,7 +1444,6 @@ TextureImporter:
       World of Solaria Blacksmith New Style DEMO_24: -1559122210
       World of Solaria Blacksmith New Style DEMO_25: 432653012
       World of Solaria Blacksmith New Style DEMO_26: 317532244
-      World of Solaria Blacksmith New Style DEMO_27: 1662442053
       World of Solaria Blacksmith New Style DEMO_28: 1796577157
       World of Solaria Blacksmith New Style DEMO_29: -59821358
       World of Solaria Blacksmith New Style DEMO_3: -7780355322109397543
