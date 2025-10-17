@@ -1076,6 +1076,14 @@ PrefabInstance:
       propertyPath: rootTransform
       value: 
       objectReference: {fileID: 905262295}
+    - target: {fileID: 2925918198228917027, guid: 0f72ac882b5034e4397d8a161f191191, type: 3}
+      propertyPath: items.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2925918198228917027, guid: 0f72ac882b5034e4397d8a161f191191, type: 3}
+      propertyPath: 'items.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 3e674b6b61cc9b946a14074b4311b8d5, type: 2}
     - target: {fileID: 5325804477424244558, guid: 0f72ac882b5034e4397d8a161f191191, type: 3}
       propertyPath: highlightRect
       value: 
@@ -5948,7 +5956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1961096899701936851, guid: eb65ebb5f1ecde04b95aa6d38dcccf95, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4318841498003342573, guid: eb65ebb5f1ecde04b95aa6d38dcccf95, type: 3}
       propertyPath: m_Name

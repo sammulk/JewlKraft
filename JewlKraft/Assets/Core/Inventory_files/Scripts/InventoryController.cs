@@ -57,7 +57,7 @@ namespace Core.Inventory_files.Scripts
         private void SavePlayerInventory()
         {
             if (_playerItems == null) _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
-            
+
             System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
             
             List<StoredItem> storedItems = playerGrid.Contents.Select(item => item.StoreItem()).ToList();
