@@ -11,8 +11,10 @@ namespace Core.Inventory_files.Scripts
 
         [SerializeField] private int gridWidth;
         [SerializeField] private int gridHeight;
+        [SerializeField] private bool isPlayerInventory = false;
         
-        private readonly List<InventoryItem> _contents = new ();
+        [HideInInspector]
+        public readonly List<InventoryItem> Contents = new ();
         
         private RectTransform _rectTransform;
         private InventoryItem[,] _itemSlot;
@@ -36,7 +38,6 @@ namespace Core.Inventory_files.Scripts
             }
             
             PlaceItem(item, posX, posY);
-            _contents.Add(item);
             return true;
         }
 
@@ -60,6 +61,8 @@ namespace Core.Inventory_files.Scripts
             item.gridPosX = posX;
             item.gridPosY = posY;
             itemRect.localPosition = position;
+            
+            Contents.Add(item);
         }
 
         public Vector2 CalcGridPosition(InventoryItem item, int posX, int posY)
@@ -117,7 +120,7 @@ namespace Core.Inventory_files.Scripts
                 }
             }
             
-            _contents.Remove(item);
+            Contents.Remove(item);
         }
 
         private bool OverlapCheck(int posX, int posY, int width, int height, ref InventoryItem overlapItem)
@@ -172,17 +175,27 @@ namespace Core.Inventory_files.Scripts
             return new Vector2Int(x, y);
         }
 
-        private void Start()
+        private void Awake()
         {
             _rootCanvas = GetComponentInParent<Canvas>().rootCanvas;
             _rectTransform = GetComponent<RectTransform>();
-            InitializeSize();
+            
+            if (!isPlayerInventory) InitializeSize();
         }
+
 
         private void InitializeSize()
         {
-            _itemSlot = new InventoryItem[gridWidth, gridHeight];
-            Vector2 size = new Vector2(gridWidth * TileSizeWidth, gridHeight * TileSizeHeight);
+            InitializeSize(gridWidth, gridHeight);
+        }
+        
+        public void InitializeSize(int width, int height)
+        {
+            gridWidth = width;
+            gridHeight = height;
+            
+            _itemSlot = new InventoryItem[width, height];
+            Vector2 size = new Vector2(width * TileSizeWidth, height * TileSizeHeight);
             _rectTransform.sizeDelta = size;
         }
 

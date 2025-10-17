@@ -7,7 +7,7 @@ namespace Core.Inventory_files.Scripts
     public class InventoryItem : MonoBehaviour
     {
         [SerializeField]
-        private GemData gemData;
+        public GemData gemData;
 
         public int gridPosX;
         public int gridPosY;
@@ -38,6 +38,18 @@ namespace Core.Inventory_files.Scripts
             
             RectTransform rectTransform = GetComponent<RectTransform>();
             rectTransform.rotation = Quaternion.Euler(0f, 0f, rotated? 90f : 0f);
+        }
+
+
+        public void LoadFromStorage(StoredItem item)
+        {
+            Init(item.gemData);
+            if (item.rotated != rotated) Rotate();
+        }
+        
+        public StoredItem StoreItem()
+        {
+            return new StoredItem(gemData, gridPosX,gridPosY,rotated);
         }
     }
 }

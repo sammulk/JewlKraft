@@ -15,7 +15,9 @@ namespace Core.Inventory_files.Scripts
         Amethyst
     }
 
-
+/**
+ * Describes the fixed properties of an item.
+ */
     [CreateAssetMenu(fileName = "GemData", menuName = "Custom/Scriptable Objects/GemData")]
     public class GemData : ScriptableObject
     {
