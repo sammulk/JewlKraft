@@ -6,6 +6,9 @@ using UnityEngine.Serialization;
 
 namespace Core.Inventory_files.Scripts
 {
+    /**
+     * positional storeable data of an object
+     */
     [Serializable]
     public class StoredItem
     {
