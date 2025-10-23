@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
+  m_Name: AmethystAsset
+  m_EditorClassIdentifier: 
+  gemType: 7
+  gemSprite: {fileID: -6651836021098864036, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
+  gemColor: {r: 0.4559077, g: 0.20901565, b: 0.5754717, a: 1}
+  height: 1
+  width: 1

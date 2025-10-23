@@ -12,7 +12,8 @@ namespace Core.Inventory_files.Scripts
         Topaz,
         Diamond,
         Onyx,
-        Amethyst
+        Amethyst,
+        Rose_Quartz
     }
 
 /**
