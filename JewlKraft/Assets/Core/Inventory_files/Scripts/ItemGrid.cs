@@ -86,14 +86,19 @@ namespace Core.Inventory_files.Scripts
 
         public Vector2Int? FindSpaceFor(InventoryItem insertItem)
         {
-            int width = gridWidth - insertItem.Width + 1;
-            int height = gridHeight - insertItem.Height + 1;
+            return FindSpaceFor(insertItem.Width, insertItem.Height);
+        }
+        
+        public Vector2Int? FindSpaceFor(int width, int height)
+        {
+            int searchWidth = gridWidth - width + 1;
+            int searchHeight = gridHeight - height + 1;
 
-            for (int y = 0; y < height; y++)
+            for (int y = 0; y < searchHeight; y++)
             {
-                for (int x = 0; x < width; x++)
+                for (int x = 0; x < searchWidth; x++)
                 {
-                    if (CheckAvailability(x, y, insertItem.Width, insertItem.Height))
+                    if (CheckAvailability(x, y, width, height))
                     {
                         return new Vector2Int(x, y);
                     }

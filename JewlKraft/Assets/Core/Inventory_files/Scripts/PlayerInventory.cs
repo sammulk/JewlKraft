@@ -6,11 +6,15 @@ using UnityEngine.Serialization;
 
 namespace Core.Inventory_files.Scripts
 {
+    /**
+     * positional storeable data of an object
+     */
     [Serializable]
     public class StoredItem
     {
-        public GemData gemData;
+        [NonSerialized] public GemData gemData;
 
+        public string gemID;
         public int gridPosX;
         public int gridPosY;
         
@@ -19,6 +23,7 @@ namespace Core.Inventory_files.Scripts
         public StoredItem(GemData gemData, int gridPosX, int gridPosY, bool rotated)
         {
             this.gemData = gemData;
+            this.gemID = gemData.name;
             this.gridPosX = gridPosX;
             this.gridPosY = gridPosY;
             this.rotated = rotated;
@@ -49,6 +54,11 @@ namespace Core.Inventory_files.Scripts
             if (!File.Exists(path)) return;
         
             JsonUtility.FromJsonOverwrite(File.ReadAllText(path), this);
+            
+            foreach (var item in contents)
+            {
+                item.gemData = Resources.Load<GemData>(item.gemID); // custom lookup
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.Dungeon_files.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
@@ -43,27 +44,15 @@ namespace Core.Inventory_files.Scripts
             LoadPlayerInventory();
         }
 
-        private void LoadPlayerInventory()
+        private void OnEnable()
         {
-            _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
-
-            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
-            _playerItems.Load();
-            
-            playerGrid.InitializeSize(_playerItems.sizeX, _playerItems.sizeY);
-            LoadInventory(playerGrid, _playerItems.contents);
+            GemShard.OnGemShardPickedUp += AddShardFromFloor;
         }
 
-        private void SavePlayerInventory()
+        private void OnDisable()
         {
-            if (_playerItems == null) _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
-            
-            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
-            
-            List<StoredItem> storedItems = playerGrid.Contents.Select(item => item.StoreItem()).ToList();
-            _playerItems.Save(storedItems);
+            GemShard.OnGemShardPickedUp -= AddShardFromFloor;
         }
-
 
         private void Update()
         {
@@ -92,21 +81,27 @@ namespace Core.Inventory_files.Scripts
             SavePlayerInventory();
         }
 
-        private void RotateItem()
+        #region Load/save
+
+        private void SavePlayerInventory()
         {
-            if (_selectedItem == null) return;
-            _selectedItem.Rotate();
+            if (_playerItems == null) _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
+
+            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
+            
+            List<StoredItem> storedItems = playerGrid.Contents.Select(item => item.StoreItem()).ToList();
+            _playerItems.Save(storedItems);
         }
 
-        private void InsertRandomItem()
+        private void LoadPlayerInventory()
         {
-            if (SelectedGrid == null) return;
+            _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
 
-            CreateRandomItem();
-            InventoryItem insertItem = _selectedItem;
-            _selectedItem = null;
-            _selectedTransform = null;
-            InsertItem(insertItem);
+            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
+            _playerItems.Load();
+            
+            playerGrid.InitializeSize(_playerItems.sizeX, _playerItems.sizeY);
+            LoadInventory(playerGrid, _playerItems.contents);
         }
 
         private void LoadInventory(ItemGrid targetInventory, List<StoredItem> inventoryItems)
@@ -120,6 +115,64 @@ namespace Core.Inventory_files.Scripts
                 newItem.LoadFromStorage(item);
                 InsertItemAt(targetInventory, newItem, item.gridPosX, item.gridPosY);
             }
+        }
+
+        #endregion
+
+        private void RotateItem()
+        {
+            if (_selectedItem == null) return;
+            _selectedItem.Rotate();
+        }
+
+        private void HandleClick(Vector3 mousePosition)
+        {
+            Vector2Int gridPosition = GetRootCoordinate(mousePosition);
+
+            if (_selectedItem == null)
+            {
+                PickUpItemAt(gridPosition);
+            }
+            else
+            {
+                PlaceItemAt(gridPosition);
+            }
+        }
+
+        #region Adding
+
+        private void InsertRandomItem()
+        {
+            if (SelectedGrid == null) return;
+
+            CreateRandomItem();
+            InventoryItem insertItem = _selectedItem;
+            _selectedItem = null;
+            _selectedTransform = null;
+            InsertItem(insertItem);
+        }
+
+        private void AddShardFromFloor(GemShard shard)
+        {
+            if (playerGrid == null) return;
+            bool needsRotation = false;
+            Vector2Int? spaceFor = playerGrid.FindSpaceFor(shard.gemData.width, shard.gemData.height);
+            
+            if (!spaceFor.HasValue)
+            {
+                //what if you rotate
+                spaceFor = playerGrid.FindSpaceFor(shard.gemData.height, shard.gemData.width);
+                if (!spaceFor.HasValue) return;
+                needsRotation = true;
+            }
+            
+            Vector2Int targetGridPosition = spaceFor.Value;
+            InventoryItem newItem = Instantiate(itemPrefab);
+            newItem.Init(shard.gemData);
+            newItem.rotated = needsRotation;
+            InsertItemAt(playerGrid, newItem, targetGridPosition.x, targetGridPosition.y);
+            
+            Destroy(shard.gameObject);
         }
 
         private void InsertItem(InventoryItem insertItem)
@@ -137,26 +190,41 @@ namespace Core.Inventory_files.Scripts
         }
 
         /**
-         * Only to be used on an empty grid, no control for overlapping
+         * Doesn't check for overlapping!!
          */
         private void InsertItemAt(ItemGrid targetGrid, InventoryItem targetItem, int gridPosX, int gridPosY)
         {
             targetGrid.PlaceItem(targetItem, gridPosX, gridPosY);
         }
 
-        private void HandleClick(Vector3 mousePosition)
+        private void PlaceItemAt(Vector2Int gridPosition)
         {
-            Vector2Int gridPosition = GetRootCoordinate(mousePosition);
+            bool completed = _selectedGrid.PlaceItem(_selectedItem, gridPosition.x, gridPosition.y, ref _overlapItem);
 
-            if (_selectedItem == null)
+            if (completed)
             {
-                PickUpItemAt(gridPosition);
-            }
-            else
-            {
-                PlaceItemAt(gridPosition);
+                _selectedItem = null;
+                _selectedTransform = null;
+                if (_overlapItem != null)
+                {
+                    _selectedItem = _overlapItem;
+                    _overlapItem = null;
+                    _selectedTransform = _selectedItem.GetComponent<RectTransform>();
+                    _selectedTransform.SetAsLastSibling();
+                }
             }
         }
+
+        private void PickUpItemAt(Vector2Int gridPosition)
+        {
+            _selectedItem = _selectedGrid.PickUpItem(gridPosition.x, gridPosition.y);
+            if (_selectedItem == null) return;
+
+            _selectedTransform = _selectedItem.GetComponent<RectTransform>();
+            _selectedTransform.SetParent(rootTransform);
+            _selectedTransform.SetAsLastSibling();
+        }
+        #endregion
 
         private void HandleHighlight(Vector2 mousePosition)
         {
@@ -191,46 +259,6 @@ namespace Core.Inventory_files.Scripts
             }
         }
 
-        private Vector2Int GetRootCoordinate(Vector3 mousePosition)
-        {
-            if (_selectedItem != null)
-            {
-                mousePosition.x -= (_selectedItem.Width - 1) * ItemGrid.TileSizeWidth / 2;
-                mousePosition.y -= (_selectedItem.Height - 1) * ItemGrid.TileSizeHeight / 2;
-            }
-
-            Vector2Int gridPosition = _selectedGrid.GetGridPosition(mousePosition);
-            return gridPosition;
-        }
-
-        private void PlaceItemAt(Vector2Int gridPosition)
-        {
-            bool completed = _selectedGrid.PlaceItem(_selectedItem, gridPosition.x, gridPosition.y, ref _overlapItem);
-
-            if (completed)
-            {
-                _selectedItem = null;
-                _selectedTransform = null;
-                if (_overlapItem != null)
-                {
-                    _selectedItem = _overlapItem;
-                    _overlapItem = null;
-                    _selectedTransform = _selectedItem.GetComponent<RectTransform>();
-                    _selectedTransform.SetAsLastSibling();
-                }
-            }
-        }
-
-        private void PickUpItemAt(Vector2Int gridPosition)
-        {
-            _selectedItem = _selectedGrid.PickUpItem(gridPosition.x, gridPosition.y);
-            if (_selectedItem == null) return;
-
-            _selectedTransform = _selectedItem.GetComponent<RectTransform>();
-            _selectedTransform.SetParent(rootTransform);
-            _selectedTransform.SetAsLastSibling();
-        }
-
         private void DragItem(Vector3 mousePosition)
         {
             if (_selectedTransform != null) _selectedTransform.position = mousePosition;
@@ -250,6 +278,18 @@ namespace Core.Inventory_files.Scripts
 
             _selectedItem = newItem;
             _selectedTransform = rectTransform;
+        }
+
+        private Vector2Int GetRootCoordinate(Vector3 mousePosition)
+        {
+            if (_selectedItem != null)
+            {
+                mousePosition.x -= (_selectedItem.Width - 1) * ItemGrid.TileSizeWidth / 2;
+                mousePosition.y -= (_selectedItem.Height - 1) * ItemGrid.TileSizeHeight / 2;
+            }
+
+            Vector2Int gridPosition = _selectedGrid.GetGridPosition(mousePosition);
+            return gridPosition;
         }
     }
 }
