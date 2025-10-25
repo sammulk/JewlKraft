@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Core/Dungeon_files/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Core/Dungeon_files/Scenes/Dungeon_scene.unity
-    guid: c46b845270260274ebcc653cb4b18975
-  - enabled: 1
-    path: Assets/Core/Shop_files/Scenes/Main_menu.unity
-    guid: e2cbabb742b017443813265f87cc75e5
-  - enabled: 1
     path: Assets/Core/Shop_files/Scenes/Shop_scene.unity
     guid: d4abd8ae84e729f4e9cc2158a2d8554a
+  - enabled: 1
+    path: Assets/Core/Dungeon_files/Scenes/Dungeon_scene.unity
+    guid: c46b845270260274ebcc653cb4b18975
+  - enabled: 0
+    path: Assets/Core/Shop_files/Scenes/Main_menu.unity
+    guid: e2cbabb742b017443813265f87cc75e5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
