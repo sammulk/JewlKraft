@@ -301,10 +301,10 @@ RectTransform:
   - {fileID: 1933545917}
   m_Father: {fileID: 385397382}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &385397381
 GameObject:
@@ -649,11 +649,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6452647514045517002, guid: 6fb6f9d19f7fa5c4a96befb520ec6f18, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -500.69788
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6452647514045517002, guid: 6fb6f9d19f7fa5c4a96befb520ec6f18, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -240.90103
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6452647514045517002, guid: 6fb6f9d19f7fa5c4a96befb520ec6f18, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -708,7 +708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd017e3a5ef71b4da9178cd7c8e4ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storagePath: PlayerInventory
 --- !u!1 &821446141
 GameObject:
   m_ObjectHideFlags: 0
