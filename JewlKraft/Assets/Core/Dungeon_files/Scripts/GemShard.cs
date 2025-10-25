@@ -1,5 +1,6 @@
 using System;
 using Core.Inventory_files.Scripts;
+using Core.Player_files.Scripts;
 using UnityEngine;
 using UnityEngine.Serialization;
 

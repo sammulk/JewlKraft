@@ -16,7 +16,7 @@ public class WorkstationInteraction : MonoBehaviour
             return;
         }
 
-        // Leia kıige l‰hedasem
+        // Leia k√µige l√§hedasem
         Workstation closest = null;
         float nearestDistance = Mathf.Infinity;
 

@@ -7,7 +7,7 @@ namespace Core.Inventory_files.Scripts
     [RequireComponent(typeof(ItemGrid))]
     public class GridInteract : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
-        [FormerlySerializedAs("gridController")] [SerializeField]
+        [SerializeField]
         private InventoryController inventoryController;
         private ItemGrid _itemGrid;
     

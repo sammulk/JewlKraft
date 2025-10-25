@@ -1,4 +1,5 @@
 using UnityEngine;
+using static Core.Inventory_files.Scripts.GridEssentials;
 
 namespace Core.Inventory_files.Scripts
 {
@@ -23,7 +24,7 @@ namespace Core.Inventory_files.Scripts
         {
             SetParent(grid);
             
-            Vector2 pos = grid.CalcGridPosition(item, item.gridPosX, item.gridPosY);
+            Vector2 pos = CalcGridPosition(item, item.gridPosX, item.gridPosY);
             highlightRect.localPosition = pos;
         }
 
@@ -35,7 +36,7 @@ namespace Core.Inventory_files.Scripts
 
         public void SetPosition(ItemGrid grid, InventoryItem item, int posX, int posY)
         {
-            Vector2 pos = grid.CalcGridPosition(item, posX, posY);
+            Vector2 pos = CalcGridPosition(item, posX, posY);
             highlightRect.localPosition = pos;
         }
     }

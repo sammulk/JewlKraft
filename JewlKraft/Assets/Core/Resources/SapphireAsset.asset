@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
   m_Name: SapphireAsset
   m_EditorClassIdentifier: 
-  gemType: 2
+  gemType: 3
   gemSprite: {fileID: 7825044478356188236, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
   gemColor: {r: 0.12482201, g: 0.24843991, b: 0.4811321, a: 1}
   height: 1

@@ -2,35 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Core.Inventory_files.Scripts
 {
-    /**
-     * positional storeable data of an object
-     */
-    [Serializable]
-    public class StoredItem
-    {
-        [NonSerialized] public GemData gemData;
-
-        public string gemID;
-        public int gridPosX;
-        public int gridPosY;
-        
-        public bool rotated = false;
-
-        public StoredItem(GemData gemData, int gridPosX, int gridPosY, bool rotated)
-        {
-            this.gemData = gemData;
-            this.gemID = gemData.name;
-            this.gridPosX = gridPosX;
-            this.gridPosY = gridPosY;
-            this.rotated = rotated;
-        }
-    }
-    
-    
     [Serializable]
     [CreateAssetMenu(fileName = "PlayerInventory", menuName = "Custom/Scriptable Objects/Player Inventory")]
     public class PlayerInventory : ScriptableObject
@@ -57,7 +31,7 @@ namespace Core.Inventory_files.Scripts
             
             foreach (var item in contents)
             {
-                item.gemData = Resources.Load<GemData>(item.gemID); // custom lookup
+                item.gemData = Resources.Load<GemData>($"{item.gemID.ToString()}Asset"); // custom lookup
             }
         }
     }

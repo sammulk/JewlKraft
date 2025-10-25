@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
-  m_Name: WideData
+  m_Name: WinAsset
   m_EditorClassIdentifier: 
   gemType: 0
-  gemSprite: {fileID: -7856493677412862020, guid: a75d8a61a5a086e45b0ee8c9d253d5d9, type: 3}
-  height: 2
+  gemSprite: {fileID: 9035318312917667809, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
+  gemColor: {r: 0, g: 0, b: 0, a: 0}
+  height: 3
   width: 3

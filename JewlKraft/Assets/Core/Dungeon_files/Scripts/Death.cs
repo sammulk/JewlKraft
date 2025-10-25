@@ -1,21 +1,23 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Death : MonoBehaviour
+namespace Core.Dungeon_files.Scripts
 {
-    private void OnEnable()
+    public class Death : MonoBehaviour
     {
-        TimeCounter.OnTimeRanOut += PlayerDeath;
-    }
+        private void OnEnable()
+        {
+            TimeCounter.OnTimeRanOut += PlayerDeath;
+        }
 
-    private void OnDisable()
-    {
-        TimeCounter.OnTimeRanOut -= PlayerDeath;
-    }
+        private void OnDisable()
+        {
+            TimeCounter.OnTimeRanOut -= PlayerDeath;
+        }
 
-    private void PlayerDeath()
-    {
-        SceneManager.LoadScene("Main_menu");
+        private void PlayerDeath()
+        {
+            SceneManager.LoadScene("Shop_scene");
+        }
     }
 }

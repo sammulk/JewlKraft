@@ -1,10 +1,11 @@
-using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Core.Dungeon_files.Scripts;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
+using static Core.Inventory_files.Scripts.GridEssentials;
+
 
 
 namespace Core.Inventory_files.Scripts
@@ -12,7 +13,6 @@ namespace Core.Inventory_files.Scripts
     public class InventoryController : MonoBehaviour
     {
         [SerializeField] private ItemGrid playerGrid;
-        private PlayerInventory _playerItems;
 
         private ItemGrid _selectedGrid;
         public ItemGrid SelectedGrid
@@ -26,7 +26,6 @@ namespace Core.Inventory_files.Scripts
         }
 
         [SerializeField] List<GemData> items;
-        [SerializeField] InventoryItem itemPrefab;
         [SerializeField] private RectTransform rootTransform;
 
         private InventoryHighlight _inventoryHighlight;
@@ -41,17 +40,18 @@ namespace Core.Inventory_files.Scripts
         private void Start()
         {
             _inventoryHighlight = GetComponent<InventoryHighlight>();
-            LoadPlayerInventory();
         }
 
         private void OnEnable()
         {
             GemShard.OnGemShardPickedUp += AddShardFromFloor;
+            CraftingTable.OnCraftingComplete += ReceiveCraftedItem;
         }
 
         private void OnDisable()
         {
             GemShard.OnGemShardPickedUp -= AddShardFromFloor;
+            CraftingTable.OnCraftingComplete -= ReceiveCraftedItem;
         }
 
         private void Update()
@@ -61,7 +61,7 @@ namespace Core.Inventory_files.Scripts
 
             if (Input.GetKeyDown(KeyCode.Q)) CreateRandomItem();
 
-            if (Input.GetKeyDown(KeyCode.W)) InsertRandomItem();
+            //if (Input.GetKeyDown(KeyCode.W)) InsertRandomItem();
 
             if (Input.GetKeyDown(KeyCode.R)) RotateItem();
 
@@ -75,50 +75,7 @@ namespace Core.Inventory_files.Scripts
 
             if (Input.GetMouseButtonDown(0)) HandleClick(mousePosition);
         }
-
-        private void OnDestroy()
-        {
-            SavePlayerInventory();
-        }
-
-        #region Load/save
-
-        private void SavePlayerInventory()
-        {
-            if (_playerItems == null) _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
-
-            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
-            
-            List<StoredItem> storedItems = playerGrid.Contents.Select(item => item.StoreItem()).ToList();
-            _playerItems.Save(storedItems);
-        }
-
-        private void LoadPlayerInventory()
-        {
-            _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
-
-            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
-            _playerItems.Load();
-            
-            playerGrid.InitializeSize(_playerItems.sizeX, _playerItems.sizeY);
-            LoadInventory(playerGrid, _playerItems.contents);
-        }
-
-        private void LoadInventory(ItemGrid targetInventory, List<StoredItem> inventoryItems)
-        {
-            if (targetInventory.Contents.Count != 0) Debug.LogError("Loading a loaded inventory");
-            if (inventoryItems.Count == 0) Debug.Log("Loading an empty inventory");
-
-            foreach (StoredItem item in inventoryItems)
-            {
-                InventoryItem newItem = Instantiate(itemPrefab);
-                newItem.LoadFromStorage(item);
-                InsertItemAt(targetInventory, newItem, item.gridPosX, item.gridPosY);
-            }
-        }
-
-        #endregion
-
+        
         private void RotateItem()
         {
             if (_selectedItem == null) return;
@@ -138,9 +95,7 @@ namespace Core.Inventory_files.Scripts
                 PlaceItemAt(gridPosition);
             }
         }
-
-        #region Adding
-
+        
         private void InsertRandomItem()
         {
             if (SelectedGrid == null) return;
@@ -167,52 +122,32 @@ namespace Core.Inventory_files.Scripts
             }
             
             Vector2Int targetGridPosition = spaceFor.Value;
-            InventoryItem newItem = Instantiate(itemPrefab);
-            newItem.Init(shard.gemData);
-            newItem.rotated = needsRotation;
+            InventoryItem newItem = InventoryFactory.Instance.Create(shard.gemData, needsRotation);
+
             InsertItemAt(playerGrid, newItem, targetGridPosition.x, targetGridPosition.y);
-            
             Destroy(shard.gameObject);
         }
 
         private void InsertItem(InventoryItem insertItem)
         {
-            InsertItem(_selectedGrid, insertItem);
+            GridEssentials.InsertItem(_selectedGrid, insertItem);
         }
-
-        private void InsertItem(ItemGrid targetGrid, InventoryItem insertItem)
-        {
-            Vector2Int? gridPos = targetGrid.FindSpaceFor(insertItem);
-
-            if (!gridPos.HasValue) return;
-
-            targetGrid.PlaceItem(insertItem, gridPos.Value.x, gridPos.Value.y);
-        }
-
-        /**
-         * Doesn't check for overlapping!!
-         */
-        private void InsertItemAt(ItemGrid targetGrid, InventoryItem targetItem, int gridPosX, int gridPosY)
-        {
-            targetGrid.PlaceItem(targetItem, gridPosX, gridPosY);
-        }
-
+        
         private void PlaceItemAt(Vector2Int gridPosition)
         {
             bool completed = _selectedGrid.PlaceItem(_selectedItem, gridPosition.x, gridPosition.y, ref _overlapItem);
 
-            if (completed)
-            {
-                _selectedItem = null;
-                _selectedTransform = null;
-                if (_overlapItem != null)
-                {
-                    _selectedItem = _overlapItem;
-                    _overlapItem = null;
-                    _selectedTransform = _selectedItem.GetComponent<RectTransform>();
-                    _selectedTransform.SetAsLastSibling();
-                }
-            }
+            if (!completed) return;
+            
+            _selectedItem = null;
+            _selectedTransform = null;
+            
+            if (_overlapItem == null) return;
+            
+            _selectedItem = _overlapItem;
+            _overlapItem = null;
+            _selectedTransform = _selectedItem.GetComponent<RectTransform>();
+            _selectedTransform.SetAsLastSibling();
         }
 
         private void PickUpItemAt(Vector2Int gridPosition)
@@ -224,7 +159,6 @@ namespace Core.Inventory_files.Scripts
             _selectedTransform.SetParent(rootTransform);
             _selectedTransform.SetAsLastSibling();
         }
-        #endregion
 
         private void HandleHighlight(Vector2 mousePosition)
         {
@@ -261,20 +195,19 @@ namespace Core.Inventory_files.Scripts
 
         private void DragItem(Vector3 mousePosition)
         {
-            if (_selectedTransform != null) _selectedTransform.position = mousePosition;
+            if (_selectedTransform != null) {_selectedTransform.position = mousePosition;}
         }
 
         private void CreateRandomItem()
         {
             if (_selectedItem != null) return;
 
-            InventoryItem newItem = Instantiate(itemPrefab);
+            int selectedIndex = Random.Range(0, items.Count);
+            InventoryItem newItem = InventoryFactory.Instance.Create(items[selectedIndex]);
+            
             RectTransform rectTransform = newItem.GetComponent<RectTransform>();
             rectTransform.SetParent(rootTransform);
             rectTransform.SetAsLastSibling();
-
-            int selectedIndex = Random.Range(0, items.Count);
-            newItem.Init(items[selectedIndex]);
 
             _selectedItem = newItem;
             _selectedTransform = rectTransform;
@@ -290,6 +223,27 @@ namespace Core.Inventory_files.Scripts
 
             Vector2Int gridPosition = _selectedGrid.GetGridPosition(mousePosition);
             return gridPosition;
+        }
+
+        private void ReceiveCraftedItem(InventoryItem item)
+        {
+            StartCoroutine(NewItemCoroutine(item));
+        }
+
+        private IEnumerator NewItemCoroutine(InventoryItem item)
+        {
+            yield return null;
+            SelectedGrid = null;
+            
+            RectTransform rectTransform = item.GetComponent<RectTransform>();
+            
+            _selectedItem = item;
+            _selectedTransform = rectTransform;
+            _selectedTransform.SetParent(rootTransform);
+            _selectedTransform.SetAsLastSibling();
+            _highlightTarget = item;
+            
+            DragItem(Input.mousePosition);
         }
     }
 }

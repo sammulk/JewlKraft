@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Core.Inventory_files.Scripts
 {
+    [RequireComponent(typeof(Image))]
     public class InventoryItem : MonoBehaviour
     {
         [SerializeField]
@@ -38,13 +38,6 @@ namespace Core.Inventory_files.Scripts
             
             RectTransform rectTransform = GetComponent<RectTransform>();
             rectTransform.rotation = Quaternion.Euler(0f, 0f, rotated? 90f : 0f);
-        }
-
-
-        public void LoadFromStorage(StoredItem item)
-        {
-            Init(item.gemData);
-            if (item.rotated != rotated) Rotate();
         }
         
         public StoredItem StoreItem()

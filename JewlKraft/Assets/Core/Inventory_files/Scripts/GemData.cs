@@ -5,6 +5,7 @@ namespace Core.Inventory_files.Scripts
 {
     public enum GemTypes
     {
+        Win,
         Gold,
         Ruby,
         Sapphire,

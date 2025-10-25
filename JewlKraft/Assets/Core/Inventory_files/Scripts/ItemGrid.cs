@@ -1,17 +1,21 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using static Core.Inventory_files.Scripts.GridEssentials;
 
 namespace Core.Inventory_files.Scripts
 {
     [RequireComponent(typeof(RectTransform))]
     public class ItemGrid : MonoBehaviour
     {
+        public event Action OnItemPlaced;
+        
         public const float TileSizeWidth = 32;
         public const float TileSizeHeight = 32;
 
         [SerializeField] private int gridWidth;
         [SerializeField] private int gridHeight;
-        [SerializeField] private bool isPlayerInventory = false;
+        [SerializeField] private bool HasCustomSize = false;
         
         [HideInInspector]
         public readonly List<InventoryItem> Contents = new ();
@@ -19,7 +23,7 @@ namespace Core.Inventory_files.Scripts
         private RectTransform _rectTransform;
         private InventoryItem[,] _itemSlot;
         private Canvas _rootCanvas;
-
+        
         public bool PlaceItem(InventoryItem item, int posX, int posY, ref InventoryItem overlapItem)
         {
             int dataWidth = item.Width;
@@ -63,17 +67,9 @@ namespace Core.Inventory_files.Scripts
             itemRect.localPosition = position;
             
             Contents.Add(item);
+            OnItemPlaced?.Invoke();
         }
 
-        public Vector2 CalcGridPosition(InventoryItem item, int posX, int posY)
-        {
-            Vector2 position = new Vector2
-            {
-                x = posX * TileSizeWidth + TileSizeWidth * item.Width / 2,
-                y = posY * TileSizeHeight + TileSizeHeight * item.Height / 2
-            };
-            return position;
-        }
 
         public InventoryItem PickUpItem(int posX, int posY)
         {
@@ -82,6 +78,15 @@ namespace Core.Inventory_files.Scripts
             
             ClearFromGrid(pickedItem);
             return pickedItem;
+        }
+
+        public void DeleteItem(int posX, int posY)
+        {
+            InventoryItem pickedItem = _itemSlot[posX, posY];
+            if (pickedItem == null) return;
+            
+            ClearFromGrid(pickedItem);
+            Destroy(pickedItem.gameObject);
         }
 
         public Vector2Int? FindSpaceFor(InventoryItem insertItem)
@@ -115,7 +120,7 @@ namespace Core.Inventory_files.Scripts
             return PositionCheck(posX, posY);
         }
 
-        private void ClearFromGrid(InventoryItem item)
+        public void ClearFromGrid(InventoryItem item)
         {
             for (int i = 0; i < item.Width; i++)
             {
@@ -185,12 +190,13 @@ namespace Core.Inventory_files.Scripts
             _rootCanvas = GetComponentInParent<Canvas>().rootCanvas;
             _rectTransform = GetComponent<RectTransform>();
             
-            if (!isPlayerInventory) InitializeSize();
+            if (!HasCustomSize) InitializeSize();
         }
 
-
+        [ContextMenu("Initialize Size")]
         private void InitializeSize()
         {
+            if (_rectTransform == null) _rectTransform = GetComponent<RectTransform>();
             InitializeSize(gridWidth, gridHeight);
         }
         
