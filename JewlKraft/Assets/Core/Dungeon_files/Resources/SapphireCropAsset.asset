@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b476734e3d5f5141b7fa58209c080f2, type: 3}
   m_Name: SapphireCropAsset
   m_EditorClassIdentifier: 
-  GemCropSprite: {fileID: -6637383778108436009, guid: 768a9940b83e67b4bb21b7c6d26555d3, type: 3}
+  GemCropSprite: {fileID: -3946104839860042650, guid: 768a9940b83e67b4bb21b7c6d26555d3, type: 3}
   GemType: {fileID: 11400000, guid: 6aaed0741b660fd409ece0d266f687b5, type: 2}
   HitsToMine: 3
   ShardCount: 2

@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
   contents:
-  - gemID: 5
-    gridPosX: 6
-    gridPosY: 7
+  - gemID: 4
+    gridPosX: 4
+    gridPosY: 4
     rotated: 0
-  sizeX: 10
-  sizeY: 10
+  - gemID: 2
+    gridPosX: 3
+    gridPosY: 3
+    rotated: 0
+  - gemID: 2
+    gridPosX: 4
+    gridPosY: 3
+    rotated: 0
+  sizeX: 5
+  sizeY: 5

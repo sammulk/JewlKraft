@@ -1,5 +1,6 @@
+using Core.Inventory_files.Scripts.GridScripts;
 using UnityEngine;
-using static Core.Inventory_files.Scripts.GridEssentials;
+using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
 namespace Core.Inventory_files.Scripts
 {
