@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using static Core.Inventory_files.Scripts.GridEssentials;
+using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.Inventory_files.Scripts.GridScripts
 {
     [RequireComponent(typeof(RectTransform))]
     public class ItemGrid : MonoBehaviour

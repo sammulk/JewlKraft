@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static Core.Inventory_files.Scripts.GridEssentials;
+using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.Inventory_files.Scripts.GridScripts
 {
     [RequireComponent(typeof(ItemGrid))]
     public class LoadableGrid : MonoBehaviour

@@ -1,9 +1,8 @@
 using System.Collections.Generic;
-using Core.Dungeon_files.Scripts;
 using UnityEngine;
-using static Core.Inventory_files.Scripts.ItemGrid;
+using static Core.Inventory_files.Scripts.GridScripts.ItemGrid;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.Inventory_files.Scripts.GridScripts
 {
     public static class GridEssentials
     {

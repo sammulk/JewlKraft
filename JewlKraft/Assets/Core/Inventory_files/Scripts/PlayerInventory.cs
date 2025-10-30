@@ -11,9 +11,9 @@ namespace Core.Inventory_files.Scripts
     {
         public List<StoredItem> contents;
 
-        public int sizeX = 10;
+        public int sizeX = 5;
 
-        public int sizeY = 10;
+        public int sizeY = 5;
 
         public void Save(List<StoredItem> playerGridContents)
         {

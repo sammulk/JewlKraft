@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using Core.Dungeon_files.Scripts;
+using Core.Inventory_files.Scripts.GridScripts;
 using UnityEngine;
 using Random = UnityEngine.Random;
-using static Core.Inventory_files.Scripts.GridEssentials;
+using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
 
 
@@ -88,10 +89,20 @@ namespace Core.Inventory_files.Scripts
             if (_selectedItem == null)
             {
                 PickUpItemAt(gridPosition);
+
             }
             else
             {
-                PlaceItemAt(gridPosition);
+                if (_selectedGrid.CompareTag("TrashCan"))
+                {
+                    Destroy(_selectedItem.gameObject);
+                    _selectedItem = null;
+                    _highlightTarget = null;
+                }
+                else
+                {                
+                    PlaceItemAt(gridPosition);
+                }
             }
         }
         
