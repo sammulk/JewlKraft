@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b476734e3d5f5141b7fa58209c080f2, type: 3}
   m_Name: AmethystCropAsset
   m_EditorClassIdentifier: 
-  GemCropSprite: {fileID: -5488894708959589530, guid: 768a9940b83e67b4bb21b7c6d26555d3, type: 3}
+  GemCropSprite: {fileID: -2585666762609850735, guid: 768a9940b83e67b4bb21b7c6d26555d3, type: 3}
   GemType: {fileID: 11400000, guid: 3a5360d0888bc7d47a89deded6ad0d6a, type: 2}
   HitsToMine: 4
   ShardCount: 3
