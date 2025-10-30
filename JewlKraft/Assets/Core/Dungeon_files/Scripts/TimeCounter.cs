@@ -1,34 +1,53 @@
-using System;
-using TMPro;
 using UnityEngine;
+using System;
+using UnityEngine.UI;
 
 public class TimeCounter : MonoBehaviour
 {
     public static event Action OnTimeRanOut;
-    
-    [SerializeField] 
-    private float maxTime = 69;
-    
+
+    [SerializeField]
+    private float maxTime = 10;
+
+    [SerializeField]
+    private Image EnergyBar;
+
     private float _currentTime = 0;
-    private TextMeshProUGUI _timerText;
-    
-    void Awake()
-    {
-        _timerText = GetComponent<TextMeshProUGUI>();
-    }
+    private bool _timeRanOutInvoked = false;
 
     private void Start()
     {
         _currentTime = maxTime;
+        _timeRanOutInvoked = false;
+
+        if (EnergyBar != null)
+        {
+            EnergyBar.fillAmount = Mathf.Clamp01(_currentTime / Mathf.Max(0.0001f, maxTime));
+            if (EnergyBar.fillAmount <= 0f && !_timeRanOutInvoked)
+            {
+                _timeRanOutInvoked = true;
+                OnTimeRanOut?.Invoke();
+            }
+        }
     }
 
     private void Update()
     {
-        _currentTime -= Time.deltaTime;
-        _timerText.text = _currentTime.ToString();
-        if (_currentTime <= 0)
+        if (_currentTime > 0f)
         {
-            OnTimeRanOut?.Invoke();
+            _currentTime -= Time.deltaTime;
+            _currentTime = Mathf.Max(0f, _currentTime);
+        }
+
+        if (EnergyBar != null)
+        {
+            EnergyBar.fillAmount = Mathf.Clamp01(_currentTime / Mathf.Max(0.0001f, maxTime));
+
+            if (EnergyBar.fillAmount <= 0f && !_timeRanOutInvoked)
+            {
+                _timeRanOutInvoked = true;
+                OnTimeRanOut?.Invoke();
+            }
         }
     }
 }
