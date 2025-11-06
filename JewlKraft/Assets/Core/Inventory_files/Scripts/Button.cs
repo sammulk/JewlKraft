@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(CanvasGroup))]
 public class InventoryButton : MonoBehaviour
 {
     [SerializeField] private GameObject UIButton;
