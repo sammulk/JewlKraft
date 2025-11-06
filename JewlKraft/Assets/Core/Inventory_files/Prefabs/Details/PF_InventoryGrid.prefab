@@ -91,6 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridWidth: 8
   gridHeight: 8
+  HasCustomSize: 1
 --- !u!114 &2938984003073798466
 MonoBehaviour:
   m_ObjectHideFlags: 0

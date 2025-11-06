@@ -1,15 +1,13 @@
-using Core.Inventory_files.Scripts.GridScripts;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.Inventory_files.Scripts.GridScripts
 {
     [RequireComponent(typeof(ItemGrid))]
     public class GridInteract : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField]
-        private InventoryController inventoryController;
+        public InventoryController inventoryController;
         private ItemGrid _itemGrid;
     
         void Start()

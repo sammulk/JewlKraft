@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Core.Inventory_files.Scripts.GridScripts;
 using UnityEngine;
 using UnityEngine.UI;
-using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.Inventory_files.Scripts.GridScripts
 {
     [RequireComponent(typeof(ItemGrid))]
     public class VerifyContent : MonoBehaviour
@@ -25,7 +23,7 @@ namespace Core.Inventory_files.Scripts
         
         private void Start()
         {
-            LoadInventory(_itemGrid, items);
+            //LoadInventory(_itemGrid, items);
             foreach (InventoryItem item in _itemGrid.Contents.ToList())
             {
                 var color = item.GetComponent<Image>().color;
@@ -39,6 +37,11 @@ namespace Core.Inventory_files.Scripts
         private void OnDestroy()
         {
             _itemGrid.OnItemPlaced -= CheckGridContents;
+        }
+
+        public void Initialize(List<StoredItem> assignedItems)
+        {
+            items = assignedItems;
         }
 
         public bool CompareContents()

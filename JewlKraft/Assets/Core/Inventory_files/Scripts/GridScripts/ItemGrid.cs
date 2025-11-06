@@ -15,7 +15,7 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
         [SerializeField] private int gridWidth;
         [SerializeField] private int gridHeight;
-        [SerializeField] private bool HasCustomSize = false;
+        [SerializeField] private bool HasCustomSize = true;
         
         [HideInInspector]
         public readonly List<InventoryItem> Contents = new ();
@@ -196,12 +196,12 @@ namespace Core.Inventory_files.Scripts.GridScripts
         [ContextMenu("Initialize Size")]
         private void InitializeSize()
         {
-            if (_rectTransform == null) _rectTransform = GetComponent<RectTransform>();
             InitializeSize(gridWidth, gridHeight);
         }
         
         public void InitializeSize(int width, int height)
         {
+            if (_rectTransform == null) _rectTransform = GetComponent<RectTransform>();
             gridWidth = width;
             gridHeight = height;
             
