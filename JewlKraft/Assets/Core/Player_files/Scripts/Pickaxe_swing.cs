@@ -27,8 +27,7 @@ public class PickaxeSwing : MonoBehaviour
                 // Prevent movement briefly
                 StartCoroutine(player.Trapped(1.2f));
                 // Trigger the directional swing animation
-                animator.SetTrigger("Swing");
-                SwingPickaxe();
+                animator.SetTrigger("Swing"); 
                 // Set cooldown
                 nextSwingTime = Time.time + swingCooldown;
             }
