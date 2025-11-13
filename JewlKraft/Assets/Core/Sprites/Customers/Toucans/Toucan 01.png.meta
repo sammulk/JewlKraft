@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 4cbc978fb05421b4db250df22f89c858
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -11902370399655097
+    second: Toucan 01_0
+  - first:
+      213: 1368991636510934358
+    second: Toucan 01_1
+  - first:
+      213: -5067484199684566565
+    second: Toucan 01_2
+  - first:
+      213: 3476775314526722431
+    second: Toucan 01_3
+  - first:
+      213: -5394107862813523395
+    second: Toucan 01_4
+  - first:
+      213: -5561505661643872276
+    second: Toucan 01_5
+  - first:
+      213: -6019020013160386060
+    second: Toucan 01_6
+  - first:
+      213: -8619232337482544549
+    second: Toucan 01_7
+  - first:
+      213: -8347804788671152251
+    second: Toucan 01_8
+  - first:
+      213: 7899512378958178032
+    second: Toucan 01_9
+  - first:
+      213: 8718993375234210227
+    second: Toucan 01_10
+  - first:
+      213: -5096778358855539202
+    second: Toucan 01_11
+  - first:
+      213: 320130663602020712
+    second: Toucan 01_12
+  - first:
+      213: -3862481670895750186
+    second: Toucan 01_13
+  - first:
+      213: 4793792572382653437
+    second: Toucan 01_14
+  - first:
+      213: 348476003078638481
+    second: Toucan 01_15
+  - first:
+      213: 8459522886154660545
+    second: Toucan 01_16
+  - first:
+      213: -8254550496498967343
+    second: Toucan 01_17
+  - first:
+      213: 8109600626018032170
+    second: Toucan 01_18
+  - first:
+      213: -9188956602631124525
+    second: Toucan 01_19
+  - first:
+      213: 1734815634753997810
+    second: Toucan 01_20
+  - first:
+      213: -2124366130245287943
+    second: Toucan 01_21
+  - first:
+      213: 7888436743550295826
+    second: Toucan 01_22
+  - first:
+      213: -1768229870825512756
+    second: Toucan 01_23
+  - first:
+      213: 1698328911750792142
+    second: Toucan 01_24
+  - first:
+      213: 6523124856025434923
+    second: Toucan 01_25
+  - first:
+      213: -8779049027213239042
+    second: Toucan 01_26
+  - first:
+      213: 2829110540725836091
+    second: Toucan 01_27
+  - first:
+      213: -1139946041453932039
+    second: Toucan 01_28
+  - first:
+      213: 636004571890671478
+    second: Toucan 01_29
+  - first:
+      213: -2107166854696191074
+    second: Toucan 01_30
+  - first:
+      213: 5267715083742251436
+    second: Toucan 01_31
+  - first:
+      213: 8137747681295977360
+    second: Toucan 01_32
+  - first:
+      213: 4624761131819965169
+    second: Toucan 01_33
+  - first:
+      213: -153954233436154606
+    second: Toucan 01_34
+  - first:
+      213: -1925617417762330173
+    second: Toucan 01_35
+  - first:
+      213: 5224415571577032672
+    second: Toucan 01_36
+  - first:
+      213: -4399936177024526091
+    second: Toucan 01_37
+  - first:
+      213: -3961571411592739490
+    second: Toucan 01_38
+  - first:
+      213: 5659245832999204029
+    second: Toucan 01_39
+  - first:
+      213: -7403052149105737522
+    second: Toucan 01_40
+  - first:
+      213: 667638867925587967
+    second: Toucan 01_41
+  - first:
+      213: -850109193858530856
+    second: Toucan 01_42
+  - first:
+      213: -861029435662831703
+    second: Toucan 01_43
+  - first:
+      213: 8698968781585005925
+    second: Toucan 01_44
+  - first:
+      213: -171548952796474913
+    second: Toucan 01_45
+  - first:
+      213: 8238259082760170
+    second: Toucan 01_46
+  - first:
+      213: -7343823618712469135
+    second: Toucan 01_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Toucan 01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74be7507bd6b5dff0800000000000000
+      internalID: -11902370399655097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 18
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65507b2e3a2aff210800000000000000
+      internalID: 1368991636510934358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd195e418fdaca9b0800000000000000
+      internalID: -5067484199684566565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 239
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7956325abcff3030800000000000000
+      internalID: 3476775314526722431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32cbdc5a774425b0800000000000000
+      internalID: -5394107862813523395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 239
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7a46d111091d2b0800000000000000
+      internalID: -5561505661643872276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1bb9b2035287ca0800000000000000
+      internalID: -6019020013160386060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 227
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a0bcf0bd5526880800000000000000
+      internalID: -8619232337482544549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 227
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f73f4f5c3a62c80800000000000000
+      internalID: -8347804788671152251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 228
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f66a9eb7a4b0ad60800000000000000
+      internalID: 7899512378958178032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9b1d19746100970800000000000000
+      internalID: 8718993375234210227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 207
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef56485261b9449b0800000000000000
+      internalID: -5096778358855539202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 18
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86165b57425517400800000000000000
+      internalID: 320130663602020712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 207
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d33dc67265b56ac0800000000000000
+      internalID: -3862481670895750186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 202
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb26cb22f8f68240800000000000000
+      internalID: 4793792572382653437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 201
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b0048141906d400800000000000000
+      internalID: 348476003078638481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 201
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca29869e33466570800000000000000
+      internalID: 8459522886154660545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 202
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc97a3de02f17d80800000000000000
+      internalID: -8254550496498967343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a17188dc61b8070800000000000000
+      internalID: 8109600626018032170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d901b3b7a44a7080800000000000000
+      internalID: -9188956602631124525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb4e4cd0ad431810800000000000000
+      internalID: 1734815634753997810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffbbd9824cb482e0800000000000000
+      internalID: -2124366130245287943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 170
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f547c6c6b597d60800000000000000
+      internalID: 7888436743550295826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 169
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0e53c0d4cf577e0800000000000000
+      internalID: -1768229870825512756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 169
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec38ea8a52da19710800000000000000
+      internalID: 1698328911750792142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bcaecde7bc68a50800000000000000
+      internalID: 6523124856025434923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc57335c6d8a2680800000000000000
+      internalID: -8779049027213239042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 127
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39d64a2c05034720800000000000000
+      internalID: 2829110540725836091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 143
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f196007d191e20f0800000000000000
+      internalID: -1139946041453932039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 127
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f5117d9ca83d800800000000000000
+      internalID: 636004571890671478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 137
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b3b5fe8e6d1c2e0800000000000000
+      internalID: -2107166854696191074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 136
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca98c6885feaa1940800000000000000
+      internalID: 5267715083742251436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 136
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bc76786661fe070800000000000000
+      internalID: 8137747681295977360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 137
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa99211fb37e2040800000000000000
+      internalID: 4624761131819965169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215de5cb07b0dddf0800000000000000
+      internalID: -153954233436154606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 111
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9a8f03925d645e0800000000000000
+      internalID: -1925617417762330173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef4ede384ad08840800000000000000
+      internalID: 5224415571577032672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8101edb5940f2c0800000000000000
+      internalID: -4399936177024526091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e550cab5acba509c0800000000000000
+      internalID: -3961571411592739490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_39
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4f684e91ea98e40800000000000000
+      internalID: 5659245832999204029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_40
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 63
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec04cde1b43134990800000000000000
+      internalID: -7403052149105737522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_41
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7d2f8530ee34900800000000000000
+      internalID: 667638867925587967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c4c7313ec334f0800000000000000
+      internalID: -850109193858530856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af692a4a420d04f0800000000000000
+      internalID: -861029435662831703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_44
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d369a8402f8b870800000000000000
+      internalID: 8698968781585005925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1d9f6e2298e9df0800000000000000
+      internalID: -171548952796474913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef023a27a44d1000800000000000000
+      internalID: 8238259082760170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toucan 01_47
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1710589f35f751a90800000000000000
+      internalID: -7343823618712469135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Toucan 01_0: -11902370399655097
+      Toucan 01_1: 1368991636510934358
+      Toucan 01_10: 8718993375234210227
+      Toucan 01_11: -5096778358855539202
+      Toucan 01_12: 320130663602020712
+      Toucan 01_13: -3862481670895750186
+      Toucan 01_14: 4793792572382653437
+      Toucan 01_15: 348476003078638481
+      Toucan 01_16: 8459522886154660545
+      Toucan 01_17: -8254550496498967343
+      Toucan 01_18: 8109600626018032170
+      Toucan 01_19: -9188956602631124525
+      Toucan 01_2: -5067484199684566565
+      Toucan 01_20: 1734815634753997810
+      Toucan 01_21: -2124366130245287943
+      Toucan 01_22: 7888436743550295826
+      Toucan 01_23: -1768229870825512756
+      Toucan 01_24: 1698328911750792142
+      Toucan 01_25: 6523124856025434923
+      Toucan 01_26: -8779049027213239042
+      Toucan 01_27: 2829110540725836091
+      Toucan 01_28: -1139946041453932039
+      Toucan 01_29: 636004571890671478
+      Toucan 01_3: 3476775314526722431
+      Toucan 01_30: -2107166854696191074
+      Toucan 01_31: 5267715083742251436
+      Toucan 01_32: 8137747681295977360
+      Toucan 01_33: 4624761131819965169
+      Toucan 01_34: -153954233436154606
+      Toucan 01_35: -1925617417762330173
+      Toucan 01_36: 5224415571577032672
+      Toucan 01_37: -4399936177024526091
+      Toucan 01_38: -3961571411592739490
+      Toucan 01_39: 5659245832999204029
+      Toucan 01_4: -5394107862813523395
+      Toucan 01_40: -7403052149105737522
+      Toucan 01_41: 667638867925587967
+      Toucan 01_42: -850109193858530856
+      Toucan 01_43: -861029435662831703
+      Toucan 01_44: 8698968781585005925
+      Toucan 01_45: -171548952796474913
+      Toucan 01_46: 8238259082760170
+      Toucan 01_47: -7343823618712469135
+      Toucan 01_5: -5561505661643872276
+      Toucan 01_6: -6019020013160386060
+      Toucan 01_7: -8619232337482544549
+      Toucan 01_8: -8347804788671152251
+      Toucan 01_9: 7899512378958178032
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

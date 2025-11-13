@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: a51f1b8be8626fe41bd252c70c06c280
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1132378713248938679
+    second: Villain 02a_0
+  - first:
+      213: 1673754889839819460
+    second: Villain 02a_1
+  - first:
+      213: 7596733389242946350
+    second: Villain 02a_2
+  - first:
+      213: -8040625350446675214
+    second: Villain 02a_3
+  - first:
+      213: -2947013935751145692
+    second: Villain 02a_4
+  - first:
+      213: -3035653650751675581
+    second: Villain 02a_5
+  - first:
+      213: -1978474409787530041
+    second: Villain 02a_6
+  - first:
+      213: 2649852542845791302
+    second: Villain 02a_7
+  - first:
+      213: -1270466337795403360
+    second: Villain 02a_8
+  - first:
+      213: 102754975140741111
+    second: Villain 02a_9
+  - first:
+      213: 361737989616232891
+    second: Villain 02a_10
+  - first:
+      213: 4078855905466807167
+    second: Villain 02a_11
+  - first:
+      213: -6840453912112001688
+    second: Villain 02a_12
+  - first:
+      213: -7746491007631558449
+    second: Villain 02a_13
+  - first:
+      213: -773678330360845568
+    second: Villain 02a_14
+  - first:
+      213: 238724568791257700
+    second: Villain 02a_15
+  - first:
+      213: -6495810960785915351
+    second: Villain 02a_16
+  - first:
+      213: 4888525556352228390
+    second: Villain 02a_17
+  - first:
+      213: 8893509469722214603
+    second: Villain 02a_18
+  - first:
+      213: 3725192233925579378
+    second: Villain 02a_19
+  - first:
+      213: 7860877831915364626
+    second: Villain 02a_20
+  - first:
+      213: 5898612951092369549
+    second: Villain 02a_21
+  - first:
+      213: 4109921006104588941
+    second: Villain 02a_22
+  - first:
+      213: -6614474136949327800
+    second: Villain 02a_23
+  - first:
+      213: 6965678689538013004
+    second: Villain 02a_24
+  - first:
+      213: 6787871895248129370
+    second: Villain 02a_25
+  - first:
+      213: 5532077649373930308
+    second: Villain 02a_26
+  - first:
+      213: -4897751323170737808
+    second: Villain 02a_27
+  - first:
+      213: -1044017423953730635
+    second: Villain 02a_28
+  - first:
+      213: 3929522921053959863
+    second: Villain 02a_29
+  - first:
+      213: 5789470403068515975
+    second: Villain 02a_30
+  - first:
+      213: -1494515331330537098
+    second: Villain 02a_31
+  - first:
+      213: 2258301792051774992
+    second: Villain 02a_32
+  - first:
+      213: 8308223385919617557
+    second: Villain 02a_33
+  - first:
+      213: -4295054165882942749
+    second: Villain 02a_34
+  - first:
+      213: -3669287622436752018
+    second: Villain 02a_35
+  - first:
+      213: 929755579199819157
+    second: Villain 02a_36
+  - first:
+      213: 3317315801633353537
+    second: Villain 02a_37
+  - first:
+      213: 1466532063375272787
+    second: Villain 02a_38
+  - first:
+      213: -7208560600448729356
+    second: Villain 02a_39
+  - first:
+      213: 6227842516345363448
+    second: Villain 02a_40
+  - first:
+      213: -1383922441754354829
+    second: Villain 02a_41
+  - first:
+      213: -8143449961991048544
+    second: Villain 02a_42
+  - first:
+      213: 4232577741639824760
+    second: Villain 02a_43
+  - first:
+      213: -4160254170969958309
+    second: Villain 02a_44
+  - first:
+      213: -2604173115095847895
+    second: Villain 02a_45
+  - first:
+      213: -7149183630979690553
+    second: Villain 02a_46
+  - first:
+      213: -4177412967450858080
+    second: Villain 02a_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Villain 02a_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94545955f8bf840f0800000000000000
+      internalID: -1132378713248938679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 239
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cab9f1543f5a3710800000000000000
+      internalID: 1673754889839819460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 223
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23dc2fa4c40d6960800000000000000
+      internalID: 7596733389242946350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 239
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa00a648d5f96090800000000000000
+      internalID: -8040625350446675214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 223
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4275d6b707a1a17d0800000000000000
+      internalID: -2947013935751145692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34324d596113fd5d0800000000000000
+      internalID: -3035653650751675581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 229
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4e967b10c0b84e0800000000000000
+      internalID: -1978474409787530041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 228
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c2d7329da26c420800000000000000
+      internalID: 2649852542845791302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 228
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a11d94d8956e5ee0800000000000000
+      internalID: -1270466337795403360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 229
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fffa200b1f0d6100800000000000000
+      internalID: 102754975140741111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9e6d4f8c6250500800000000000000
+      internalID: 361737989616232891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f737a57d5d10b9830800000000000000
+      internalID: 4078855905466807167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 207
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d0222c863d111a0800000000000000
+      internalID: -6840453912112001688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 191
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8fc52a87fee7490800000000000000
+      internalID: -7746491007631558449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bac6c58a75345f0800000000000000
+      internalID: -773678330360845568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46216f10bbe105300800000000000000
+      internalID: 238724568791257700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 203
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9224442f85e3ad5a0800000000000000
+      internalID: -6495810960785915351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c1bcdc71887d340800000000000000
+      internalID: 4888525556352228390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc08d5d2eb71c6b70800000000000000
+      internalID: 8893509469722214603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2729d2f899a82b330800000000000000
+      internalID: 3725192233925579378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211ee0a4db2771d60800000000000000
+      internalID: 7860877831915364626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8811611a351cd150800000000000000
+      internalID: 5898612951092369549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82b7c7316f590930800000000000000
+      internalID: 4109921006104588941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848702341daa434a0800000000000000
+      internalID: -6614474136949327800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_24
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47fb65ccdf0ba060800000000000000
+      internalID: 6965678689538013004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 172
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d4f19668d533e50800000000000000
+      internalID: 6787871895248129370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443afc8df43e5cc40800000000000000
+      internalID: 5532077649373930308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0717538fe11b70cb0800000000000000
+      internalID: -4897751323170737808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b36be13fa7e281f0800000000000000
+      internalID: -1044017423953730635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b63d26f648788630800000000000000
+      internalID: 3929522921053959863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 138
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786598c58a4585050800000000000000
+      internalID: 5789470403068515975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 137
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6790ba4793a624be0800000000000000
+      internalID: -1494515331330537098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 137
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016cfdec389175f10800000000000000
+      internalID: 2258301792051774992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 138
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51af450962dbc4370800000000000000
+      internalID: 8308223385919617557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea4c770ef6e464c0800000000000000
+      internalID: -4295054165882942749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 111
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e657bed1952141dc0800000000000000
+      internalID: -3669287622436752018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d8422f5c727ec00800000000000000
+      internalID: 929755579199819157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f652c4529790e20800000000000000
+      internalID: 3317315801633353537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b2431442b2a5410800000000000000
+      internalID: 1466532063375272787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe7064935c06fb90800000000000000
+      internalID: -7208560600448729356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb17d7a5cdbd6650800000000000000
+      internalID: 6227842516345363448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_41
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b5a8e1fd15bcce0800000000000000
+      internalID: -1383922441754354829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2fa59c767acfe80800000000000000
+      internalID: -8143449961991048544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875baa6e7032dba30800000000000000
+      internalID: 4232577741639824760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b589ffb9fdec346c0800000000000000
+      internalID: -4160254170969958309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ce61d695e1cdbd0800000000000000
+      internalID: -2604173115095847895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf0b699d5ff8cc90800000000000000
+      internalID: -7149183630979690553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villain 02a_47
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad2bfaf909d606c0800000000000000
+      internalID: -4177412967450858080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Villain 02a_0: -1132378713248938679
+      Villain 02a_1: 1673754889839819460
+      Villain 02a_10: 361737989616232891
+      Villain 02a_11: 4078855905466807167
+      Villain 02a_12: -6840453912112001688
+      Villain 02a_13: -7746491007631558449
+      Villain 02a_14: -773678330360845568
+      Villain 02a_15: 238724568791257700
+      Villain 02a_16: -6495810960785915351
+      Villain 02a_17: 4888525556352228390
+      Villain 02a_18: 8893509469722214603
+      Villain 02a_19: 3725192233925579378
+      Villain 02a_2: 7596733389242946350
+      Villain 02a_20: 7860877831915364626
+      Villain 02a_21: 5898612951092369549
+      Villain 02a_22: 4109921006104588941
+      Villain 02a_23: -6614474136949327800
+      Villain 02a_24: 6965678689538013004
+      Villain 02a_25: 6787871895248129370
+      Villain 02a_26: 5532077649373930308
+      Villain 02a_27: -4897751323170737808
+      Villain 02a_28: -1044017423953730635
+      Villain 02a_29: 3929522921053959863
+      Villain 02a_3: -8040625350446675214
+      Villain 02a_30: 5789470403068515975
+      Villain 02a_31: -1494515331330537098
+      Villain 02a_32: 2258301792051774992
+      Villain 02a_33: 8308223385919617557
+      Villain 02a_34: -4295054165882942749
+      Villain 02a_35: -3669287622436752018
+      Villain 02a_36: 929755579199819157
+      Villain 02a_37: 3317315801633353537
+      Villain 02a_38: 1466532063375272787
+      Villain 02a_39: -7208560600448729356
+      Villain 02a_4: -2947013935751145692
+      Villain 02a_40: 6227842516345363448
+      Villain 02a_41: -1383922441754354829
+      Villain 02a_42: -8143449961991048544
+      Villain 02a_43: 4232577741639824760
+      Villain 02a_44: -4160254170969958309
+      Villain 02a_45: -2604173115095847895
+      Villain 02a_46: -7149183630979690553
+      Villain 02a_47: -4177412967450858080
+      Villain 02a_5: -3035653650751675581
+      Villain 02a_6: -1978474409787530041
+      Villain 02a_7: 2649852542845791302
+      Villain 02a_8: -1270466337795403360
+      Villain 02a_9: 102754975140741111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 09749bc9a4bb01e4eb5a61f01c2967ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8632672027706409012
+    second: Orc Villager 01_0
+  - first:
+      213: -370304933912012417
+    second: Orc Villager 01_1
+  - first:
+      213: -1830966037110653673
+    second: Orc Villager 01_2
+  - first:
+      213: -123277353657640498
+    second: Orc Villager 01_3
+  - first:
+      213: -371879017047939519
+    second: Orc Villager 01_4
+  - first:
+      213: -1057386772071468392
+    second: Orc Villager 01_5
+  - first:
+      213: -6741238035222616129
+    second: Orc Villager 01_6
+  - first:
+      213: -2287819354458572769
+    second: Orc Villager 01_7
+  - first:
+      213: 3775460226365908527
+    second: Orc Villager 01_8
+  - first:
+      213: 2252951979104148992
+    second: Orc Villager 01_9
+  - first:
+      213: 4596726391590340467
+    second: Orc Villager 01_10
+  - first:
+      213: 2093785843626385319
+    second: Orc Villager 01_11
+  - first:
+      213: 624189094185250770
+    second: Orc Villager 01_12
+  - first:
+      213: -3452513829086589760
+    second: Orc Villager 01_13
+  - first:
+      213: -4723735748764237429
+    second: Orc Villager 01_14
+  - first:
+      213: -8290999088676370181
+    second: Orc Villager 01_15
+  - first:
+      213: 6427616655015515024
+    second: Orc Villager 01_16
+  - first:
+      213: 4137045689473792205
+    second: Orc Villager 01_17
+  - first:
+      213: -7019970549702297434
+    second: Orc Villager 01_18
+  - first:
+      213: 2582976687318183173
+    second: Orc Villager 01_19
+  - first:
+      213: 3060309984829326606
+    second: Orc Villager 01_20
+  - first:
+      213: 6778344601685410342
+    second: Orc Villager 01_21
+  - first:
+      213: -7220209832802293151
+    second: Orc Villager 01_22
+  - first:
+      213: 4332247110333874282
+    second: Orc Villager 01_23
+  - first:
+      213: 5372226745440225954
+    second: Orc Villager 01_24
+  - first:
+      213: 2869111992879747381
+    second: Orc Villager 01_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orc Villager 01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 65
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43044e9a8796dc770800000000000000
+      internalID: 8632672027706409012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 228
+        width: 65
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f799993ef996cdaf0800000000000000
+      internalID: -370304933912012417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71df632171a1796e0800000000000000
+      internalID: -1830966037110653673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 204
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9d26666e70a4ef0800000000000000
+      internalID: -123277353657640498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146af691102d6daf0800000000000000
+      internalID: -371879017047939519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 203
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892bb7445586351f0800000000000000
+      internalID: -1057386772071468392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7243c39bf4272a0800000000000000
+      internalID: -6741238035222616129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 172
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18bb332b680040e0800000000000000
+      internalID: -2287819354458572769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 171
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26e7289211256430800000000000000
+      internalID: 3775460226365908527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 171
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e148a63e7144f10800000000000000
+      internalID: 2252951979104148992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 172
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377c7647c4adacf30800000000000000
+      internalID: 4596726391590340467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af9715a12f9e0d10800000000000000
+      internalID: 2093785843626385319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 137
+        width: 65
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfa59f8ca099a800800000000000000
+      internalID: 624189094185250770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc8b23f6f43610d0800000000000000
+      internalID: -3452513829086589760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81081a2d5be17eb0800000000000000
+      internalID: -4723735748764237429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88b56a14470fc80800000000000000
+      internalID: -8290999088676370181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0939592fa4b733950800000000000000
+      internalID: 6427616655015515024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 47
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc875a4b22db96930800000000000000
+      internalID: 4137045689473792205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a87a4b7afd049e90800000000000000
+      internalID: -7019970549702297434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d27b6ac9398d320800000000000000
+      internalID: 2582976687318183173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05455c87b7687a20800000000000000
+      internalID: 3060309984829326606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62245a48084811e50800000000000000
+      internalID: 6778344601685410342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_22
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a69005969accb90800000000000000
+      internalID: -7220209832802293151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60c9aa2bcb3f1c30800000000000000
+      internalID: 4332247110333874282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa41def2cbfd8a40800000000000000
+      internalID: 5372226745440225954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc Villager 01_25
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5311964082221d720800000000000000
+      internalID: 2869111992879747381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Orc Villager 01_0: 8632672027706409012
+      Orc Villager 01_1: -370304933912012417
+      Orc Villager 01_10: 4596726391590340467
+      Orc Villager 01_11: 2093785843626385319
+      Orc Villager 01_12: 624189094185250770
+      Orc Villager 01_13: -3452513829086589760
+      Orc Villager 01_14: -4723735748764237429
+      Orc Villager 01_15: -8290999088676370181
+      Orc Villager 01_16: 6427616655015515024
+      Orc Villager 01_17: 4137045689473792205
+      Orc Villager 01_18: -7019970549702297434
+      Orc Villager 01_19: 2582976687318183173
+      Orc Villager 01_2: -1830966037110653673
+      Orc Villager 01_20: 3060309984829326606
+      Orc Villager 01_21: 6778344601685410342
+      Orc Villager 01_22: -7220209832802293151
+      Orc Villager 01_23: 4332247110333874282
+      Orc Villager 01_24: 5372226745440225954
+      Orc Villager 01_25: 2869111992879747381
+      Orc Villager 01_3: -123277353657640498
+      Orc Villager 01_4: -371879017047939519
+      Orc Villager 01_5: -1057386772071468392
+      Orc Villager 01_6: -6741238035222616129
+      Orc Villager 01_7: -2287819354458572769
+      Orc Villager 01_8: 3775460226365908527
+      Orc Villager 01_9: 2252951979104148992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

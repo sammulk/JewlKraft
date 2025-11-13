@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: bf31d215ec03ca1499c5896830d7c115
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1343961503941441067
+    second: TanukiGrey_0
+  - first:
+      213: -5448460116546421389
+    second: TanukiGrey_1
+  - first:
+      213: 3981162791418113787
+    second: TanukiGrey_2
+  - first:
+      213: -4007023300246989241
+    second: TanukiGrey_3
+  - first:
+      213: 7492348535594808441
+    second: TanukiGrey_4
+  - first:
+      213: -6581903986179359386
+    second: TanukiGrey_5
+  - first:
+      213: -4119455142491377122
+    second: TanukiGrey_6
+  - first:
+      213: -9020401103004351842
+    second: TanukiGrey_7
+  - first:
+      213: -8004871433713027535
+    second: TanukiGrey_8
+  - first:
+      213: -3728623937983423466
+    second: TanukiGrey_9
+  - first:
+      213: 2292243796700673051
+    second: TanukiGrey_10
+  - first:
+      213: -2210038612473862692
+    second: TanukiGrey_11
+  - first:
+      213: 9122255594593252313
+    second: TanukiGrey_12
+  - first:
+      213: 8483016316069525702
+    second: TanukiGrey_13
+  - first:
+      213: -7502758361780027822
+    second: TanukiGrey_14
+  - first:
+      213: 2748682981105068790
+    second: TanukiGrey_15
+  - first:
+      213: 267565316789451357
+    second: TanukiGrey_16
+  - first:
+      213: -7850133842260951036
+    second: TanukiGrey_17
+  - first:
+      213: 1415132021593652897
+    second: TanukiGrey_18
+  - first:
+      213: 6674642859523424999
+    second: TanukiGrey_19
+  - first:
+      213: 7471849694685324627
+    second: TanukiGrey_20
+  - first:
+      213: -2092214730939375304
+    second: TanukiGrey_21
+  - first:
+      213: -7960222863946792652
+    second: TanukiGrey_22
+  - first:
+      213: 1056452117476674602
+    second: TanukiGrey_23
+  - first:
+      213: -2488262655131525154
+    second: TanukiGrey_24
+  - first:
+      213: 4956950858836543755
+    second: TanukiGrey_25
+  - first:
+      213: -1363741282031680392
+    second: TanukiGrey_26
+  - first:
+      213: 972030962862159687
+    second: TanukiGrey_27
+  - first:
+      213: -6268853969530698890
+    second: TanukiGrey_28
+  - first:
+      213: 2092643768274363933
+    second: TanukiGrey_29
+  - first:
+      213: -7632005322137110593
+    second: TanukiGrey_30
+  - first:
+      213: -8201724975637806151
+    second: TanukiGrey_31
+  - first:
+      213: -4788639503919266871
+    second: TanukiGrey_32
+  - first:
+      213: -259482108495297015
+    second: TanukiGrey_33
+  - first:
+      213: -4735007110740890097
+    second: TanukiGrey_34
+  - first:
+      213: -1313570694968569671
+    second: TanukiGrey_35
+  - first:
+      213: 387832608692992675
+    second: TanukiGrey_36
+  - first:
+      213: 6049510224787950763
+    second: TanukiGrey_37
+  - first:
+      213: -7366688809083542666
+    second: TanukiGrey_38
+  - first:
+      213: 1721796702346694257
+    second: TanukiGrey_39
+  - first:
+      213: -8159028451232665931
+    second: TanukiGrey_40
+  - first:
+      213: -2687772630857914752
+    second: TanukiGrey_41
+  - first:
+      213: 7830955978131051326
+    second: TanukiGrey_42
+  - first:
+      213: -6661211619396502357
+    second: TanukiGrey_43
+  - first:
+      213: 3145778734654663011
+    second: TanukiGrey_44
+  - first:
+      213: -1756478534586794499
+    second: TanukiGrey_45
+  - first:
+      213: 7023483104444819916
+    second: TanukiGrey_46
+  - first:
+      213: -4694613095275330911
+    second: TanukiGrey_47
+  - first:
+      213: 5116201900160691476
+    second: TanukiGrey_48
+  - first:
+      213: -7438240250415854854
+    second: TanukiGrey_49
+  - first:
+      213: -643789038218827501
+    second: TanukiGrey_50
+  - first:
+      213: 3448098336259705439
+    second: TanukiGrey_51
+  - first:
+      213: 448917904099621225
+    second: TanukiGrey_52
+  - first:
+      213: 115428412130793221
+    second: TanukiGrey_53
+  - first:
+      213: -2147065299580741654
+    second: TanukiGrey_54
+  - first:
+      213: -6115604037775460571
+    second: TanukiGrey_55
+  - first:
+      213: 6604952828434519067
+    second: TanukiGrey_56
+  - first:
+      213: -1609551263875288744
+    second: TanukiGrey_57
+  - first:
+      213: 2179964906088710049
+    second: TanukiGrey_58
+  - first:
+      213: 1170802392096915827
+    second: TanukiGrey_59
+  - first:
+      213: -4902725175925935359
+    second: TanukiGrey_60
+  - first:
+      213: 505315649503538920
+    second: TanukiGrey_61
+  - first:
+      213: -4931459380761997096
+    second: TanukiGrey_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TanukiGrey_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d945cdf12a495de0800000000000000
+      internalID: -1343961503941441067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dfd54246e2364b0800000000000000
+      internalID: -5448460116546421389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfeaa77377eef3730800000000000000
+      internalID: 3981162791418113787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746901ed9813468c0800000000000000
+      internalID: -4007023300246989241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974fb850c4b2af760800000000000000
+      internalID: 7492348535594808441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d3d0e623168a4a0800000000000000
+      internalID: -6581903986179359386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1235abaf51c4d6c0800000000000000
+      internalID: -4119455142491377122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9242eb2df811d280800000000000000
+      internalID: -9020401103004351842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136fcd8b7dbf8e090800000000000000
+      internalID: -8004871433713027535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cda739844414cc0800000000000000
+      internalID: -3728623937983423466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14bfe8969fafcf10800000000000000
+      internalID: 2292243796700673051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 229
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5299b579d5451e0800000000000000
+      internalID: -2210038612473862692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3fc0aa123c89e70800000000000000
+      internalID: 9122255594593252313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8ba2ff46ab9b570800000000000000
+      internalID: 8483016316069525702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e72827509d0e790800000000000000
+      internalID: -7502758361780027822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 191
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faede0bb98452620800000000000000
+      internalID: 2748682981105068790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a337dec3596b300800000000000000
+      internalID: 267565316789451357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40083ccbcd8be0390800000000000000
+      internalID: -7850133842260951036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aebe51731f83a310800000000000000
+      internalID: 1415132021593652897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 191
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2cd74215811ac50800000000000000
+      internalID: 6674642859523424999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 204
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35564d2b5b751b760800000000000000
+      internalID: 7471849694685324627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831e48889c5f6f2e0800000000000000
+      internalID: -2092214730939375304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_22
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4314285fa7b978190800000000000000
+      internalID: -7960222863946792652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c08608a9549ae00800000000000000
+      internalID: 1056452117476674602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfd30d6c4ae77dd0800000000000000
+      internalID: -2488262655131525154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0905060b80aac440800000000000000
+      internalID: 4956950858836543755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87447f68784031de0800000000000000
+      internalID: -1363741282031680392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747741cb2095d7d00800000000000000
+      internalID: 972030962862159687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 159
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673435d478e8009a0800000000000000
+      internalID: -6268853969530698890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16ad618b609a0d10800000000000000
+      internalID: 2092643768274363933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7702a789ba51690800000000000000
+      internalID: -7632005322137110593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3c8a9d69e9d2e80800000000000000
+      internalID: -8201724975637806151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c34d731eb55b8db0800000000000000
+      internalID: -4788639503919266871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9068199a562266cf0800000000000000
+      internalID: -259482108495297015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_34
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 171
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e2753be10e94eb0800000000000000
+      internalID: -4735007110740890097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 172
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0190b996245cde0800000000000000
+      internalID: -1313570694968569671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa7579e3bbd16500800000000000000
+      internalID: 387832608692992675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac449d6f7d24f350800000000000000
+      internalID: 6049510224787950763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673eabbfe8344c990800000000000000
+      internalID: -7366688809083542666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_39
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 127
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e40d27afc05e710800000000000000
+      internalID: 1721796702346694257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bea8fb1ade45ce80800000000000000
+      internalID: -8159028451232665931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 127
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08662bc580d13bad0800000000000000
+      internalID: -2687772630857914752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e331930d8f42dac60800000000000000
+      internalID: 7830955978131051326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacba24235f9e83a0800000000000000
+      internalID: -6661211619396502357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 138
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369a115971d08ab20800000000000000
+      internalID: 3145778734654663011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 137
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdfa5a341cbf97e0800000000000000
+      internalID: -1756478534586794499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_46
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 137
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc92466ebac687160800000000000000
+      internalID: 7023483104444819916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 138
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a28732534269deb0800000000000000
+      internalID: -4694613095275330911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41da14a7586600740800000000000000
+      internalID: 5116201900160691476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa43f7d6ef06c890800000000000000
+      internalID: -7438240250415854854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_50
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3192daad74dc017f0800000000000000
+      internalID: -643789038218827501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a00630b2b1adf20800000000000000
+      internalID: 3448098336259705439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969bb2f8470ea3600800000000000000
+      internalID: 448917904099621225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_53
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5071b0e77851a9100800000000000000
+      internalID: 115428412130793221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae71ce45c771432e0800000000000000
+      internalID: -2147065299580741654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527f27d8782012ba0800000000000000
+      internalID: -6115604037775460571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b141d095a9189ab50800000000000000
+      internalID: 6604952828434519067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_57
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851beec37a9b9a9e0800000000000000
+      internalID: -1609551263875288744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_58
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af3c3a388ac04e10800000000000000
+      internalID: 2179964906088710049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_59
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3714d1b82968f3010800000000000000
+      internalID: 1170802392096915827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_60
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103f191ad6506fbb0800000000000000
+      internalID: -4902725175925935359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeaa1ce7ed330700800000000000000
+      internalID: 505315649503538920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiGrey_62
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0d96932dfef8bb0800000000000000
+      internalID: -4931459380761997096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TanukiGrey_0: -1343961503941441067
+      TanukiGrey_1: -5448460116546421389
+      TanukiGrey_10: 2292243796700673051
+      TanukiGrey_11: -2210038612473862692
+      TanukiGrey_12: 9122255594593252313
+      TanukiGrey_13: 8483016316069525702
+      TanukiGrey_14: -7502758361780027822
+      TanukiGrey_15: 2748682981105068790
+      TanukiGrey_16: 267565316789451357
+      TanukiGrey_17: -7850133842260951036
+      TanukiGrey_18: 1415132021593652897
+      TanukiGrey_19: 6674642859523424999
+      TanukiGrey_2: 3981162791418113787
+      TanukiGrey_20: 7471849694685324627
+      TanukiGrey_21: -2092214730939375304
+      TanukiGrey_22: -7960222863946792652
+      TanukiGrey_23: 1056452117476674602
+      TanukiGrey_24: -2488262655131525154
+      TanukiGrey_25: 4956950858836543755
+      TanukiGrey_26: -1363741282031680392
+      TanukiGrey_27: 972030962862159687
+      TanukiGrey_28: -6268853969530698890
+      TanukiGrey_29: 2092643768274363933
+      TanukiGrey_3: -4007023300246989241
+      TanukiGrey_30: -7632005322137110593
+      TanukiGrey_31: -8201724975637806151
+      TanukiGrey_32: -4788639503919266871
+      TanukiGrey_33: -259482108495297015
+      TanukiGrey_34: -4735007110740890097
+      TanukiGrey_35: -1313570694968569671
+      TanukiGrey_36: 387832608692992675
+      TanukiGrey_37: 6049510224787950763
+      TanukiGrey_38: -7366688809083542666
+      TanukiGrey_39: 1721796702346694257
+      TanukiGrey_4: 7492348535594808441
+      TanukiGrey_40: -8159028451232665931
+      TanukiGrey_41: -2687772630857914752
+      TanukiGrey_42: 7830955978131051326
+      TanukiGrey_43: -6661211619396502357
+      TanukiGrey_44: 3145778734654663011
+      TanukiGrey_45: -1756478534586794499
+      TanukiGrey_46: 7023483104444819916
+      TanukiGrey_47: -4694613095275330911
+      TanukiGrey_48: 5116201900160691476
+      TanukiGrey_49: -7438240250415854854
+      TanukiGrey_5: -6581903986179359386
+      TanukiGrey_50: -643789038218827501
+      TanukiGrey_51: 3448098336259705439
+      TanukiGrey_52: 448917904099621225
+      TanukiGrey_53: 115428412130793221
+      TanukiGrey_54: -2147065299580741654
+      TanukiGrey_55: -6115604037775460571
+      TanukiGrey_56: 6604952828434519067
+      TanukiGrey_57: -1609551263875288744
+      TanukiGrey_58: 2179964906088710049
+      TanukiGrey_59: 1170802392096915827
+      TanukiGrey_6: -4119455142491377122
+      TanukiGrey_60: -4902725175925935359
+      TanukiGrey_61: 505315649503538920
+      TanukiGrey_62: -4931459380761997096
+      TanukiGrey_7: -9020401103004351842
+      TanukiGrey_8: -8004871433713027535
+      TanukiGrey_9: -3728623937983423466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

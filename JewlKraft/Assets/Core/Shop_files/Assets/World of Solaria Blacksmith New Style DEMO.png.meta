@@ -1349,6 +1349,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: FurnaceIn
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 72
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc9a357544d094429d3140fe14bdd46
+      internalID: 675876628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1369,6 +1391,7 @@ TextureImporter:
       Big_crate: 174109058
       Big_plant: 1879956089
       Furnace: -1257384032
+      FurnaceIn: -475482615
       Kummut: -880685306
       Lamp: -1308833414
       Large_table: 1662442053
@@ -1389,7 +1412,6 @@ TextureImporter:
       World of Solaria Blacksmith New Style DEMO_14: -1556494017
       World of Solaria Blacksmith New Style DEMO_15: 4455141
       World of Solaria Blacksmith New Style DEMO_16: -1113066950
-      World of Solaria Blacksmith New Style DEMO_17: -475482615
       World of Solaria Blacksmith New Style DEMO_18: 183571377
       World of Solaria Blacksmith New Style DEMO_19: -828832692
       World of Solaria Blacksmith New Style DEMO_2: 5045044316620754602

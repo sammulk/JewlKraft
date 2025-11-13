@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: e88925070ba917e42941e1e2d6fa8962
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5573171974945834417
+    second: TanukiBrownWithLeaf_0
+  - first:
+      213: 6140618232105841851
+    second: TanukiBrownWithLeaf_1
+  - first:
+      213: -6173410390040877395
+    second: TanukiBrownWithLeaf_2
+  - first:
+      213: -4953914606298166523
+    second: TanukiBrownWithLeaf_3
+  - first:
+      213: 8527072174942653546
+    second: TanukiBrownWithLeaf_4
+  - first:
+      213: 7496404944762146234
+    second: TanukiBrownWithLeaf_5
+  - first:
+      213: 1270901720326700391
+    second: TanukiBrownWithLeaf_6
+  - first:
+      213: -5523845700141328183
+    second: TanukiBrownWithLeaf_7
+  - first:
+      213: -145305332143718667
+    second: TanukiBrownWithLeaf_8
+  - first:
+      213: 2047401437252568380
+    second: TanukiBrownWithLeaf_9
+  - first:
+      213: -1540877119249671167
+    second: TanukiBrownWithLeaf_10
+  - first:
+      213: -1701059315374827907
+    second: TanukiBrownWithLeaf_11
+  - first:
+      213: 2629195043559420014
+    second: TanukiBrownWithLeaf_12
+  - first:
+      213: -857171016402518405
+    second: TanukiBrownWithLeaf_13
+  - first:
+      213: -8482754581916143804
+    second: TanukiBrownWithLeaf_14
+  - first:
+      213: -5975768219338987257
+    second: TanukiBrownWithLeaf_15
+  - first:
+      213: -7721617543322153138
+    second: TanukiBrownWithLeaf_16
+  - first:
+      213: 6689394792657941660
+    second: TanukiBrownWithLeaf_17
+  - first:
+      213: 679117592001183027
+    second: TanukiBrownWithLeaf_18
+  - first:
+      213: -9209017689382507831
+    second: TanukiBrownWithLeaf_19
+  - first:
+      213: 3792763456546351090
+    second: TanukiBrownWithLeaf_20
+  - first:
+      213: 2418878040725893248
+    second: TanukiBrownWithLeaf_21
+  - first:
+      213: 8107625347361546982
+    second: TanukiBrownWithLeaf_22
+  - first:
+      213: 1023154528264400444
+    second: TanukiBrownWithLeaf_23
+  - first:
+      213: -3572340899080107590
+    second: TanukiBrownWithLeaf_24
+  - first:
+      213: 345792707423638855
+    second: TanukiBrownWithLeaf_25
+  - first:
+      213: -1059579681542105501
+    second: TanukiBrownWithLeaf_26
+  - first:
+      213: 97594134857708417
+    second: TanukiBrownWithLeaf_27
+  - first:
+      213: 2769686612535227837
+    second: TanukiBrownWithLeaf_28
+  - first:
+      213: -5752723034604788360
+    second: TanukiBrownWithLeaf_29
+  - first:
+      213: -2945072003668603846
+    second: TanukiBrownWithLeaf_30
+  - first:
+      213: 4850799020022462045
+    second: TanukiBrownWithLeaf_31
+  - first:
+      213: -4988762293205809753
+    second: TanukiBrownWithLeaf_32
+  - first:
+      213: 5010704141528789883
+    second: TanukiBrownWithLeaf_33
+  - first:
+      213: -3373200096044267024
+    second: TanukiBrownWithLeaf_34
+  - first:
+      213: 4786792843996774051
+    second: TanukiBrownWithLeaf_35
+  - first:
+      213: 4403918352687537224
+    second: TanukiBrownWithLeaf_36
+  - first:
+      213: 1893678648075488263
+    second: TanukiBrownWithLeaf_37
+  - first:
+      213: 3223650777508817499
+    second: TanukiBrownWithLeaf_38
+  - first:
+      213: 704407144827387176
+    second: TanukiBrownWithLeaf_39
+  - first:
+      213: -194640035142532909
+    second: TanukiBrownWithLeaf_40
+  - first:
+      213: 950851377199109754
+    second: TanukiBrownWithLeaf_41
+  - first:
+      213: -4461640072932495973
+    second: TanukiBrownWithLeaf_42
+  - first:
+      213: -2016450020828577315
+    second: TanukiBrownWithLeaf_43
+  - first:
+      213: -6115804259588479018
+    second: TanukiBrownWithLeaf_44
+  - first:
+      213: -3419396857220503675
+    second: TanukiBrownWithLeaf_45
+  - first:
+      213: 5577450371716176733
+    second: TanukiBrownWithLeaf_46
+  - first:
+      213: -629044389680786175
+    second: TanukiBrownWithLeaf_47
+  - first:
+      213: -2784626853298738893
+    second: TanukiBrownWithLeaf_48
+  - first:
+      213: 868063678161568000
+    second: TanukiBrownWithLeaf_49
+  - first:
+      213: 1565536789533286925
+    second: TanukiBrownWithLeaf_50
+  - first:
+      213: 8564633871510595320
+    second: TanukiBrownWithLeaf_51
+  - first:
+      213: -6518061257885664396
+    second: TanukiBrownWithLeaf_52
+  - first:
+      213: -6348090268160279439
+    second: TanukiBrownWithLeaf_53
+  - first:
+      213: -422519992826267612
+    second: TanukiBrownWithLeaf_54
+  - first:
+      213: -1462746017666701917
+    second: TanukiBrownWithLeaf_55
+  - first:
+      213: -3717307934222892224
+    second: TanukiBrownWithLeaf_56
+  - first:
+      213: 5690439635470754522
+    second: TanukiBrownWithLeaf_57
+  - first:
+      213: -2457893415956920307
+    second: TanukiBrownWithLeaf_58
+  - first:
+      213: 4562746065845089490
+    second: TanukiBrownWithLeaf_59
+  - first:
+      213: 36975222882276474
+    second: TanukiBrownWithLeaf_60
+  - first:
+      213: 8954332069433204423
+    second: TanukiBrownWithLeaf_61
+  - first:
+      213: -573177665483273323
+    second: TanukiBrownWithLeaf_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4af031ed9d18a2b0800000000000000
+      internalID: -5573171974945834417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4b4f96fbbd73550800000000000000
+      internalID: 6140618232105841851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da668e855f3a35aa0800000000000000
+      internalID: -6173410390040877395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b8afb99e8204bb0800000000000000
+      internalID: -4953914606298166523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c0399f6fe365670800000000000000
+      internalID: 8527072174942653546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd87016494980860800000000000000
+      internalID: 7496404944762146234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 239
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d7180916623a110800000000000000
+      internalID: 1270901720326700391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8d1013a9b5753b0800000000000000
+      internalID: -5523845700141328183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 229
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe7a9df195cbfdf0800000000000000
+      internalID: -145305332143718667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35401472c4d96c10800000000000000
+      internalID: 2047401437252568380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 228
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c98988c64bd9ae0800000000000000
+      internalID: -1540877119249671167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 229
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76d635b09f9468e0800000000000000
+      internalID: -1701059315374827907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60b39846f6cc7420800000000000000
+      internalID: 2629195043559420014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e31978087ba14f0800000000000000
+      internalID: -857171016402518405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f221cb6a3374a80800000000000000
+      internalID: -8482754581916143804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 191
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7092b3a277ec11da0800000000000000
+      internalID: -5975768219338987257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fcbd651cd47d490800000000000000
+      internalID: -7721617543322153138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9479ba3f1185dc50800000000000000
+      internalID: 6689394792657941660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33df2ff0ad5bc6900800000000000000
+      internalID: 679117592001183027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 191
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca2116f33ff23080800000000000000
+      internalID: -9209017689382507831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 204
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f72780d44a92a430800000000000000
+      internalID: 3792763456546351090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080b57423c4919120800000000000000
+      internalID: 2418878040725893248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_22
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 203
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e220712c42148070800000000000000
+      internalID: 8107625347361546982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e288f5f99f23e00800000000000000
+      internalID: 1023154528264400444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab90bbd11ee7c6ec0800000000000000
+      internalID: -3572340899080107590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74518e3a2a08cc400800000000000000
+      internalID: 345792707423638855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366167eb4ed9b41f0800000000000000
+      internalID: -1059579681542105501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183fa5c3959ba5100800000000000000
+      internalID: 97594134857708417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 159
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db53157bc47ef6620800000000000000
+      internalID: 2769686612535227837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875ac2711e83a20b0800000000000000
+      internalID: -5752723034604788360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 175
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c8267cd900127d0800000000000000
+      internalID: -2945072003668603846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 159
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5670411200815340800000000000000
+      internalID: 4850799020022462045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 172
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5ca9c302b54cab0800000000000000
+      internalID: -4988762293205809753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73f66e6ed8998540800000000000000
+      internalID: 5010704141528789883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_34
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 171
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9c7f6726cff21d0800000000000000
+      internalID: -3373200096044267024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 172
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae3fc7eaba1e6240800000000000000
+      internalID: 4786792843996774051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c93c7a86cdd1d30800000000000000
+      internalID: 4403918352687537224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c084182b2b74a10800000000000000
+      internalID: 1893678648075488263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a23517d45bcbc20800000000000000
+      internalID: 3223650777508817499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_39
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 127
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dfeace09e86c900800000000000000
+      internalID: 704407144827387176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d082465bef7c4df0800000000000000
+      internalID: -194640035142532909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 127
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76d42c2a4a123d00800000000000000
+      internalID: 950851377199109754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de5311ef11512c0800000000000000
+      internalID: -4461640072932495973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 127
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd10f21c3612404e0800000000000000
+      internalID: -2016450020828577315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_44
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 138
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d76867cd6c402ba0800000000000000
+      internalID: -6115804259588479018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 137
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587e843dcacdb80d0800000000000000
+      internalID: -3419396857220503675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_46
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 137
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b538eff85176d40800000000000000
+      internalID: 5577450371716176733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 138
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105df1dd57f2547f0800000000000000
+      internalID: -629044389680786175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3396d1961a40b59d0800000000000000
+      internalID: -2784626853298738893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_49
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0014d3be05bfb0c00800000000000000
+      internalID: 868063678161568000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_50
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02efee5a67e9b510800000000000000
+      internalID: 1565536789533286925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6eaa6f021bbd670800000000000000
+      internalID: 8564633871510595320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3d73f1d13b85a0800000000000000
+      internalID: -6518061257885664396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_53
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c3134e88d07e7a0800000000000000
+      internalID: -6348090268160279439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428f61d1e48e22af0800000000000000
+      internalID: -422519992826267612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5eb543f3843bbe0800000000000000
+      internalID: -1462746017666701917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04347e30128796cc0800000000000000
+      internalID: -3717307934222892224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_57
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2a90003b088fe40800000000000000
+      internalID: 5690439635470754522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_58
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08cd1ee5fec3edd0800000000000000
+      internalID: -2457893415956920307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_59
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4f1075f51225f30800000000000000
+      internalID: 4562746065845089490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_60
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a749361f4cc538000800000000000000
+      internalID: 36975222882276474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce5477339d244c70800000000000000
+      internalID: 8954332069433204423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TanukiBrownWithLeaf_62
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b8ea733f9ab08f0800000000000000
+      internalID: -573177665483273323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TanukiBrownWithLeaf_0: -5573171974945834417
+      TanukiBrownWithLeaf_1: 6140618232105841851
+      TanukiBrownWithLeaf_10: -1540877119249671167
+      TanukiBrownWithLeaf_11: -1701059315374827907
+      TanukiBrownWithLeaf_12: 2629195043559420014
+      TanukiBrownWithLeaf_13: -857171016402518405
+      TanukiBrownWithLeaf_14: -8482754581916143804
+      TanukiBrownWithLeaf_15: -5975768219338987257
+      TanukiBrownWithLeaf_16: -7721617543322153138
+      TanukiBrownWithLeaf_17: 6689394792657941660
+      TanukiBrownWithLeaf_18: 679117592001183027
+      TanukiBrownWithLeaf_19: -9209017689382507831
+      TanukiBrownWithLeaf_2: -6173410390040877395
+      TanukiBrownWithLeaf_20: 3792763456546351090
+      TanukiBrownWithLeaf_21: 2418878040725893248
+      TanukiBrownWithLeaf_22: 8107625347361546982
+      TanukiBrownWithLeaf_23: 1023154528264400444
+      TanukiBrownWithLeaf_24: -3572340899080107590
+      TanukiBrownWithLeaf_25: 345792707423638855
+      TanukiBrownWithLeaf_26: -1059579681542105501
+      TanukiBrownWithLeaf_27: 97594134857708417
+      TanukiBrownWithLeaf_28: 2769686612535227837
+      TanukiBrownWithLeaf_29: -5752723034604788360
+      TanukiBrownWithLeaf_3: -4953914606298166523
+      TanukiBrownWithLeaf_30: -2945072003668603846
+      TanukiBrownWithLeaf_31: 4850799020022462045
+      TanukiBrownWithLeaf_32: -4988762293205809753
+      TanukiBrownWithLeaf_33: 5010704141528789883
+      TanukiBrownWithLeaf_34: -3373200096044267024
+      TanukiBrownWithLeaf_35: 4786792843996774051
+      TanukiBrownWithLeaf_36: 4403918352687537224
+      TanukiBrownWithLeaf_37: 1893678648075488263
+      TanukiBrownWithLeaf_38: 3223650777508817499
+      TanukiBrownWithLeaf_39: 704407144827387176
+      TanukiBrownWithLeaf_4: 8527072174942653546
+      TanukiBrownWithLeaf_40: -194640035142532909
+      TanukiBrownWithLeaf_41: 950851377199109754
+      TanukiBrownWithLeaf_42: -4461640072932495973
+      TanukiBrownWithLeaf_43: -2016450020828577315
+      TanukiBrownWithLeaf_44: -6115804259588479018
+      TanukiBrownWithLeaf_45: -3419396857220503675
+      TanukiBrownWithLeaf_46: 5577450371716176733
+      TanukiBrownWithLeaf_47: -629044389680786175
+      TanukiBrownWithLeaf_48: -2784626853298738893
+      TanukiBrownWithLeaf_49: 868063678161568000
+      TanukiBrownWithLeaf_5: 7496404944762146234
+      TanukiBrownWithLeaf_50: 1565536789533286925
+      TanukiBrownWithLeaf_51: 8564633871510595320
+      TanukiBrownWithLeaf_52: -6518061257885664396
+      TanukiBrownWithLeaf_53: -6348090268160279439
+      TanukiBrownWithLeaf_54: -422519992826267612
+      TanukiBrownWithLeaf_55: -1462746017666701917
+      TanukiBrownWithLeaf_56: -3717307934222892224
+      TanukiBrownWithLeaf_57: 5690439635470754522
+      TanukiBrownWithLeaf_58: -2457893415956920307
+      TanukiBrownWithLeaf_59: 4562746065845089490
+      TanukiBrownWithLeaf_6: 1270901720326700391
+      TanukiBrownWithLeaf_60: 36975222882276474
+      TanukiBrownWithLeaf_61: 8954332069433204423
+      TanukiBrownWithLeaf_62: -573177665483273323
+      TanukiBrownWithLeaf_7: -5523845700141328183
+      TanukiBrownWithLeaf_8: -145305332143718667
+      TanukiBrownWithLeaf_9: 2047401437252568380
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
