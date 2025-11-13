@@ -13,19 +13,16 @@ public class TimeCounter : MonoBehaviour
     private Image EnergyBar;
 
     private float _currentTime = 0;
-    private bool _timeRanOutInvoked = false;
 
     private void Start()
     {
         _currentTime = maxTime;
-        _timeRanOutInvoked = false;
 
         if (EnergyBar != null)
         {
             EnergyBar.fillAmount = Mathf.Clamp01(_currentTime / Mathf.Max(0.0001f, maxTime));
-            if (EnergyBar.fillAmount <= 0f && !_timeRanOutInvoked)
+            if (EnergyBar.fillAmount <= 0f)
             {
-                _timeRanOutInvoked = true;
                 OnTimeRanOut?.Invoke();
             }
         }
@@ -42,12 +39,11 @@ public class TimeCounter : MonoBehaviour
         if (EnergyBar != null)
         {
             EnergyBar.fillAmount = Mathf.Clamp01(_currentTime / Mathf.Max(0.0001f, maxTime));
+        }
 
-            if (EnergyBar.fillAmount <= 0f && !_timeRanOutInvoked)
-            {
-                _timeRanOutInvoked = true;
-                OnTimeRanOut?.Invoke();
-            }
+        if (_currentTime <= 0f)
+        {
+            OnTimeRanOut?.Invoke();
         }
     }
 }
