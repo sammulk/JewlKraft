@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: dc1d25249ff3c0847884186b32345455
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7722301958415520449
+    second: Odderf New Pickaxe_0
+  - first:
+      213: 3175203301625219186
+    second: Odderf New Pickaxe_1
+  - first:
+      213: 2188526291770140632
+    second: Odderf New Pickaxe_2
+  - first:
+      213: 119397257754449417
+    second: Odderf New Pickaxe_3
+  - first:
+      213: 8747322964997868600
+    second: Odderf New Pickaxe_4
+  - first:
+      213: 3486407881809222554
+    second: Odderf New Pickaxe_5
+  - first:
+      213: -6820879772575417650
+    second: Odderf New Pickaxe_6
+  - first:
+      213: -3632750365115155972
+    second: Odderf New Pickaxe_7
+  - first:
+      213: -6796399639413091800
+    second: Odderf New Pickaxe_8
+  - first:
+      213: -6657853446309213511
+    second: Odderf New Pickaxe_9
+  - first:
+      213: 2039712376347661376
+    second: Odderf New Pickaxe_10
+  - first:
+      213: -7276778400927990631
+    second: Odderf New Pickaxe_11
+  - first:
+      213: 3272953160464345812
+    second: Odderf New Pickaxe_12
+  - first:
+      213: -6559229847822404959
+    second: Odderf New Pickaxe_13
+  - first:
+      213: -1135532265292954860
+    second: Odderf New Pickaxe_14
+  - first:
+      213: -6279952965861588251
+    second: Odderf New Pickaxe_15
+  - first:
+      213: -2432675224644837494
+    second: Odderf New Pickaxe_16
+  - first:
+      213: -3923491646680896541
+    second: Odderf New Pickaxe_17
+  - first:
+      213: -4549664621364774570
+    second: Odderf New Pickaxe_18
+  - first:
+      213: 8836404268099313628
+    second: Odderf New Pickaxe_19
+  - first:
+      213: -8574587280259090690
+    second: Odderf New Pickaxe_20
+  - first:
+      213: -8376549114444541700
+    second: Odderf New Pickaxe_21
+  - first:
+      213: 5262297906265792608
+    second: Odderf New Pickaxe_22
+  - first:
+      213: -4669089241476354511
+    second: Odderf New Pickaxe_23
+  - first:
+      213: 5554598138901933683
+    second: Odderf New Pickaxe_24
+  - first:
+      213: 7915038540408159146
+    second: Odderf New Pickaxe_25
+  - first:
+      213: -790624460377106583
+    second: Odderf New Pickaxe_26
+  - first:
+      213: -1593066885681598235
+    second: Odderf New Pickaxe_27
+  - first:
+      213: -4314939713991839598
+    second: Odderf New Pickaxe_28
+  - first:
+      213: 5232750173053213926
+    second: Odderf New Pickaxe_29
+  - first:
+      213: -6258511382053700665
+    second: Odderf New Pickaxe_30
+  - first:
+      213: 1625554223621703575
+    second: Odderf New Pickaxe_31
+  - first:
+      213: 3376208805617535257
+    second: Odderf New Pickaxe_32
+  - first:
+      213: -5862254479923007604
+    second: Odderf New Pickaxe_33
+  - first:
+      213: 4785559930702643602
+    second: Odderf New Pickaxe_34
+  - first:
+      213: 4721177988729057249
+    second: Odderf New Pickaxe_35
+  - first:
+      213: -1037815409291268326
+    second: Odderf New Pickaxe_36
+  - first:
+      213: -3020343533583431176
+    second: Odderf New Pickaxe_37
+  - first:
+      213: -3132647079714753161
+    second: Odderf New Pickaxe_38
+  - first:
+      213: -6403319429892609937
+    second: Odderf New Pickaxe_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c219a777b02b2b60800000000000000
+      internalID: 7722301958415520449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278c4037496901c20800000000000000
+      internalID: 3175203301625219186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7ef8a21153f5e10800000000000000
+      internalID: 2188526291770140632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9061c9f5c2f28a100800000000000000
+      internalID: 119397257754449417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c805034ebb46970800000000000000
+      internalID: 8747322964997868600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b5c592f75326030800000000000000
+      internalID: 3486407881809222554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecabef34cfd5751a0800000000000000
+      internalID: -6820879772575417650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9f3a14ac0e59dc0800000000000000
+      internalID: -3632750365115155972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822903d69865ea1a0800000000000000
+      internalID: -6796399639413091800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 256
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba012eb09d8a93a0800000000000000
+      internalID: -6657853446309213511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0449b2479938e4c10800000000000000
+      internalID: 2039712376347661376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cb37f2990b30b90800000000000000
+      internalID: -7276778400927990631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da28fffe8ddb6d20800000000000000
+      internalID: 3272953160464345812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2f768a43fe8f4a0800000000000000
+      internalID: -6559229847822404959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4130838cb67cd30f0800000000000000
+      internalID: -1135532265292954860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2c8a7dc0029d8a0800000000000000
+      internalID: -6279952965861588251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f9625a5c66d3ed0800000000000000
+      internalID: -2432675224644837494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_17
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb6f588225fc89c0800000000000000
+      internalID: -3923491646680896541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659f36cc1285cd0c0800000000000000
+      internalID: -4549664621364774570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_19
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 176
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf1ec35dd631aa70800000000000000
+      internalID: 8836404268099313628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6f2987c42f00980800000000000000
+      internalID: -8574587280259090690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf09be516f480cb80800000000000000
+      internalID: -8376549114444541700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060214d9010770940800000000000000
+      internalID: 5262297906265792608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e2431a210143fb0800000000000000
+      internalID: -4669089241476354511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37eab4be395e51d40800000000000000
+      internalID: 5554598138901933683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabfd88ed9dd7dd60800000000000000
+      internalID: 7915038540408159146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967dc700e332705f0800000000000000
+      internalID: -790624460377106583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_27
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0b28f9b1a44e9e0800000000000000
+      internalID: -1593066885681598235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2907a4011314e14c0800000000000000
+      internalID: -4314939713991839598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 96
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec533fde867e9840800000000000000
+      internalID: 5232750173053213926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb33f99e0d4529a0800000000000000
+      internalID: -6258511382053700665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7978b1e24f02f8610800000000000000
+      internalID: 1625554223621703575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91901625504bade20800000000000000
+      internalID: 3376208805617535257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f2f3d2c9615aea0800000000000000
+      internalID: -5862254479923007604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291cfd8e669b96240800000000000000
+      internalID: 4785559930702643602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_35
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efa69bed5ef48140800000000000000
+      internalID: 4721177988729057249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_36
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f64c24260f891f0800000000000000
+      internalID: -1037815409291268326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_37
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f98c150f859516d0800000000000000
+      internalID: -3020343533583431176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775ffe6141a9684d0800000000000000
+      internalID: -3132647079714753161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Odderf New Pickaxe_39
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 16
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68e4ed97e6d227a0800000000000000
+      internalID: -6403319429892609937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ccfbeb73a3c04d48bf53ce6cd3a8978
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Odderf New Pickaxe_0: 7722301958415520449
+      Odderf New Pickaxe_1: 3175203301625219186
+      Odderf New Pickaxe_10: 2039712376347661376
+      Odderf New Pickaxe_11: -7276778400927990631
+      Odderf New Pickaxe_12: 3272953160464345812
+      Odderf New Pickaxe_13: -6559229847822404959
+      Odderf New Pickaxe_14: -1135532265292954860
+      Odderf New Pickaxe_15: -6279952965861588251
+      Odderf New Pickaxe_16: -2432675224644837494
+      Odderf New Pickaxe_17: -3923491646680896541
+      Odderf New Pickaxe_18: -4549664621364774570
+      Odderf New Pickaxe_19: 8836404268099313628
+      Odderf New Pickaxe_2: 2188526291770140632
+      Odderf New Pickaxe_20: -8574587280259090690
+      Odderf New Pickaxe_21: -8376549114444541700
+      Odderf New Pickaxe_22: 5262297906265792608
+      Odderf New Pickaxe_23: -4669089241476354511
+      Odderf New Pickaxe_24: 5554598138901933683
+      Odderf New Pickaxe_25: 7915038540408159146
+      Odderf New Pickaxe_26: -790624460377106583
+      Odderf New Pickaxe_27: -1593066885681598235
+      Odderf New Pickaxe_28: -4314939713991839598
+      Odderf New Pickaxe_29: 5232750173053213926
+      Odderf New Pickaxe_3: 119397257754449417
+      Odderf New Pickaxe_30: -6258511382053700665
+      Odderf New Pickaxe_31: 1625554223621703575
+      Odderf New Pickaxe_32: 3376208805617535257
+      Odderf New Pickaxe_33: -5862254479923007604
+      Odderf New Pickaxe_34: 4785559930702643602
+      Odderf New Pickaxe_35: 4721177988729057249
+      Odderf New Pickaxe_36: -1037815409291268326
+      Odderf New Pickaxe_37: -3020343533583431176
+      Odderf New Pickaxe_38: -3132647079714753161
+      Odderf New Pickaxe_39: -6403319429892609937
+      Odderf New Pickaxe_4: 8747322964997868600
+      Odderf New Pickaxe_5: 3486407881809222554
+      Odderf New Pickaxe_6: -6820879772575417650
+      Odderf New Pickaxe_7: -3632750365115155972
+      Odderf New Pickaxe_8: -6796399639413091800
+      Odderf New Pickaxe_9: -6657853446309213511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -172,10 +172,10 @@ TextureImporter:
       name: Odderf New Idle_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 271
-        width: 16
-        height: 16
+        x: 0
+        y: 256
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Odderf New Idle_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 271
-        width: 14
-        height: 16
+        x: 80
+        y: 256
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Odderf New Idle_2
       rect:
         serializedVersion: 2
-        x: 193
-        y: 271
-        width: 14
-        height: 17
+        x: 160
+        y: 256
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Odderf New Idle_3
       rect:
         serializedVersion: 2
-        x: 273
-        y: 271
-        width: 14
-        height: 17
+        x: 240
+        y: 256
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Odderf New Idle_4
       rect:
         serializedVersion: 2
-        x: 353
-        y: 271
-        width: 14
-        height: 16
+        x: 320
+        y: 256
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Odderf New Idle_5
       rect:
         serializedVersion: 2
-        x: 432
-        y: 271
-        width: 16
-        height: 16
+        x: 400
+        y: 256
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Odderf New Idle_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 191
-        width: 16
-        height: 16
+        x: 0
+        y: 176
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Odderf New Idle_7
       rect:
         serializedVersion: 2
-        x: 113
-        y: 191
-        width: 14
-        height: 16
+        x: 80
+        y: 176
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Odderf New Idle_8
       rect:
         serializedVersion: 2
-        x: 193
-        y: 191
-        width: 14
-        height: 17
+        x: 160
+        y: 176
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Odderf New Idle_9
       rect:
         serializedVersion: 2
-        x: 273
-        y: 191
-        width: 14
-        height: 17
+        x: 240
+        y: 176
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Odderf New Idle_10
       rect:
         serializedVersion: 2
-        x: 353
-        y: 191
-        width: 14
-        height: 16
+        x: 320
+        y: 176
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Odderf New Idle_11
       rect:
         serializedVersion: 2
-        x: 432
-        y: 191
-        width: 16
-        height: 16
+        x: 400
+        y: 176
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Odderf New Idle_12
       rect:
         serializedVersion: 2
-        x: 33
-        y: 111
-        width: 13
-        height: 16
+        x: 0
+        y: 96
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Odderf New Idle_13
       rect:
         serializedVersion: 2
-        x: 113
-        y: 111
-        width: 13
-        height: 16
+        x: 80
+        y: 96
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Odderf New Idle_14
       rect:
         serializedVersion: 2
-        x: 193
-        y: 111
-        width: 13
-        height: 17
+        x: 160
+        y: 96
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Odderf New Idle_15
       rect:
         serializedVersion: 2
-        x: 273
-        y: 111
-        width: 13
-        height: 17
+        x: 240
+        y: 96
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Odderf New Idle_16
       rect:
         serializedVersion: 2
-        x: 353
-        y: 111
-        width: 13
-        height: 16
+        x: 320
+        y: 96
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Odderf New Idle_17
       rect:
         serializedVersion: 2
-        x: 433
-        y: 111
-        width: 13
-        height: 16
+        x: 400
+        y: 96
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: Odderf New Idle_18
       rect:
         serializedVersion: 2
-        x: 34
-        y: 31
-        width: 13
-        height: 16
+        x: 0
+        y: 16
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Odderf New Idle_19
       rect:
         serializedVersion: 2
-        x: 114
-        y: 31
-        width: 13
-        height: 16
+        x: 80
+        y: 16
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: Odderf New Idle_20
       rect:
         serializedVersion: 2
-        x: 194
-        y: 31
-        width: 13
-        height: 17
+        x: 160
+        y: 16
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: Odderf New Idle_21
       rect:
         serializedVersion: 2
-        x: 274
-        y: 31
-        width: 13
-        height: 17
+        x: 240
+        y: 16
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: Odderf New Idle_22
       rect:
         serializedVersion: 2
-        x: 354
-        y: 31
-        width: 13
-        height: 16
+        x: 320
+        y: 16
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: Odderf New Idle_23
       rect:
         serializedVersion: 2
-        x: 434
-        y: 31
-        width: 13
-        height: 16
+        x: 400
+        y: 16
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,7 +700,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3e52e7999254db24bbd0ec16061dc9bc
     internalID: 0
     vertices: []
     indices: 
