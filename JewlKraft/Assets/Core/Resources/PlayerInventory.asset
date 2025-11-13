@@ -12,10 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b444b01a57d0a4ea2c7840042f9aed, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  contents:
-  - gemID: 6
-    gridPosX: 3
-    gridPosY: 3
-    rotated: 0
+  contents: []
   sizeX: 5
   sizeY: 5

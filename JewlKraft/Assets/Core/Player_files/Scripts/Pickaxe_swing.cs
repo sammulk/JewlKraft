@@ -7,13 +7,13 @@ public class PickaxeSwing : MonoBehaviour
     [SerializeField] private float swingRange = 3.5f;
     [SerializeField] private float swingCooldown = 0.4f;
     [SerializeField] private LayerMask gemLayer;
-    [SerializeField] private GameObject pickaxeObj;
 
     private float nextSwingTime = 0f;
+    private Animator animator;
 
     private void Start()
     {
-        pickaxeObj.SetActive(false);
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -24,8 +24,12 @@ public class PickaxeSwing : MonoBehaviour
 
             if (player != null)
             {
-                StartCoroutine(player.Trapped(0.1f));
+                // Prevent movement briefly
+                StartCoroutine(player.Trapped(1.2f));
+                // Trigger the directional swing animation
+                animator.SetTrigger("Swing");
                 SwingPickaxe();
+                // Set cooldown
                 nextSwingTime = Time.time + swingCooldown;
             }
         }
@@ -33,9 +37,15 @@ public class PickaxeSwing : MonoBehaviour
 
     private void SwingPickaxe()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = (mousePos - transform.position).normalized;
+        // Get the last facing direction from the animator
+        float dirX = animator.GetFloat("LastInputX");
+        float dirY = animator.GetFloat("LastInputY");
 
+        Vector2 direction = new Vector2(dirX, dirY).normalized;
+        if (direction == Vector2.zero)
+            direction = Vector2.down; // fallback direction if none stored
+
+        // Raycast in that direction
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, swingRange, gemLayer);
 
         if (hit.collider != null)
@@ -46,22 +56,5 @@ public class PickaxeSwing : MonoBehaviour
                 gem.OnHit();
             }
         }
-
-        StartCoroutine(ShowPickaxeVisual(direction));
-    }
-
-    private System.Collections.IEnumerator ShowPickaxeVisual(Vector2 direction)
-    {
-        if (pickaxeObj == null) yield break;
-
-        pickaxeObj.SetActive(true);
-
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        pickaxeObj.transform.localPosition = direction * 0.5f; // offset from player
-        pickaxeObj.transform.localRotation = Quaternion.Euler(0f, 0f, angle);
-
-        yield return new WaitForSeconds(0.2f);
-
-        pickaxeObj.SetActive(false);
     }
 }

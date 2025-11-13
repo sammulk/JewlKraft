@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 7283520299d389d4faeb106c7a52b864
+guid: 95ca9d7bb01d2d549b19a985b0e2de43
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6778811173264504511
-    second: Odderf New Walk_0
+      213: -2162301062542490559
+    second: Odderf New Teal Pickaxe_0
   - first:
-      213: -3274207141207486354
-    second: Odderf New Walk_1
+      213: 9004493881578743441
+    second: Odderf New Teal Pickaxe_1
   - first:
-      213: 5348615617067778690
-    second: Odderf New Walk_2
+      213: -6501126812210631974
+    second: Odderf New Teal Pickaxe_2
   - first:
-      213: -6107430759647851168
-    second: Odderf New Walk_3
+      213: -1080927942188439925
+    second: Odderf New Teal Pickaxe_3
   - first:
-      213: -5085285287564400180
-    second: Odderf New Walk_4
+      213: -9038362978305252320
+    second: Odderf New Teal Pickaxe_4
   - first:
-      213: 6209211215375966842
-    second: Odderf New Walk_5
+      213: -642780108564510694
+    second: Odderf New Teal Pickaxe_5
   - first:
-      213: 5755632381718182708
-    second: Odderf New Walk_6
+      213: -7610492833968665408
+    second: Odderf New Teal Pickaxe_6
   - first:
-      213: -3823280823439612710
-    second: Odderf New Walk_7
+      213: -1583598721942244206
+    second: Odderf New Teal Pickaxe_7
   - first:
-      213: -3117804086006713125
-    second: Odderf New Walk_8
+      213: 2193613862491672690
+    second: Odderf New Teal Pickaxe_8
   - first:
-      213: -5924052415832444933
-    second: Odderf New Walk_9
+      213: 6578139396987977806
+    second: Odderf New Teal Pickaxe_9
   - first:
-      213: -7210272336862859827
-    second: Odderf New Walk_10
+      213: -3861950424331329887
+    second: Odderf New Teal Pickaxe_10
   - first:
-      213: 5461627210938416075
-    second: Odderf New Walk_11
+      213: 5898214036781874088
+    second: Odderf New Teal Pickaxe_11
   - first:
-      213: -6245747182304793095
-    second: Odderf New Walk_12
+      213: 6737362736271463397
+    second: Odderf New Teal Pickaxe_12
   - first:
-      213: -8575512497204409380
-    second: Odderf New Walk_13
+      213: -1639694352806829590
+    second: Odderf New Teal Pickaxe_13
   - first:
-      213: 8410270209659428471
-    second: Odderf New Walk_14
+      213: 422619212495249773
+    second: Odderf New Teal Pickaxe_14
   - first:
-      213: 7604625533286442589
-    second: Odderf New Walk_15
+      213: 6893561566858297932
+    second: Odderf New Teal Pickaxe_15
   - first:
-      213: 8335820004110746339
-    second: Odderf New Walk_16
+      213: -923192241676709546
+    second: Odderf New Teal Pickaxe_16
   - first:
-      213: 8257253183459828492
-    second: Odderf New Walk_17
+      213: 5914054234085106955
+    second: Odderf New Teal Pickaxe_17
   - first:
-      213: -62801965468533394
-    second: Odderf New Walk_18
+      213: -1886428999272421330
+    second: Odderf New Teal Pickaxe_18
   - first:
-      213: 4908988741538088838
-    second: Odderf New Walk_19
+      213: 6094358777713113356
+    second: Odderf New Teal Pickaxe_19
   - first:
-      213: 8009990185527233702
-    second: Odderf New Walk_20
+      213: 2301887316927230121
+    second: Odderf New Teal Pickaxe_20
   - first:
-      213: -8691153237987228492
-    second: Odderf New Walk_21
+      213: 2592313841156356804
+    second: Odderf New Teal Pickaxe_21
   - first:
-      213: -3766445050436321683
-    second: Odderf New Walk_22
+      213: 1459305046002464536
+    second: Odderf New Teal Pickaxe_22
   - first:
-      213: 6049078977925181286
-    second: Odderf New Walk_23
+      213: -4893436788547752293
+    second: Odderf New Teal Pickaxe_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -169,13 +169,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Odderf New Walk_0
+      name: Odderf New Teal Pickaxe_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 80
-        height: 48
+        x: 32
+        y: 121
+        width: 333
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 149ce125723dce1a0800000000000000
-      internalID: -6778811173264504511
+      spriteID: 14484b5d3a6fdf1e0800000000000000
+      internalID: -2162301062542490559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_1
+      name: Odderf New Teal Pickaxe_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 256
-        width: 80
-        height: 48
+        x: 435
+        y: 196
+        width: 86
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e60d74bd3fdaf82d0800000000000000
-      internalID: -3274207141207486354
+      spriteID: 196eda93a7366fc70800000000000000
+      internalID: 9004493881578743441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_2
+      name: Odderf New Teal Pickaxe_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 256
-        width: 80
-        height: 48
+        x: 510
+        y: 186
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2828e67c0991a3a40800000000000000
-      internalID: 5348615617067778690
+      spriteID: adaea66db9b57c5a0800000000000000
+      internalID: -6501126812210631974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_3
+      name: Odderf New Teal Pickaxe_3
       rect:
         serializedVersion: 2
-        x: 240
-        y: 256
-        width: 80
-        height: 48
+        x: 520
+        y: 278
+        width: 10
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06d45e8251c0e3ba0800000000000000
-      internalID: -6107430759647851168
+      spriteID: b86601a73c5cff0f0800000000000000
+      internalID: -1080927942188439925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_4
+      name: Odderf New Teal Pickaxe_4
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
-        width: 80
-        height: 48
+        x: 588
+        y: 185
+        width: 179
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc9243559ff6d69b0800000000000000
-      internalID: -5085285287564400180
+      spriteID: 024e21f22c8419280800000000000000
+      internalID: -9038362978305252320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_5
+      name: Odderf New Teal Pickaxe_5
       rect:
         serializedVersion: 2
-        x: 400
-        y: 256
-        width: 80
-        height: 48
+        x: 33
+        y: 124
+        width: 15
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a722bdbd3bc8b2650800000000000000
-      internalID: 6209211215375966842
+      spriteID: a18435895e26417f0800000000000000
+      internalID: -642780108564510694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_6
+      name: Odderf New Teal Pickaxe_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 176
-        width: 80
-        height: 48
+        x: 206
+        y: 115
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,20 +316,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43b3c02182d10ef40800000000000000
-      internalID: 5755632381718182708
+      spriteID: 0cc44a1f619126690800000000000000
+      internalID: -7610492833968665408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_7
+      name: Odderf New Teal Pickaxe_7
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
-        width: 80
-        height: 48
+        x: 286
+        y: 109
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,20 +338,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad4a152095af0fac0800000000000000
-      internalID: -3823280823439612710
+      spriteID: 294bed74a5de50ae0800000000000000
+      internalID: -1583598721942244206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_8
+      name: Odderf New Teal Pickaxe_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 176
-        width: 80
-        height: 48
+        x: 421
+        y: 117
+        width: 36
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd4fe4ed3b55bb4d0800000000000000
-      internalID: -3117804086006713125
+      spriteID: 27050388f28417e10800000000000000
+      internalID: 2193613862491672690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_9
+      name: Odderf New Teal Pickaxe_9
       rect:
         serializedVersion: 2
-        x: 240
-        y: 176
-        width: 80
-        height: 48
+        x: 497
+        y: 110
+        width: 17
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,20 +382,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bff238bf6b989cda0800000000000000
-      internalID: -5924052415832444933
+      spriteID: e408878ddee3a4b50800000000000000
+      internalID: 6578139396987977806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_10
+      name: Odderf New Teal Pickaxe_10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 176
-        width: 80
-        height: 48
+        x: 575
+        y: 110
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcda673e287ffeb90800000000000000
-      internalID: -7210272336862859827
+      spriteID: 1aedf81fc88976ac0800000000000000
+      internalID: -3861950424331329887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_11
+      name: Odderf New Teal Pickaxe_11
       rect:
         serializedVersion: 2
-        x: 400
-        y: 176
-        width: 80
-        height: 48
+        x: 654
+        y: 109
+        width: 20
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcb779be2099bcb40800000000000000
-      internalID: 5461627210938416075
+      spriteID: 8ab3b979a6aaad150800000000000000
+      internalID: 5898214036781874088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_12
+      name: Odderf New Teal Pickaxe_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 80
-        height: 48
+        x: 741
+        y: 116
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,20 +448,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fd63d17706a259a0800000000000000
-      internalID: -6245747182304793095
+      spriteID: 5e31a6a66bbef7d50800000000000000
+      internalID: 6737362736271463397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_13
+      name: Odderf New Teal Pickaxe_13
       rect:
         serializedVersion: 2
-        x: 80
-        y: 96
-        width: 80
-        height: 48
+        x: 366
+        y: 108
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,20 +470,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdb453d91d8adf880800000000000000
-      internalID: -8575512497204409380
+      spriteID: ae12cb07ca2ae39e0800000000000000
+      internalID: -1639694352806829590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_14
+      name: Odderf New Teal Pickaxe_14
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
-        width: 80
-        height: 48
+        x: 32
+        y: 38
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,20 +492,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77edcc7323847b470800000000000000
-      internalID: 8410270209659428471
+      spriteID: d61e8044fe17dd500800000000000000
+      internalID: 422619212495249773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_15
+      name: Odderf New Teal Pickaxe_15
       rect:
         serializedVersion: 2
-        x: 240
-        y: 96
-        width: 80
-        height: 48
+        x: 106
+        y: 38
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,20 +514,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d566769a1ae098960800000000000000
-      internalID: 7604625533286442589
+      spriteID: c42cfdda8b9daaf50800000000000000
+      internalID: 6893561566858297932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_16
+      name: Odderf New Teal Pickaxe_16
       rect:
         serializedVersion: 2
-        x: 320
-        y: 96
-        width: 80
-        height: 48
+        x: 179
+        y: 35
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e2cd90f028cea370800000000000000
-      internalID: 8335820004110746339
+      spriteID: 65196772c892033f0800000000000000
+      internalID: -923192241676709546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_17
+      name: Odderf New Teal Pickaxe_17
       rect:
         serializedVersion: 2
-        x: 400
-        y: 96
-        width: 80
-        height: 48
+        x: 258
+        y: 29
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,20 +558,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0326948508a79270800000000000000
-      internalID: 8257253183459828492
+      spriteID: b05a90dedf0f21250800000000000000
+      internalID: 5914054234085106955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_18
+      name: Odderf New Teal Pickaxe_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 80
-        height: 48
+        x: 338
+        y: 28
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,20 +580,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6d3d05f1f1e02ff0800000000000000
-      internalID: -62801965468533394
+      spriteID: e282f54e1de02d5e0800000000000000
+      internalID: -1886428999272421330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_19
+      name: Odderf New Teal Pickaxe_19
       rect:
         serializedVersion: 2
-        x: 80
-        y: 16
-        width: 80
-        height: 48
+        x: 423
+        y: 37
+        width: 36
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -602,20 +602,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68705c1604b302440800000000000000
-      internalID: 4908988741538088838
+      spriteID: c09bf5fd403839450800000000000000
+      internalID: 6094358777713113356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_20
+      name: Odderf New Teal Pickaxe_20
       rect:
         serializedVersion: 2
-        x: 160
-        y: 16
-        width: 80
-        height: 48
+        x: 526
+        y: 30
+        width: 17
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -624,20 +624,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ac47be82a3392f60800000000000000
-      internalID: 8009990185527233702
+      spriteID: 9a0bc6e9152f1ff10800000000000000
+      internalID: 2301887316927230121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_21
+      name: Odderf New Teal Pickaxe_21
       rect:
         serializedVersion: 2
-        x: 240
-        y: 16
-        width: 80
-        height: 48
+        x: 606
+        y: 30
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,20 +646,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b409418d22d26780800000000000000
-      internalID: -8691153237987228492
+      spriteID: 4caf37034bfb9f320800000000000000
+      internalID: 2592313841156356804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_22
+      name: Odderf New Teal Pickaxe_22
       rect:
         serializedVersion: 2
-        x: 320
-        y: 16
-        width: 80
-        height: 48
+        x: 686
+        y: 29
+        width: 20
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,20 +668,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6ef6be9e26eabbc0800000000000000
-      internalID: -3766445050436321683
+      spriteID: 81779e5253e704410800000000000000
+      internalID: 1459305046002464536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Odderf New Walk_23
+      name: Odderf New Teal Pickaxe_23
       rect:
         serializedVersion: 2
-        x: 400
-        y: 16
-        width: 80
-        height: 48
+        x: 763
+        y: 36
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,8 +690,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66f6381f745a2f350800000000000000
-      internalID: 6049078977925181286
+      spriteID: b9e68c7da25071cb0800000000000000
+      internalID: -4893436788547752293
       vertices: []
       indices: 
       edges: []
@@ -700,7 +700,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 89438ba108e43644cb9511ab87b15f63
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -710,30 +710,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Odderf New Walk_0: -6778811173264504511
-      Odderf New Walk_1: -3274207141207486354
-      Odderf New Walk_10: -7210272336862859827
-      Odderf New Walk_11: 5461627210938416075
-      Odderf New Walk_12: -6245747182304793095
-      Odderf New Walk_13: -8575512497204409380
-      Odderf New Walk_14: 8410270209659428471
-      Odderf New Walk_15: 7604625533286442589
-      Odderf New Walk_16: 8335820004110746339
-      Odderf New Walk_17: 8257253183459828492
-      Odderf New Walk_18: -62801965468533394
-      Odderf New Walk_19: 4908988741538088838
-      Odderf New Walk_2: 5348615617067778690
-      Odderf New Walk_20: 8009990185527233702
-      Odderf New Walk_21: -8691153237987228492
-      Odderf New Walk_22: -3766445050436321683
-      Odderf New Walk_23: 6049078977925181286
-      Odderf New Walk_3: -6107430759647851168
-      Odderf New Walk_4: -5085285287564400180
-      Odderf New Walk_5: 6209211215375966842
-      Odderf New Walk_6: 5755632381718182708
-      Odderf New Walk_7: -3823280823439612710
-      Odderf New Walk_8: -3117804086006713125
-      Odderf New Walk_9: -5924052415832444933
+      Odderf New Teal Pickaxe_0: -2162301062542490559
+      Odderf New Teal Pickaxe_1: 9004493881578743441
+      Odderf New Teal Pickaxe_10: -3861950424331329887
+      Odderf New Teal Pickaxe_11: 5898214036781874088
+      Odderf New Teal Pickaxe_12: 6737362736271463397
+      Odderf New Teal Pickaxe_13: -1639694352806829590
+      Odderf New Teal Pickaxe_14: 422619212495249773
+      Odderf New Teal Pickaxe_15: 6893561566858297932
+      Odderf New Teal Pickaxe_16: -923192241676709546
+      Odderf New Teal Pickaxe_17: 5914054234085106955
+      Odderf New Teal Pickaxe_18: -1886428999272421330
+      Odderf New Teal Pickaxe_19: 6094358777713113356
+      Odderf New Teal Pickaxe_2: -6501126812210631974
+      Odderf New Teal Pickaxe_20: 2301887316927230121
+      Odderf New Teal Pickaxe_21: 2592313841156356804
+      Odderf New Teal Pickaxe_22: 1459305046002464536
+      Odderf New Teal Pickaxe_23: -4893436788547752293
+      Odderf New Teal Pickaxe_3: -1080927942188439925
+      Odderf New Teal Pickaxe_4: -9038362978305252320
+      Odderf New Teal Pickaxe_5: -642780108564510694
+      Odderf New Teal Pickaxe_6: -7610492833968665408
+      Odderf New Teal Pickaxe_7: -1583598721942244206
+      Odderf New Teal Pickaxe_8: 2193613862491672690
+      Odderf New Teal Pickaxe_9: 6578139396987977806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
