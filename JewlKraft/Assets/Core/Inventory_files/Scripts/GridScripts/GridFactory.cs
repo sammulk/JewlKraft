@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Core.Inventory_files.Scripts;
 using Core.Inventory_files.Scripts.GridScripts;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 using UnityEngine.Serialization;
 

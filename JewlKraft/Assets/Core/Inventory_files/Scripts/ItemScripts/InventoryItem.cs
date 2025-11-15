@@ -2,27 +2,27 @@ using Core.Inventory_files.Scripts.GridScripts;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.Inventory_files.Scripts.ItemScripts
 {
     [RequireComponent(typeof(Image))]
     public class InventoryItem : MonoBehaviour
     {
         [SerializeField]
-        public GemData gemData;
+        public ItemData itemData;
 
         public int gridPosX;
         public int gridPosY;
         
         public bool rotated = false;
 
-        public int Height => !rotated ? gemData.height : gemData.width;
-        public int Width => !rotated ? gemData.width : gemData.height;
+        public int Height => !rotated ? itemData.height : itemData.width;
+        public int Width => !rotated ? itemData.width : itemData.height;
 
-        public void Init(GemData item)
+        public void Init(ItemData item)
         {
-            gemData = item;
+            itemData = item;
 
-            GetComponent<Image>().sprite = gemData.gemSprite;
+            GetComponent<Image>().sprite = itemData.sprite;
 
             Vector2 size = new Vector2
             {
@@ -43,7 +43,7 @@ namespace Core.Inventory_files.Scripts
         
         public StoredItem StoreItem()
         {
-            return new StoredItem(gemData, gridPosX,gridPosY,rotated);
+            return new StoredItem(itemData, gridPosX,gridPosY,rotated);
         }
     }
 }

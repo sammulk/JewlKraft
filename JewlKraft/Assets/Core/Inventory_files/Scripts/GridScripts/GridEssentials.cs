@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 using static Core.Inventory_files.Scripts.GridScripts.ItemGrid;
 
@@ -13,17 +14,11 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
             foreach (StoredItem item in inventoryItems)
             {
-                if (item.gemData == null)
-                {
-                    item.gemData = Resources.Load<GemData>($"{item.gemID.ToString()}Asset"); 
-                    if (item.gemData == null) Debug.LogError($"{item.gemID.ToString()}Asset not found");
-                }
-                
-                InventoryItem newItem = InventoryFactory.Instance.Create(item.gemData, item.rotated);
+                InventoryItem newItem = InventoryFactory.Instance.Create(item.ItemData, item.rotated);
                 InsertItemAt(targetInventory, newItem, item.gridPosX, item.gridPosY);
             }
         }
-        
+
         public static void InsertItem(ItemGrid targetGrid, InventoryItem insertItem)
         {
             Vector2Int? gridPos = targetGrid.FindSpaceFor(insertItem);

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 
 namespace Core.Inventory_files.Scripts.GridScripts
@@ -11,9 +12,9 @@ namespace Core.Inventory_files.Scripts.GridScripts
         public static event Action<InventoryItem> OnCraftingComplete;
          
         private List<VerifyContent> _children = new ();
-        private GemData _rewardItem;
+        private ItemData _rewardItem;
 
-        public void SetupReady(GemData reward)
+        public void SetupReady(ItemData reward)
         {
             _children = GetComponentsInChildren<VerifyContent>().ToList();
             foreach (VerifyContent child in _children)
@@ -21,6 +22,16 @@ namespace Core.Inventory_files.Scripts.GridScripts
                 child.OnCorrectContents += ChildGotCorrectContents;
             }
             _rewardItem = reward;
+        }
+
+        public void Cleanup()
+        {
+            foreach (VerifyContent child in _children)
+            {
+                child.OnCorrectContents -= ChildGotCorrectContents;
+            }
+            _rewardItem = null;
+            _children.Clear();
         }
 
         private void ChildGotCorrectContents()

@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
-  m_Name: GoldAsset
+  m_Name: RubyAsset
   m_EditorClassIdentifier: 
-  gemType: 1
-  gemSprite: {fileID: 7390877131248708581, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
-  gemColor: {r: 0, g: 0, b: 0, a: 0}
+  guid: 
+  MaterialType: 2
+  CraftStage: 0
+  sprite: {fileID: -8123387816349118897, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
+  color: {r: 0, g: 0, b: 0, a: 0}
   height: 1
   width: 1

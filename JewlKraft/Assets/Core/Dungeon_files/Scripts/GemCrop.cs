@@ -1,4 +1,5 @@
 using Core.Inventory_files.Scripts;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 
 namespace Core.Dungeon_files.Scripts
@@ -13,7 +14,7 @@ namespace Core.Dungeon_files.Scripts
         private int hitsToBreak;
         private int currentHits = 0;
         private Sprite gemCropSprite;
-        private GemData gemData;
+        private ItemData _itemData;
         private int shardCount;
 
         private void Awake()
@@ -63,7 +64,7 @@ namespace Core.Dungeon_files.Scripts
             {
                 GemShard shard = Instantiate(shardPrefab, transform.position, Quaternion.identity);
 
-                shard.Initialize(gemData);
+                shard.Initialize(_itemData);
             
                 Rigidbody2D rb = shard.GetComponent<Rigidbody2D>();
                 if (rb == null) continue;
@@ -77,10 +78,10 @@ namespace Core.Dungeon_files.Scripts
         {
             hitsToBreak = cropData.HitsToMine;
             shardCount = cropData.ShardCount;
-            gemData = cropData.GemType;
+            _itemData = cropData.itemType;
             gemCropSprite = cropData.GemCropSprite;
             dustPrefab = cropData.DustPrefab;
-            gemDustColor = cropData.GemType.gemColor;
+            gemDustColor = cropData.itemType.color;
         }
     }
 }

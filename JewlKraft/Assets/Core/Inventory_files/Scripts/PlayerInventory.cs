@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 
 namespace Core.Inventory_files.Scripts
@@ -28,11 +29,6 @@ namespace Core.Inventory_files.Scripts
             if (!File.Exists(path)) return;
         
             JsonUtility.FromJsonOverwrite(File.ReadAllText(path), this);
-            
-            foreach (var item in contents)
-            {
-                item.gemData = Resources.Load<GemData>($"{item.gemID.ToString()}Asset"); // custom lookup
-            }
         }
     }
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Core.Dungeon_files.Scripts;
 using Core.Inventory_files.Scripts.GridScripts;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
@@ -25,7 +26,7 @@ namespace Core.Inventory_files.Scripts
             }
         }
 
-        [SerializeField] List<GemData> items;
+        [SerializeField] List<ItemData> items;
         [SerializeField] private RectTransform rootTransform;
 
         private InventoryHighlight _inventoryHighlight;
@@ -121,18 +122,18 @@ namespace Core.Inventory_files.Scripts
         {
             if (playerGrid == null) return;
             bool needsRotation = false;
-            Vector2Int? spaceFor = playerGrid.FindSpaceFor(shard.gemData.width, shard.gemData.height);
+            Vector2Int? spaceFor = playerGrid.FindSpaceFor(shard.itemData.width, shard.itemData.height);
             
             if (!spaceFor.HasValue)
             {
                 //what if you rotate
-                spaceFor = playerGrid.FindSpaceFor(shard.gemData.height, shard.gemData.width);
+                spaceFor = playerGrid.FindSpaceFor(shard.itemData.height, shard.itemData.width);
                 if (!spaceFor.HasValue) return;
                 needsRotation = true;
             }
             
             Vector2Int targetGridPosition = spaceFor.Value;
-            InventoryItem newItem = InventoryFactory.Instance.Create(shard.gemData, needsRotation);
+            InventoryItem newItem = InventoryFactory.Instance.Create(shard.itemData, needsRotation);
 
             InsertItemAt(playerGrid, newItem, targetGridPosition.x, targetGridPosition.y);
             Destroy(shard.gameObject);

@@ -1,5 +1,6 @@
 using System;
 using Core.Dungeon_files.Scripts;
+using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -23,7 +24,7 @@ namespace Core.Inventory_files.Scripts
             }
         }
         
-        public InventoryItem Create(GemData data, bool needsRotation = false)
+        public InventoryItem Create(ItemData data, bool needsRotation = false)
         {
             InventoryItem newItem = Instantiate(itemPrefab);
             newItem.Init(data);

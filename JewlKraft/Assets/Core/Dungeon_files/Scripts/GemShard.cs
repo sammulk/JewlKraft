@@ -1,5 +1,6 @@
 using System;
 using Core.Inventory_files.Scripts;
+using Core.Inventory_files.Scripts.ItemScripts;
 using Core.Player_files.Scripts;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -12,14 +13,14 @@ namespace Core.Dungeon_files.Scripts
     {
         public static event Action<GemShard> OnGemShardPickedUp;
     
-        [HideInInspector]
-        public GemData gemData;
+        [FormerlySerializedAs("gemData")] [HideInInspector]
+        public ItemData itemData;
     
-        public void Initialize(GemData gemData)
+        public void Initialize(ItemData itemData)
         {
-            this.gemData = gemData;
+            this.itemData = itemData;
             SpriteRenderer sr = GetComponent<SpriteRenderer>();
-            sr.sprite = gemData.gemSprite; 
+            sr.sprite = itemData.sprite; 
         }
 
         private void OnCollisionEnter2D(Collision2D other)

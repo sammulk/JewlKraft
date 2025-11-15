@@ -14,29 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsPerGrid:
   - items:
-    - gemID: 2
+    - materialID: 2
+      craftStageID: 0
       gridPosX: 0
       gridPosY: 0
       rotated: 1
-    - gemID: 6
+    - materialID: 6
+      craftStageID: 0
       gridPosX: 0
       gridPosY: 1
       rotated: 0
     gridPosX: 0
     gridPosY: 1
   - items:
-    - gemID: 6
+    - materialID: 6
+      craftStageID: 0
       gridPosX: 0
       gridPosY: 0
       rotated: 0
     gridPosX: 1
     gridPosY: 0
   - items:
-    - gemID: 2
+    - materialID: 2
+      craftStageID: 0
       gridPosX: 0
       gridPosY: 0
       rotated: 0
-    - gemID: 6
+    - materialID: 6
+      craftStageID: 0
       gridPosX: 0
       gridPosY: 1
       rotated: 0

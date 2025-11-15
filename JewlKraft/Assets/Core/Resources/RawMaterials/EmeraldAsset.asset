@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
   m_Name: EmeraldAsset
   m_EditorClassIdentifier: 
-  gemType: 4
-  gemSprite: {fileID: -5443176891660902369, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
-  gemColor: {r: 0.19958171, g: 0.6132076, b: 0.21419425, a: 1}
+  guid: 
+  MaterialType: 4
+  CraftStage: 0
+  sprite: {fileID: -5443176891660902369, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
+  color: {r: 0, g: 0, b: 0, a: 0}
   height: 1
   width: 1
