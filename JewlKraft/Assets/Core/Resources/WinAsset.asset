@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
   m_Name: WinAsset
   m_EditorClassIdentifier: 
-  gemType: 0
-  gemSprite: {fileID: 9035318312917667809, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
-  gemColor: {r: 0, g: 0, b: 0, a: 0}
+  guid: 
+  MaterialType: 0
+  CraftStage: 2
+  sprite: {fileID: -8860710067245468218, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
+  color: {r: 0, g: 0, b: 0, a: 0}
   height: 3
   width: 3
