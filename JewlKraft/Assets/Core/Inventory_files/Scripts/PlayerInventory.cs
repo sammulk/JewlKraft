@@ -7,28 +7,40 @@ using UnityEngine;
 namespace Core.Inventory_files.Scripts
 {
     [Serializable]
-    [CreateAssetMenu(fileName = "PlayerInventory", menuName = "Custom/Scriptable Objects/Player Inventory")]
-    public class PlayerInventory : ScriptableObject
+    [CreateAssetMenu(fileName = "PlayerInventory", menuName = "Custom/Player Inventory")]
+    public class PlayerInventory : ScriptableObject, ISaveable<PlayerInventorySaveData>
     {
         public List<StoredItem> contents;
 
         public int sizeX = 5;
 
         public int sizeY = 5;
-
-        public void Save(List<StoredItem> playerGridContents)
-        {
-            contents = playerGridContents;
-            string path = Path.Combine( Application.persistentDataPath, "inventory.json");
-            File.WriteAllText(path, JsonUtility.ToJson(this));
-        }
-
-        public void Load()
-        {
-            string path = Path.Combine( Application.persistentDataPath, "inventory.json");
-            if (!File.Exists(path)) return;
         
-            JsonUtility.FromJsonOverwrite(File.ReadAllText(path), this);
+        public PlayerInventorySaveData ToSaveData()
+        {
+            return new PlayerInventorySaveData
+            {
+                items = new List<StoredItem>(contents),
+                sizeX = sizeX,
+                sizeY = sizeY
+            };
         }
+
+        public void FromSaveData(PlayerInventorySaveData data)
+        {
+            contents = new List<StoredItem>(data.items);
+            sizeX = data.sizeX;
+            sizeY = data.sizeY;
+        }
+        
     }
+    
+    [Serializable]
+    public class PlayerInventorySaveData
+    {
+        public List<StoredItem> items;
+        public int sizeX;
+        public int sizeY;
+    }
+
 }

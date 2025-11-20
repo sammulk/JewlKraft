@@ -4,7 +4,7 @@ using System.Linq;
 using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 
-namespace Core.Inventory_files.Scripts.CustomerScripts
+namespace Core.Shop_files.Scripts.CustomerScripts
 {
     [CreateAssetMenu(fileName = "CraftingRecipe", menuName = "Custom/Scriptable Objects/CraftingRecipe")]
     [Serializable]

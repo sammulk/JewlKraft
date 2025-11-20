@@ -503,6 +503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 194293103}
   - component: {fileID: 194293104}
+  - component: {fileID: 194293105}
   m_Layer: 0
   m_Name: Persist
   m_TagString: Untagged
@@ -535,6 +536,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7eb0206b5294757a548d57027a662ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentManager: {fileID: 0}
+  Customers:
+    customers: []
+--- !u!114 &194293105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194293102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a781a8f049091dd4e9182e2cbd86ac6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &235564239 stripped
