@@ -33,17 +33,20 @@ public class MainMenu : MonoBehaviour
 
     private void OnPlayButtonClicked()
     {
+        Debug.Log("Play button clicked");
         SceneManager.LoadScene("Shop_scene");
         Time.timeScale = 1f;
     }
 
     private void OnExitButtonClicked()
     {
+        Debug.Log("Exit button clicked");
         Application.Quit();
     }
 
     private void OnSettingsButtonClicked()
     {
+        Debug.Log("Settings button clicked");
         if (SettingsPanel != null)
         {
             SettingsPanel.SetActive(true);
