@@ -16,6 +16,6 @@ MonoBehaviour:
   MaterialType: 4
   CraftStage: 0
   sprite: {fileID: -5443176891660902369, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0.14417943, g: 0.3773585, b: 0.19388422, a: 1}
   height: 1
   width: 1
