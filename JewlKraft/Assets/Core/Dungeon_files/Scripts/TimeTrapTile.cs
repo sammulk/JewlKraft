@@ -7,6 +7,8 @@ public class TimeTrapTile : TileBase
     public float timeHeld = 2f;
     public Sprite trapSprite;
     public Color activeColor = Color.white;
+    public TileBase revealedTile;
+
 
     public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
     {
