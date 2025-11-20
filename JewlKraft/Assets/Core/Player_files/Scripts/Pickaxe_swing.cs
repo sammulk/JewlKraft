@@ -5,7 +5,7 @@ using UnityEngine;
 public class PickaxeSwing : MonoBehaviour
 {
     [SerializeField] private float swingRange = 3.5f;
-    [SerializeField] private float swingCooldown = 0.4f;
+    [SerializeField] private float swingCooldown = 1.2f;
     [SerializeField] private LayerMask gemLayer;
 
     private float nextSwingTime = 0f;
@@ -25,9 +25,9 @@ public class PickaxeSwing : MonoBehaviour
             if (player != null)
             {
                 // Prevent movement briefly
-                StartCoroutine(player.Trapped(1.2f));
+                StartCoroutine(player.Trapped(swingCooldown));
                 // Trigger the directional swing animation
-                animator.SetTrigger("Swing"); 
+                animator.SetTrigger("Swing");
                 // Set cooldown
                 nextSwingTime = Time.time + swingCooldown;
             }

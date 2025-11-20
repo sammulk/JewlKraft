@@ -30,7 +30,6 @@ public class TrapTilemapHandler : MonoBehaviour
 
         if (tile is TimeTrapTile trapTile)
         {
-            Debug.Log($"Player stepped on trap at {cellPos}");
 
             // Make visible
             tilemap.SetColor(cellPos, trapTile.activeColor);
@@ -39,8 +38,8 @@ public class TrapTilemapHandler : MonoBehaviour
             // Trigger player trap effect
             StartCoroutine(player.Trapped(trapTile.timeHeld));
 
-            // Gotta make it delayed somehow
-            tilemap.SetTile(cellPos, null);
+            tilemap.SetTile(cellPos, trapTile.revealedTile);
+
         }
     }
 }
