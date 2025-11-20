@@ -63,6 +63,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 0}
   shardPrefab: {fileID: 2886680222748454045, guid: dfe8df51951b4f14dbd139b3e702e365, type: 3}
+  hitSounds:
+  - {fileID: 8300000, guid: f9e6c4cfc8653d84f8a7c0397a4954ea, type: 3}
+  - {fileID: 8300000, guid: 6108cc9ab5b270e48a810b23452fc356, type: 3}
+  - {fileID: 8300000, guid: fc689d828feef6a42818e9329b3a2025, type: 3}
+  pitchMin: 0.95
+  pitchMax: 1.05
 --- !u!212 &478007543796278635
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -1,6 +1,8 @@
 using Core.Inventory_files.Scripts;
 using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
+using UnityEngine.Rendering;
+using static Unity.VisualScripting.Member;
 
 namespace Core.Dungeon_files.Scripts
 {
@@ -8,6 +10,13 @@ namespace Core.Dungeon_files.Scripts
     {
         [SerializeField] private GemCropData data;
         [SerializeField] private GemShard shardPrefab;
+
+        [SerializeField] private AudioClip[] hitSounds;
+        [SerializeField, Range(0.5f, 1.5f)] private float pitchMin = 0.95f;
+        [SerializeField, Range(0.5f, 1.5f)] private float pitchMax = 1.05f;
+
+        private AudioSource audioSource;
+        private AudioReverbFilter reverbFilter;
 
         private GameObject dustPrefab;
         private Color gemDustColor;
@@ -23,16 +32,37 @@ namespace Core.Dungeon_files.Scripts
             SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
             if (sr != null)
                 sr.sprite = gemCropSprite;
+
+            audioSource = gameObject.AddComponent<AudioSource>();
+            audioSource.loop = false;
+            audioSource.playOnAwake = false;
+
+            reverbFilter = gameObject.AddComponent<AudioReverbFilter>();
+            reverbFilter.reverbPreset = AudioReverbPreset.Cave;
         }
         public void OnHit()
         {
             currentHits++;
             SpawnDust();
 
+            // Choose random clip
+            AudioClip clip = hitSounds[Random.Range(0, hitSounds.Length)];
+            if (clip == null) return;
+
+            audioSource.pitch = Random.Range(pitchMin, pitchMax);
+
             if (currentHits >= hitsToBreak)
             {
+                AudioSource temp = new GameObject("FinalHit").AddComponent<AudioSource>();
+                temp.clip = clip;
+                temp.volume = 2f;
+                temp.spatialBlend = 0f; // 2D
+                temp.Play();
+                Destroy(temp.gameObject, clip.length);
                 BreakGem();
+                return;
             }
+            audioSource.PlayOneShot(clip);
         }
 
         private void BreakGem()

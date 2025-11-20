@@ -52,6 +52,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   rb: {fileID: 7233149127750009729}
+  walkClips:
+  - {fileID: 8300000, guid: 7329e8d5e8bd4114d80bb57b3bcb0059, type: 3}
+  walkVolume: 1.2
+  walkPitchMin: 0.9
+  walkPitchMax: 1.15
+  stepInterval: 0.8
 --- !u!114 &6449713822432070975
 MonoBehaviour:
   m_ObjectHideFlags: 0
