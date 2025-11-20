@@ -11,7 +11,7 @@ namespace Core.Shop_files.Scripts.CustomerScripts
     {
         public static event Action<CraftingRecipe> OnRecipeSelected;
 
-        private CraftingRecipe _recipe;
+        [SerializeField] private CraftingRecipe _recipe;
         private int _daysRemaining;
         private Image _image;
         private Image Image
@@ -35,6 +35,7 @@ namespace Core.Shop_files.Scripts.CustomerScripts
 
         public void OnPointerClick(PointerEventData eventData)
         {
+            Debug.Log("OnPointerClick");
             OnRecipeSelected?.Invoke(_recipe);
         }
 

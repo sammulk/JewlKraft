@@ -9,7 +9,6 @@ namespace Core.Inventory_files.Scripts.ItemScripts
     [CreateAssetMenu(fileName = "ItemData", menuName = "Custom/Scriptable Objects/ItemData")]
     public class ItemData : ScriptableObject
     {
-        public string guid;  // Unique ID
         public MaterialType MaterialType;
         public CraftStage CraftStage;
         

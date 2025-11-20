@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Core.Inventory_files.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
@@ -11,11 +12,24 @@ namespace Core.Shop_files.Scripts.CustomerScripts
         public static CustomerController Instance { get; private set; }
 
         [HideInInspector] public CustomerManager currentManager;
-        [HideInInspector] public CustomerSaveData customers = new();
-        
+
+        [HideInInspector] private CustomerSaveData _customers;
+        public CustomerSaveData Customers
+        {
+            get
+            {
+                if (_customers == null)
+                {
+                    _customers = PersistentLoader.Instance.SaveInfo.customers;
+                }
+                return _customers;
+            }
+            set => _customers = value;
+        }
+
         private string _previousScene;
         private string _currentScene;
-        private bool _addCustomerUnHandled = true;
+        private bool _addCustomerUnHandled = false;
 
         private void Awake()
         {
@@ -65,7 +79,7 @@ namespace Core.Shop_files.Scripts.CustomerScripts
         private void HandleSceneTransition(string fromScene, string toScene)
         {
             Debug.Log($"from {fromScene} to {toScene}");
-            // spawn customers only if coming from dungeon
+            // spawn Customers only if coming from dungeon
             if (fromScene == "Dungeon_scene" && toScene == "Shop_scene")
             {
                 _addCustomerUnHandled = true;

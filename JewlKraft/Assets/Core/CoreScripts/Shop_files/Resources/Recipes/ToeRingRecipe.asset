@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65b436d0589b84489dae56bf27c0bfb, type: 3}
+  m_Name: ToeRingRecipe
+  m_EditorClassIdentifier: 
+  itemsPerGrid:
+  - items:
+    - materialID: 4
+      craftStageID: 0
+      gridPosX: 0
+      gridPosY: 0
+      rotated: 0
+    gridPosX: 0
+    gridPosY: 1
+  - items:
+    - materialID: 4
+      craftStageID: 0
+      gridPosX: 0
+      gridPosY: 0
+      rotated: 0
+    gridPosX: 1
+    gridPosY: 0
+  - items:
+    - materialID: 4
+      craftStageID: 0
+      gridPosX: 0
+      gridPosY: 0
+      rotated: 0
+    gridPosX: 1
+    gridPosY: 2
+  - items:
+    - materialID: 4
+      craftStageID: 0
+      gridPosX: 0
+      gridPosY: 0
+      rotated: 0
+    gridPosX: 2
+    gridPosY: 1
+  rewardItem: {fileID: 11400000, guid: 08a892b4a07705844adeb3a09ab25c00, type: 2}

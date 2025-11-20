@@ -36,6 +36,7 @@ namespace Core.Inventory_files.Scripts.ItemScripts
         {
             this._itemData = itemData;
             this.materialID = itemData.MaterialType;
+            this.craftStageID = itemData.CraftStage;
             this.gridPosX = gridPosX;
             this.gridPosY = gridPosY;
             this.rotated = rotated;
@@ -45,7 +46,7 @@ namespace Core.Inventory_files.Scripts.ItemScripts
         {
             if (other is null) return false;
             if (ReferenceEquals(this, other)) return true;
-            return materialID == other.materialID && gridPosX == other.gridPosX && gridPosY == other.gridPosY &&
+            return materialID == other.materialID && craftStageID == other.craftStageID && gridPosX == other.gridPosX && gridPosY == other.gridPosY &&
                    rotated == other.rotated;
         }
 
@@ -59,7 +60,7 @@ namespace Core.Inventory_files.Scripts.ItemScripts
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(materialID, gridPosX, gridPosY, rotated);
+            return HashCode.Combine(materialID, craftStageID, gridPosX, gridPosY, rotated);
         }
     }
 }

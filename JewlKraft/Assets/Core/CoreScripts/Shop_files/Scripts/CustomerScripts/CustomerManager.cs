@@ -22,7 +22,7 @@ namespace Core.Shop_files.Scripts.CustomerScripts
         
         void Start()
         {
-            FromSaveData(CustomerController.Instance.customers);
+            FromSaveData(CustomerController.Instance.Customers);
             CustomerController.Instance.RegisterManager(this);
         }
 
@@ -70,7 +70,7 @@ namespace Core.Shop_files.Scripts.CustomerScripts
         private void OnDestroy()
         {
             CustomerController.Instance.currentManager = null;
-            CustomerController.Instance.customers = ToSaveData();
+            CustomerController.Instance.Customers = ToSaveData();
         }
         
         public CustomerSaveData ToSaveData()

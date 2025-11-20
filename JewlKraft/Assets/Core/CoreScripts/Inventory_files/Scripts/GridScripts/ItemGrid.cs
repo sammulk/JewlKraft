@@ -176,9 +176,11 @@ namespace Core.Inventory_files.Scripts.GridScripts
         public Vector2Int GetGridPosition(Vector2 mousePosition)
         {
             Vector2 localPoint = GetLocalMousePosition(mousePosition);
-            
-            int x = Mathf.FloorToInt(localPoint.x / TileSizeWidth * _rootCanvas.scaleFactor);
-            int y = Mathf.FloorToInt(localPoint.y / TileSizeHeight * _rootCanvas.scaleFactor);
+            float scaledTileWidth  = TileSizeWidth / _rootCanvas.scaleFactor;
+            float scaledTileHeight = TileSizeHeight / _rootCanvas.scaleFactor;
+
+            int x = Mathf.FloorToInt(localPoint.x / scaledTileWidth);
+            int y = Mathf.FloorToInt(localPoint.y / scaledTileHeight);
             
             x = Mathf.Clamp(x, 0, gridWidth - 1);
             y = Mathf.Clamp(y, 0, gridHeight - 1);

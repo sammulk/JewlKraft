@@ -26,10 +26,12 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
         public void Cleanup()
         {
-            foreach (VerifyContent child in _children)
+            for (var i = _children.Count - 1; i >= 0; i--)
             {
-                child.OnCorrectContents -= ChildGotCorrectContents;
+                _children[i].OnCorrectContents -= ChildGotCorrectContents;
+                if (_children[i] != null) Destroy(_children[i].gameObject);
             }
+        
             _rewardItem = null;
             _children.Clear();
         }

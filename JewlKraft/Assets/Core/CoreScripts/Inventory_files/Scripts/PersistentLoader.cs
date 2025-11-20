@@ -30,12 +30,6 @@ namespace Core.Inventory_files.Scripts
         {
             LoadGame();
         }
-
-        private void Start()
-        {
-            CustomerController.Instance.customers = SaveInfo.customers;
-        }
-
         private void LoadGame()
         {
             SaveInfo = SaveManager.LoadGame();
@@ -44,19 +38,23 @@ namespace Core.Inventory_files.Scripts
 
             if (inventory.contents.Count > 0)
             {
-                Debug.LogWarning("Inventory already changed, will not load");
-                return;
+                //Debug.LogWarning("Inventory already changed, will not load");
+                //return;
             }
             inventory.FromSaveData(SaveInfo.playerInventory);
         }
 
         private void SaveGame()
         {
+            Debug.Log("Saving game");
             CustomerController controller = CustomerController.Instance;
+            CustomerSaveData customers = controller.currentManager == null ? controller.Customers : controller.currentManager.ToSaveData();
+            if (customers == null) Debug.LogWarning("No Customers!");
+            
             GameSave save = new GameSave
             {
                 playerInventory = inventory.ToSaveData(),
-                customers = controller.currentManager == null ? controller.customers : controller.currentManager.ToSaveData(),
+                customers = customers
             };
 
             SaveManager.SaveGame(save);
