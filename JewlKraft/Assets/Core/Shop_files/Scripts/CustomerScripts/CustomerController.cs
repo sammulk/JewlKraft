@@ -1,18 +1,21 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
-namespace Core.Inventory_files.Scripts.CustomerScripts
+namespace Core.Shop_files.Scripts.CustomerScripts
 {
     public class CustomerController : MonoBehaviour
     {
-        public static event Action OnCustomerNeeded;
-        
         public static CustomerController Instance { get; private set; }
 
+        [HideInInspector] public CustomerManager currentManager;
+        [HideInInspector] public CustomerSaveData customers = new();
+        
         private string _previousScene;
         private string _currentScene;
-
+        private bool _addCustomerUnHandled = true;
 
         private void Awake()
         {
@@ -32,7 +35,23 @@ namespace Core.Inventory_files.Scripts.CustomerScripts
 
         private void OnDestroy()
         {
+            if (Instance != this) return;
+            
             SceneManager.sceneLoaded -= OnSceneLoaded;
+        }
+        
+        /// <summary>
+        /// Called by CustomerManager in Start!!.
+        /// </summary>
+        public void RegisterManager(CustomerManager manager)
+        {
+            currentManager = manager;
+
+            if (_addCustomerUnHandled)
+            {
+                _addCustomerUnHandled = false;
+                manager.RequestCustomer();
+            }
         }
 
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -46,8 +65,11 @@ namespace Core.Inventory_files.Scripts.CustomerScripts
         private void HandleSceneTransition(string fromScene, string toScene)
         {
             Debug.Log($"from {fromScene} to {toScene}");
-            // Example logic: spawn customers only if coming *from* dungeon
-            if (fromScene == "Dungeon_scene" && toScene == "Shop_scene") OnCustomerNeeded?.Invoke();
+            // spawn customers only if coming from dungeon
+            if (fromScene == "Dungeon_scene" && toScene == "Shop_scene")
+            {
+                _addCustomerUnHandled = true;
+            }
         }
     }
 }

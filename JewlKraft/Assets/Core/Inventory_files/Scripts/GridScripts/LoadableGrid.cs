@@ -27,6 +27,16 @@ namespace Core.Inventory_files.Scripts.GridScripts
             SavePlayerInventory();
         }
 
+        private void LoadPlayerInventory()
+        {
+            _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
+
+            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
+
+            _playerGrid.InitializeSize(_playerItems.sizeX, _playerItems.sizeY);
+            LoadInventory(_playerGrid, _playerItems.contents);
+        }
+
         private void SavePlayerInventory()
         {
             if (_playerItems == null) _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
@@ -34,18 +44,7 @@ namespace Core.Inventory_files.Scripts.GridScripts
             System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
 
             List<StoredItem> storedItems = _playerGrid.Contents.Select(item => item.StoreItem()).ToList();
-            _playerItems.Save(storedItems);
-        }
-
-        private void LoadPlayerInventory()
-        {
-            _playerItems = Resources.Load("PlayerInventory") as PlayerInventory;
-
-            System.Diagnostics.Debug.Assert(_playerItems != null, nameof(_playerItems) + " != null");
-            _playerItems.Load();
-
-            _playerGrid.InitializeSize(_playerItems.sizeX, _playerItems.sizeY);
-            LoadInventory(_playerGrid, _playerItems.contents);
+            _playerItems.contents = storedItems;
         }
     }
 }

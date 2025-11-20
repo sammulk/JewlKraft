@@ -1,4 +1,4 @@
-using Core.Inventory_files.Scripts.CustomerScripts;
+using Core.Shop_files.Scripts.CustomerScripts;
 using Unity.VisualScripting;
 using UnityEngine;
 

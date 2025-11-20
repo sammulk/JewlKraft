@@ -26,7 +26,7 @@ namespace Core.Dungeon_files.Scripts
         private void OnCollisionEnter2D(Collision2D other)
         {
             PlayerMovement component = other.gameObject.GetComponent<PlayerMovement>();
-            if (!component) return;
+            if (component == null) return;
         
             OnGemShardPickedUp?.Invoke(this);
         }
