@@ -1,10 +1,7 @@
-using System;
-using Core.Dungeon_files.Scripts;
 using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.CoreScripts.Inventory_files.Scripts.GridScripts
 {
     public class InventoryFactory : MonoBehaviour
     {

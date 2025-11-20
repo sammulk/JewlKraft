@@ -4,7 +4,7 @@ using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
-namespace Core.Inventory_files.Scripts.GridScripts
+namespace Core.CoreScripts.Inventory_files.Scripts.GridScripts
 {
     [RequireComponent(typeof(RectTransform))]
     public class ItemGrid : MonoBehaviour
@@ -23,8 +23,14 @@ namespace Core.Inventory_files.Scripts.GridScripts
         
         private RectTransform _rectTransform;
         private InventoryItem[,] _itemSlot;
-        private Canvas _rootCanvas;
         
+        private void Awake()
+        {
+            _rectTransform = GetComponent<RectTransform>();
+            
+            if (!HasCustomSize) InitializeSize();
+        }
+
         public bool PlaceItem(InventoryItem item, int posX, int posY, ref InventoryItem overlapItem)
         {
             int dataWidth = item.Width;
@@ -70,8 +76,7 @@ namespace Core.Inventory_files.Scripts.GridScripts
             Contents.Add(item);
             OnItemPlaced?.Invoke();
         }
-
-
+        
         public InventoryItem PickUpItem(int posX, int posY)
         {
             InventoryItem pickedItem = _itemSlot[posX, posY];
@@ -175,12 +180,12 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
         public Vector2Int GetGridPosition(Vector2 mousePosition)
         {
-            Vector2 localPoint = GetLocalMousePosition(mousePosition);
-            float scaledTileWidth  = TileSizeWidth / _rootCanvas.scaleFactor;
-            float scaledTileHeight = TileSizeHeight / _rootCanvas.scaleFactor;
+            Vector2 scaledlocalPoint = GetLocalMousePosition(mousePosition); 
 
-            int x = Mathf.FloorToInt(localPoint.x / scaledTileWidth);
-            int y = Mathf.FloorToInt(localPoint.y / scaledTileHeight);
+            int x = Mathf.FloorToInt(scaledlocalPoint.x / TileSizeWidth);
+            int y = Mathf.FloorToInt(scaledlocalPoint.y / TileSizeHeight);
+            
+            Debug.Log($"x: {x}, y: {y}");
             
             x = Mathf.Clamp(x, 0, gridWidth - 1);
             y = Mathf.Clamp(y, 0, gridHeight - 1);
@@ -188,14 +193,7 @@ namespace Core.Inventory_files.Scripts.GridScripts
             return new Vector2Int(x, y);
         }
 
-        private void Awake()
-        {
-            _rootCanvas = GetComponentInParent<Canvas>().rootCanvas;
-            _rectTransform = GetComponent<RectTransform>();
-            
-            if (!HasCustomSize) InitializeSize();
-        }
-
+        
         [ContextMenu("Initialize Size")]
         private void InitializeSize()
         {
@@ -213,6 +211,9 @@ namespace Core.Inventory_files.Scripts.GridScripts
             _rectTransform.sizeDelta = size;
         }
 
+        /**
+         * returns local point in *scaled* pixels
+         */
         private Vector2 GetLocalMousePosition(Vector2 mousePosition)
         {
             Vector2 localMousePos = new Vector2();

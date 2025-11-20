@@ -1,9 +1,8 @@
-using Core.Inventory_files.Scripts.GridScripts;
 using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
 using static Core.Inventory_files.Scripts.GridScripts.GridEssentials;
 
-namespace Core.Inventory_files.Scripts
+namespace Core.CoreScripts.Inventory_files.Scripts.GridScripts
 {
     public class InventoryHighlight : MonoBehaviour
     {
