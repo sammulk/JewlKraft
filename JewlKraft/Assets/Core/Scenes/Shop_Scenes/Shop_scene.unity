@@ -4766,7 +4766,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1200, y: 800}
+  m_ReferenceResolution: {x: 1900, y: 800}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -7441,10 +7441,6 @@ PrefabInstance:
     - target: {fileID: 3956308211030404384, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: m_Name
       value: Settings_Panel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3956308211030404384, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8639989284919234315, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: ESCPanel

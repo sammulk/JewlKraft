@@ -53,6 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitSettingsButton: {fileID: 8908161962589486110}
+  ESCPanel: {fileID: 0}
 --- !u!222 &8349296437081840335
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -125,7 +126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -588.55, y: 439}
+  m_AnchoredPosition: {x: -588.55, y: 431}
   m_SizeDelta: {x: 616.8962, y: 135.491}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4508829575217554111
@@ -399,8 +400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -770.12213, y: -475.49667}
-  m_SizeDelta: {x: 253.7556, y: 57.0066}
+  m_AnchoredPosition: {x: -770.12, y: -472}
+  m_SizeDelta: {x: 253.75562, y: 57.00659}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2770105566618304816
 CanvasRenderer:
