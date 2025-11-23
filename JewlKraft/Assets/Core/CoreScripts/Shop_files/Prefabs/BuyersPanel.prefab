@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddf3e8c050af5444a0a7ae1d3347e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _customerPrefab: {fileID: 7815471979359342241, guid: 65993f0b158345749b43a561713dddf2, type: 3}
+  customerPrefab: {fileID: 0}
   customerImages:
   - {fileID: 3873740073032624778, guid: 92c75a2994c490046a7f2bda9f383816, type: 3}
   - {fileID: 523770812093764991, guid: ded43e2d86c960240ab1cabb2b17ef6e, type: 3}
