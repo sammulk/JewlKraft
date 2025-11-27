@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Toucan 01_0
+      m_Hash: 937058619
+      m_Sprite: {fileID: -11902370399655097, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -11902370399655097, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_8
+      m_Hash: 956426505
+      m_Sprite: {fileID: -8347804788671152251, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8347804788671152251, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_16
+      m_Hash: 903837712
+      m_Sprite: {fileID: 8459522886154660545, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8459522886154660545, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_24
+      m_Hash: 821840639
+      m_Sprite: {fileID: 1698328911750792142, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1698328911750792142, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: Walk
+    m_Hash: 765711723
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Toucan 01_32
+      m_Hash: 8707723
+      m_Sprite: {fileID: 8137747681295977360, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8137747681295977360, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_33
+      m_Hash: 931393053
+      m_Sprite: {fileID: 4624761131819965169, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4624761131819965169, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_34
+      m_Hash: 703036350
+      m_Sprite: {fileID: -153954233436154606, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -153954233436154606, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_35
+      m_Hash: 518015784
+      m_Sprite: {fileID: -1925617417762330173, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1925617417762330173, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_40
+      m_Hash: 566962528
+      m_Sprite: {fileID: -7403052149105737522, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7403052149105737522, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_41
+      m_Hash: 382474742
+      m_Sprite: {fileID: 667638867925587967, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 667638867925587967, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_42
+      m_Hash: 264587340
+      m_Sprite: {fileID: -850109193858530856, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -850109193858530856, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_43
+      m_Hash: 952269018
+      m_Sprite: {fileID: -861029435662831703, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -861029435662831703, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_48
+      m_Hash: 789619026
+      m_Sprite: {fileID: 465349999, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 465349999, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_49
+      m_Hash: 404197828
+      m_Sprite: {fileID: 664981462, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 664981462, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_50
+      m_Hash: 953161761
+      m_Sprite: {fileID: -292297702, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -292297702, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_51
+      m_Hash: 265758903
+      m_Sprite: {fileID: 772505508, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 772505508, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_56
+      m_Hash: 296992020
+      m_Sprite: {fileID: 342252706, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 342252706, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_57
+      m_Hash: 649366914
+      m_Sprite: {fileID: -1999244203, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1999244203, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_58
+      m_Hash: 906727443
+      m_Sprite: {fileID: 1692952930, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1692952930, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    - m_Name: Toucan 01_59
+      m_Hash: 17604741
+      m_Sprite: {fileID: 1087266660, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1087266660, guid: 4cbc978fb05421b4db250df22f89c858, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 16
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638998583474103451
+  m_Version: 1
