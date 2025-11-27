@@ -1,8 +1,6 @@
-using Core.Inventory_files.Scripts;
 using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
-using UnityEngine.Rendering;
-using static Unity.VisualScripting.Member;
+using UnityEngine.Rendering.Universal;
 
 namespace Core.Dungeon_files.Scripts
 {
@@ -32,6 +30,10 @@ namespace Core.Dungeon_files.Scripts
             SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
             if (sr != null)
                 sr.sprite = gemCropSprite;
+
+            Transform shine = transform.Find("Shine");
+            Light2D shineColour = shine.GetComponent<Light2D>();
+            shineColour.color = data.itemType.color;
 
             audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.loop = false;
