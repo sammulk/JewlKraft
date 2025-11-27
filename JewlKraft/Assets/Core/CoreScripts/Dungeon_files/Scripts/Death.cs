@@ -7,19 +7,19 @@ namespace Core.Dungeon_files.Scripts
     {
         private void OnEnable()
         {
-            Debug.Log("Death subscribed to OnTimeRanOut");
+            //Debug.Log("Death subscribed to OnTimeRanOut");
             TimeCounter.OnTimeRanOut += PlayerDeath;
         }
 
         private void OnDisable()
         {
-            Debug.Log("Death unsubscribed from OnTimeRanOut");
+            //Debug.Log("Death unsubscribed from OnTimeRanOut");
             TimeCounter.OnTimeRanOut -= PlayerDeath;
         }
 
         private void PlayerDeath()
         {
-            Debug.Log("Player has died. Loading Shop_scene.");
+            //Debug.Log("Player has died. Loading Shop_scene.");
             SceneManager.LoadScene("Shop_scene");
         }
     }

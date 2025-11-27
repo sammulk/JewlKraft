@@ -30,6 +30,7 @@ namespace Core.Inventory_files.Scripts
         {
             LoadGame();
         }
+        
         private void LoadGame()
         {
             SaveInfo = SaveManager.LoadGame();
@@ -58,6 +59,12 @@ namespace Core.Inventory_files.Scripts
             };
 
             SaveManager.SaveGame(save);
+        }
+
+        [ContextMenu("Clear Save")]
+        private void ClearSaveData()
+        {
+            SaveManager.SaveGame(new GameSave());
         }
 
         private void OnDestroy()

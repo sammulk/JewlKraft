@@ -22,5 +22,16 @@ namespace Core.Inventory_files.Scripts.ItemScripts
             Processed,
             Ready
         }
+        
+        public enum ItemType
+        {
+            Undefined,
+            ToeRing,
+            Necklace,
+            Helmet,
+            Boots,
+            Ring,
+            Bracelet
+        }
     }
 }

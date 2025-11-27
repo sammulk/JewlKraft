@@ -12,6 +12,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b444b01a57d0a4ea2c7840042f9aed, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  contents: []
+  contents:
+  - materialID: 3
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 0
+    gridPosY: 0
+    rotated: 0
+  - materialID: 3
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 1
+    gridPosY: 0
+    rotated: 0
+  - materialID: 8
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 2
+    gridPosY: 0
+    rotated: 0
+  - materialID: 8
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 3
+    gridPosY: 0
+    rotated: 0
+  - materialID: 8
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 4
+    gridPosY: 0
+    rotated: 0
+  - materialID: 6
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 0
+    gridPosY: 1
+    rotated: 0
+  - materialID: 6
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 1
+    gridPosY: 1
+    rotated: 0
+  - materialID: 6
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 2
+    gridPosY: 1
+    rotated: 0
+  - materialID: 9
+    craftStageID: 0
+    itemType: 0
+    gridPosX: 3
+    gridPosY: 1
+    rotated: 0
   sizeX: 5
   sizeY: 5
