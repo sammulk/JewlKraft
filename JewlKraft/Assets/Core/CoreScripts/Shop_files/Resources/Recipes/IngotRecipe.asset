@@ -34,4 +34,4 @@ MonoBehaviour:
       rotated: 0
     gridPosX: 0
     gridPosY: 0
-  rewardItem: {fileID: 0}
+  rewardItem: {fileID: 11400000, guid: a62c9d3c39e94a84cbc7d3d913d687bd, type: 2}
