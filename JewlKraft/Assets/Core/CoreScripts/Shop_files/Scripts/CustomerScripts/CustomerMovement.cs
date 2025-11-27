@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class CustomerMovement : MonoBehaviour
 {
+    //not in use currently. Use CustomerMover
+
     public Transform WaypointParent;
     public float Speed = 2f;
     public Animator animator;
