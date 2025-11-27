@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5a1ed41c2972241aa095727f2db01f, type: 3}
   m_Name: SapphireAsset
   m_EditorClassIdentifier: 
-  guid: 
   MaterialType: 3
   CraftStage: 0
+  ItemType: 0
   sprite: {fileID: 7825044478356188236, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
   color: {r: 0.1254895, g: 0.36222145, b: 0.5660378, a: 1}
   height: 1

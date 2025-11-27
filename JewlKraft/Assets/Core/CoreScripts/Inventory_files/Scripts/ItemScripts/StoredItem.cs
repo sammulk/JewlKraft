@@ -1,4 +1,5 @@
 using System;
+using Core.CoreScripts.Inventory_files.Scripts.Databases;
 using UnityEngine;
 using UnityEngine.Serialization;
 using static Core.Inventory_files.Scripts.ItemScripts.Helpers;
@@ -15,6 +16,7 @@ namespace Core.Inventory_files.Scripts.ItemScripts
 
         public MaterialType materialID;
         public CraftStage craftStageID;
+        public ItemType itemType;
         
         public int gridPosX;
         public int gridPosY;
@@ -27,8 +29,8 @@ namespace Core.Inventory_files.Scripts.ItemScripts
             {
                 if (_itemData != null) return _itemData;
                 
-                _itemData = ItemDatabase.Instance.Get(materialID, craftStageID);
-                if (_itemData == null) Debug.LogError($"{materialID}, {craftStageID} not found in ItemDatabase");
+                _itemData = ItemDatabase.Instance.Get(new ItemLookup(materialID, craftStageID, itemType));
+                if (_itemData == null) Debug.LogError($"{materialID}, {craftStageID}, {itemType} not found in ItemDatabase");
                 return _itemData;
             }
         }
@@ -37,6 +39,7 @@ namespace Core.Inventory_files.Scripts.ItemScripts
             this._itemData = itemData;
             this.materialID = itemData.MaterialType;
             this.craftStageID = itemData.CraftStage;
+            this.itemType = itemData.ItemType;
             this.gridPosX = gridPosX;
             this.gridPosY = gridPosY;
             this.rotated = rotated;
@@ -46,7 +49,11 @@ namespace Core.Inventory_files.Scripts.ItemScripts
         {
             if (other is null) return false;
             if (ReferenceEquals(this, other)) return true;
-            return materialID == other.materialID && craftStageID == other.craftStageID && gridPosX == other.gridPosX && gridPosY == other.gridPosY &&
+            return materialID == other.materialID && 
+                   craftStageID == other.craftStageID && 
+                   itemType == other.itemType && 
+                   gridPosX == other.gridPosX && 
+                   gridPosY == other.gridPosY &&
                    rotated == other.rotated;
         }
 
@@ -60,7 +67,7 @@ namespace Core.Inventory_files.Scripts.ItemScripts
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(materialID, craftStageID, gridPosX, gridPosY, rotated);
+            return HashCode.Combine(materialID, craftStageID, itemType, gridPosX, gridPosY, rotated);
         }
     }
 }

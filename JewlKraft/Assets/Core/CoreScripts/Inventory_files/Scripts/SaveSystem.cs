@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
-using Core.Inventory_files.Scripts.ItemScripts;
 using Core.Shop_files.Scripts.CustomerScripts;
 using UnityEngine;
 

@@ -20,17 +20,13 @@ namespace Core.Inventory_files.Scripts
         {
             return new PlayerInventorySaveData
             {
-                items = new List<StoredItem>(contents),
-                sizeX = sizeX,
-                sizeY = sizeY
+                items = new List<StoredItem>(contents)
             };
         }
 
         public void FromSaveData(PlayerInventorySaveData data)
         {
             contents = new List<StoredItem>(data.items);
-            sizeX = data.sizeX;
-            sizeY = data.sizeY;
         }
         
     }
@@ -39,8 +35,6 @@ namespace Core.Inventory_files.Scripts
     public class PlayerInventorySaveData
     {
         public List<StoredItem> items;
-        public int sizeX;
-        public int sizeY;
     }
 
 }

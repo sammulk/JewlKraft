@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core.CoreScripts.Shop_files.Scripts.CustomerScripts;
 using Core.Inventory_files.Scripts;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -58,10 +59,15 @@ namespace Core.Shop_files.Scripts.CustomerScripts
 
         private void AddCustomer(CustomerData data)
         {
+            if (data.Recipe == null)
+            {
+                Debug.LogWarning("Recipe is null");
+                return;
+            }
             Customer newCustomer = Instantiate(customerPrefab, transform);
             newCustomer.Initialize(
                 data.image,
-                data.recipe,
+                data.Recipe,
                 data.daysRemaining);
             
             _customers.Add(newCustomer);

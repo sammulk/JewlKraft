@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 using static Core.Inventory_files.Scripts.ItemScripts.Helpers;
 
 namespace Core.Inventory_files.Scripts.ItemScripts
@@ -10,7 +11,11 @@ namespace Core.Inventory_files.Scripts.ItemScripts
     public class ItemData : ScriptableObject
     {
         public MaterialType MaterialType;
+        
+        //RAW
         public CraftStage CraftStage;
+        //CRAFTED
+        public ItemType ItemType;
         
         public Sprite sprite;
         public Color color;
