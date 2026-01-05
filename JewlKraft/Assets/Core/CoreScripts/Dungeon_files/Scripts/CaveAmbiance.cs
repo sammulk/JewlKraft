@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class CaveAmbience : MonoBehaviour
 {
@@ -14,15 +15,14 @@ public class CaveAmbience : MonoBehaviour
     [SerializeField] private float volume = 0.6f;
 
     private AudioSource audioSource;
+    [SerializeField] private AudioMixerGroup caveMixerGroup;
 
     void Start()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.loop = false;
         audioSource.playOnAwake = false;
-        audioSource.spatialBlend = 1f; // fully 3D
-        audioSource.minDistance = 5f;
-        audioSource.maxDistance = 20f;
+        audioSource.outputAudioMixerGroup = caveMixerGroup;
         StartCoroutine(PlayAmbientSounds());
     }
 

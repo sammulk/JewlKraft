@@ -1,5 +1,6 @@
 using Core.Inventory_files.Scripts.ItemScripts;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Rendering.Universal;
 
 namespace Core.Dungeon_files.Scripts
@@ -14,7 +15,7 @@ namespace Core.Dungeon_files.Scripts
         [SerializeField, Range(0.5f, 1.5f)] private float pitchMax = 1.05f;
 
         private AudioSource audioSource;
-        private AudioReverbFilter reverbFilter;
+        [SerializeField] private AudioMixerGroup caveMixerGroup;
 
         private GameObject dustPrefab;
         private Color gemDustColor;
@@ -26,21 +27,22 @@ namespace Core.Dungeon_files.Scripts
 
         private void Awake()
         {
+            // Load data and spirte
             SetData(data);
             SpriteRenderer sr = this.GetComponent<SpriteRenderer>();
             if (sr != null)
                 sr.sprite = gemCropSprite;
 
+            // Add shine
             Transform shine = transform.Find("Shine");
             Light2D shineColour = shine.GetComponent<Light2D>();
             shineColour.color = data.itemType.color;
 
+            // Audio stuff
             audioSource = gameObject.AddComponent<AudioSource>();
             audioSource.loop = false;
             audioSource.playOnAwake = false;
-
-            reverbFilter = gameObject.AddComponent<AudioReverbFilter>();
-            reverbFilter.reverbPreset = AudioReverbPreset.Cave;
+            audioSource.outputAudioMixerGroup = caveMixerGroup;
         }
         public void OnHit()
         {

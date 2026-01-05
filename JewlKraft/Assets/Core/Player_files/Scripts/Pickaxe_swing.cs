@@ -1,12 +1,19 @@
 using Core.Dungeon_files.Scripts;
 using Core.Player_files.Scripts;
 using UnityEngine;
+using static UnityEngine.InputSystem.LowLevel.InputStateHistory;
 
 public class PickaxeSwing : MonoBehaviour
 {
     [SerializeField] private float swingRange = 3.5f;
     [SerializeField] private float swingCooldown = 1.2f;
+
+    [Header("Layer Masks")]
     [SerializeField] private LayerMask gemLayer;
+    [SerializeField] private LayerMask breakableWallLayer;
+
+    [Header("References")]
+    [SerializeField] private BreakableWallController breakableWallController;
 
     private float nextSwingTime = 0f;
     private Animator animator;
@@ -24,11 +31,8 @@ public class PickaxeSwing : MonoBehaviour
 
             if (player != null)
             {
-                // Prevent movement briefly
                 StartCoroutine(player.Trapped(swingCooldown));
-                // Trigger the directional swing animation
                 animator.SetTrigger("Swing");
-                // Set cooldown
                 nextSwingTime = Time.time + swingCooldown;
             }
         }
@@ -36,23 +40,32 @@ public class PickaxeSwing : MonoBehaviour
 
     private void SwingPickaxe()
     {
-        // Get the last facing direction from the animator
         float dirX = animator.GetFloat("LastInputX");
         float dirY = animator.GetFloat("LastInputY");
 
         Vector2 direction = new Vector2(dirX, dirY).normalized;
         if (direction == Vector2.zero)
-            direction = Vector2.down; // fallback direction if none stored
+            direction = Vector2.down;
 
-        // Raycast in that direction
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, swingRange, gemLayer);
-
-        if (hit.collider != null)
+        // First check crops
+        RaycastHit2D hitGem = Physics2D.Raycast(transform.position, direction, swingRange, gemLayer);
+        if (hitGem.collider != null)
         {
-            GemCrop gem = hit.collider.GetComponent<GemCrop>();
+            GemCrop gem = hitGem.collider.GetComponent<GemCrop>();
             if (gem != null)
             {
                 gem.OnHit();
+                return; // stop here, don't also break walls
+            }
+        }
+
+        // Second check walls
+        RaycastHit2D hitWall = Physics2D.Raycast(transform.position, direction, swingRange, breakableWallLayer);
+        if (hitWall.collider != null)
+        {
+            if (breakableWallController != null)
+            {
+                breakableWallController.HitTile(hitWall.point);
             }
         }
     }

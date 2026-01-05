@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 namespace Core.Player_files.Scripts
@@ -21,6 +22,7 @@ namespace Core.Player_files.Scripts
         private float stepTimer;
 
         private AudioSource walkAudioSource;
+        [SerializeField] private AudioMixerGroup caveMixerGroup;
 
         void Awake()
         {
@@ -30,6 +32,7 @@ namespace Core.Player_files.Scripts
             walkAudioSource = gameObject.AddComponent<AudioSource>();
             walkAudioSource.loop = false;
             walkAudioSource.playOnAwake = false;
+            walkAudioSource.outputAudioMixerGroup = caveMixerGroup;
             walkAudioSource.volume = walkVolume;
         }
         void Update()

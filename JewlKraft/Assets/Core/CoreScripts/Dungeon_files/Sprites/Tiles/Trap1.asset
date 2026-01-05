@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Trap1
   m_EditorClassIdentifier: 
   timeHeld: 3
-  trapSprite: {fileID: -848640281, guid: f8f8d9072e8a17b47900aa2946fa5a52, type: 3}
+  trapSprite: {fileID: 5640255230643926913, guid: f8f8d9072e8a17b47900aa2946fa5a52, type: 3}
   activeColor: {r: 1, g: 1, b: 1, a: 1}
-  revealedTile: {fileID: 11400000, guid: 7d53f77fed4e92143a294666bd56e7e9, type: 2}
+  revealedTile: {fileID: 11400000, guid: 0f0551b86427bf64d9172bdab1f9b584, type: 2}
