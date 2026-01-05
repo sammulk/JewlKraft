@@ -947,6 +947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIButton: {fileID: 727261790}
+  isOpen: 0
 --- !u!225 &293552969
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1368,16 +1369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recipe: {fileID: 11400000, guid: 47c79272a24c0524fa47a911ed9f9e4c, type: 2}
---- !u!1 &406462157 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3956308211030404384, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
-  m_PrefabInstance: {fileID: 6869480156166346653}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &406462158 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3572363138860966856, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
-  m_PrefabInstance: {fileID: 6869480156166346653}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &548118607 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4318841498003342573, guid: eb65ebb5f1ecde04b95aa6d38dcccf95, type: 3}
@@ -2649,8 +2640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 0.009161512
+  m_labelHash: 0.000026032902
   m_SpriteKey: 0
   m_SpriteHash: 817557778
 --- !u!114 &1259602995
@@ -5007,7 +4998,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 210183646}
-  - {fileID: 406462158}
+  - {fileID: 6869480156166346654}
   - {fileID: 727261789}
   - {fileID: 1144975649}
   - {fileID: 159441996}
@@ -5100,7 +5091,7 @@ MonoBehaviour:
   Settings: {fileID: 1645963126}
   MainMenu: {fileID: 210183647}
   ESCPanel: {fileID: 210183648}
-  SettingsPanel: {fileID: 406462157}
+  SettingsPanel: {fileID: 0}
 --- !u!1 &1453118053
 GameObject:
   m_ObjectHideFlags: 0
@@ -7681,6 +7672,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1447071954}
     m_Modifications:
+    - target: {fileID: 2724433060537367234, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3572363138860966856, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7774,6 +7769,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+--- !u!224 &6869480156166346654 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 391439849217596825, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+  m_PrefabInstance: {fileID: 6869480156166346653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8573139026931281208
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -240,14 +240,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153908014}
   m_CullTransparentMesh: 1
---- !u!1 &338699554 stripped
+--- !u!1 &417047803 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 3956308211030404384, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
-  m_PrefabInstance: {fileID: 1364996449}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &338699555 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3572363138860966856, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+  m_CorrespondingSourceObject: {fileID: 2724433060537367234, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
   m_PrefabInstance: {fileID: 1364996449}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
@@ -620,7 +615,7 @@ RectTransform:
   - {fileID: 1093623922}
   - {fileID: 1520523009}
   - {fileID: 1900666272}
-  - {fileID: 338699555}
+  - {fileID: 1364996450}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1148,6 +1143,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 614927041}
     m_Modifications:
+    - target: {fileID: 2724433060537367234, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439992526011953662, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3572363138860966856, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1244,6 +1247,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 245
       objectReference: {fileID: 0}
+    - target: {fileID: 6949020437818093688, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7991529223255230496, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -431.57
@@ -1261,6 +1268,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+--- !u!224 &1364996450 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 391439849217596825, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+  m_PrefabInstance: {fileID: 1364996449}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1376374746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1775,7 +1787,7 @@ MonoBehaviour:
   PlayButton: {fileID: 1193161338}
   ExitButton: {fileID: 153908016}
   SettingsButton: {fileID: 1376374748}
-  SettingsPanel: {fileID: 338699554}
+  SettingsPanel: {fileID: 417047803}
 --- !u!1 &1990194147
 GameObject:
   m_ObjectHideFlags: 0
