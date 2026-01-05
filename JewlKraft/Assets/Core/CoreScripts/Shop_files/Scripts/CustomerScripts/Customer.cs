@@ -1,9 +1,12 @@
 using System;
+using Core.CoreScripts.Inventory_files.Scripts.Databases;
+using Core.Shop_files.Scripts.CustomerScripts;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-namespace Core.Shop_files.Scripts.CustomerScripts
+namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
 {
     [Serializable]
     [RequireComponent(typeof(Image))]
@@ -11,9 +14,9 @@ namespace Core.Shop_files.Scripts.CustomerScripts
     {
         public static event Action<CraftingRecipe> OnRecipeSelected;
 
-        [SerializeField] private CraftingRecipe _recipe;
-        private int _daysRemaining;
+        [SerializeField] private CraftingRecipe recipe;
         private Image _image;
+
         private Image Image
         {
             get
@@ -26,17 +29,19 @@ namespace Core.Shop_files.Scripts.CustomerScripts
             }
         }
 
-        public void Initialize(Sprite image, CraftingRecipe recipe, int daysRemaining)
+        private int _daysRemaining;
+
+        public void Initialize(Sprite image, CraftingRecipe craftingRecipe, int daysRemaining)
         {
             Image.sprite = image;
-            _recipe = recipe;
+            this.recipe = craftingRecipe;
             _daysRemaining = daysRemaining;
         }
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            Debug.Log("OnPointerClick");
-            OnRecipeSelected?.Invoke(_recipe);
+            Debug.Log($"OnPointerClick: {recipe.name}");
+            OnRecipeSelected?.Invoke(recipe);
         }
 
         public bool DayPassTimeOut()
@@ -50,13 +55,13 @@ namespace Core.Shop_files.Scripts.CustomerScripts
 
         public CustomerData ToSaveData()
         {
-            return new CustomerData(image: Image.sprite, recipe: _recipe, _daysRemaining);
+            return new CustomerData(image: Image.sprite, recipe: recipe, _daysRemaining);
         }
 
         public void FromSaveData(CustomerData data)
         {
             Image.sprite = data.image;
-            _recipe = data.recipe;
+            recipe = data.Recipe;
             _daysRemaining = data.daysRemaining;
         }
 
@@ -66,14 +71,28 @@ namespace Core.Shop_files.Scripts.CustomerScripts
     [Serializable]
     public class CustomerData
     {
+        public CraftingRecipe Recipe
+        {
+            get
+            {
+                if (_recipe == null)
+                {
+                    _recipe = RecipeDatabase.Instance.Get(ItemDatabase.Instance.Get(rewardItemLookup));
+                    if (_recipe == null) Debug.LogWarning($"No Recipe found for {_recipe.name} in database!");
+                }
+                return _recipe;
+            }
+        }
+
+        private CraftingRecipe _recipe;
         public Sprite image;
-        public CraftingRecipe recipe;
+        public ItemLookup rewardItemLookup;
         public int daysRemaining;
 
         public CustomerData(Sprite image, CraftingRecipe recipe, int daysRemaining)
         {
             this.image = image;
-            this.recipe = recipe;
+            this.rewardItemLookup = new ItemLookup(recipe.rewardItem);
             this.daysRemaining = daysRemaining;
         }
     }

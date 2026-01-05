@@ -14,21 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsPerGrid:
   - items:
-    - materialID: 2
+    - materialID: 1
       craftStageID: 0
+      itemType: 0
       gridPosX: 0
       gridPosY: 0
       rotated: 0
-    - materialID: 2
+    - materialID: 1
       craftStageID: 0
+      itemType: 0
       gridPosX: 1
       gridPosY: 0
       rotated: 0
-    - materialID: 2
+    - materialID: 1
       craftStageID: 0
+      itemType: 0
       gridPosX: 2
       gridPosY: 0
       rotated: 0
     gridPosX: 0
     gridPosY: 0
-  rewardItem: {fileID: 11400000, guid: f83ed199543a67545a35143b46f0cbe7, type: 2}
+  rewardItem: {fileID: 11400000, guid: a62c9d3c39e94a84cbc7d3d913d687bd, type: 2}

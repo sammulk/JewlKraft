@@ -1,4 +1,5 @@
 using Core.CoreScripts.Inventory_files.Scripts.GridScripts;
+using Core.CoreScripts.Shop_files.Scripts.CustomerScripts;
 using Core.Shop_files.Scripts.CustomerScripts;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -31,7 +32,13 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
         private void HandleRecipeChange(CraftingRecipe newRecipe)
         {
-            if (newRecipe == recipe) return;
+            if (newRecipe == recipe)
+            {
+                if (recipe == null) Debug.LogError("Recipe is null");
+                
+                Debug.Log("Recipe kept same");
+                return;
+            }
 
             _craftingTable.Cleanup();
             SetupCraftingTable(newRecipe);
@@ -41,6 +48,8 @@ namespace Core.Inventory_files.Scripts.GridScripts
         {
             recipe = newRecipe;
 
+            Debug.Log($"got recipe with {newRecipe.rewardItem.name} " +
+                      $"and length {recipe.itemsPerGrid.Count}");
             foreach (GridData data in recipe.itemsPerGrid)
             {
                 ItemGrid newGrid = GridFactory.Instance.Create(data.Width, data.Height, transform, data.items);
