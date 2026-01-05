@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InventoryButton : MonoBehaviour
 {
     [SerializeField] private GameObject UIButton;
-    private Boolean isOpen = false;
+    public Boolean isOpen = false;
 
     private void Awake()
     {
