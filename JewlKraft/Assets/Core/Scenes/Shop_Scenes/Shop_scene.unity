@@ -7682,7 +7682,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3439992526011953662, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439992526011953662, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3439992526011953662, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3572363138860966856, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
@@ -7773,6 +7781,10 @@ PrefabInstance:
       propertyPath: ESCPanel
       value: 
       objectReference: {fileID: 309423756}
+    - target: {fileID: 6949020437818093688, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6949020437818093688, guid: a59a5c3836f863845a0cfbd9dbad0717, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
