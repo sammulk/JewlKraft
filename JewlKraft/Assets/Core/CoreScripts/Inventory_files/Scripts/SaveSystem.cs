@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using Core.CoreScripts.Shop_files.Scripts.CustomerScripts;
 using Core.Shop_files.Scripts.CustomerScripts;
 using UnityEngine;
 
@@ -19,7 +20,10 @@ namespace Core.Inventory_files.Scripts
             //PlayerUpgradeManager upgrades)
         {
             if (!File.Exists(SAVE_PATH))
+            {
+                Debug.LogWarning("No save file found");
                 return null;
+            }
 
             string json = File.ReadAllText(SAVE_PATH);
             GameSave save = JsonUtility.FromJson<GameSave>(json);

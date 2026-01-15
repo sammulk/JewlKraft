@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Core.CoreScripts.Shop_files.Scripts.CustomerScripts;
 using Core.Inventory_files.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -21,6 +22,10 @@ namespace Core.Shop_files.Scripts.CustomerScripts
                 if (_customers == null)
                 {
                     _customers = PersistentLoader.Instance.SaveInfo.customers;
+                    if (_customers == null)
+                    {
+                        Debug.LogError("Customers accessed before loading!");
+                    }
                 }
                 return _customers;
             }
@@ -60,6 +65,7 @@ namespace Core.Shop_files.Scripts.CustomerScripts
         public void RegisterManager(CustomerManager manager)
         {
             currentManager = manager;
+            Debug.Log($"Registering manager {manager.name}, add new customer {_addCustomerUnHandled}");
 
             if (_addCustomerUnHandled)
             {
