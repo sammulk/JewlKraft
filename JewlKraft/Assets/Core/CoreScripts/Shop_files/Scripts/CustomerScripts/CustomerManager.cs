@@ -23,6 +23,8 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
         
         [SerializeField] 
         private Transform spawnTransform;
+        [SerializeField] 
+        private Transform shopCounterTransform;
         
         private readonly List<CustomerSpawning> _customers = new();
         
@@ -67,8 +69,12 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
 
         private void AddCustomer(CustomerData data, bool isNew = false)
         {
-            Transform usedTransform = spawnTransform;
-            if (!isNew) usedTransform = saveTransforms[Random.Range(0, saveTransforms.Count)];
+            Vector2 spawnLocation = spawnTransform.position;
+            if (!isNew) spawnLocation = PositionWithOffSet(
+                saveTransforms[
+                    Random.Range(0, saveTransforms.Count)]
+                    .position, 
+                0.6f);
             
             if (data.Recipe == null)
             {
@@ -78,14 +84,20 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
             
             CustomerSpawning newCustomerSpawning = Instantiate(
                 customerSpawningPrefab,
-                PositionWithOffSet(usedTransform.position, 0.7f), 
-                usedTransform.rotation
+                spawnLocation, 
+                Quaternion.identity
                 );
             
             newCustomerSpawning.FromSaveData(data);
             newCustomerSpawning.gameObject.name = data.SpriteLibrary.name;
             
             _customers.Add(newCustomerSpawning);
+            
+            if (isNew)
+            {
+                CustomerWanderer wanderer = newCustomerSpawning.GetComponent<CustomerWanderer>();
+                wanderer.SetTarget(shopCounterTransform.position);
+            }
         }
 
         private void OnDestroy()
@@ -109,10 +121,10 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
             data.customers.ForEach(customerData => AddCustomer(customerData));
         }
 
-        private Vector3 PositionWithOffSet(Vector3 position, float maxOffset)
+        private Vector3 PositionWithOffSet(Vector3 position, float offset)
         {
-            float offsetX = position.x + Random.Range(-maxOffset, maxOffset);
-            float offsetY = position.y + Random.Range(-maxOffset, maxOffset);
+            float offsetX = offset * Random.Range(-1, 2);
+            float offsetY = offset * Random.Range(-1, 2);
             
             return new Vector3(position.x + offsetX, position.y + offsetY);
         }

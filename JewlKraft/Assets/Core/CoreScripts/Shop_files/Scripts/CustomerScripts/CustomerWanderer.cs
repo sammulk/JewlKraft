@@ -12,13 +12,13 @@ public class CustomerWanderer : MonoBehaviour
     public LayerMask obstacleLayer;
 
     private Vector2 target;
-    private bool waiting;
+    private bool waiting = false;
     private Animator animator;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        FindNewTarget();
+        if (target == Vector2.zero) FindNewTarget();
     }
 
     void Update()
@@ -32,7 +32,13 @@ public class CustomerWanderer : MonoBehaviour
         MoveToTarget();
     }
 
-    void MoveToTarget()
+    public void SetTarget(Vector2 targetPosition)
+    {
+        target = targetPosition;
+        waiting = false;
+    }
+    
+    private void MoveToTarget()
     {
         Vector2 direction = (target - (Vector2)transform.position).normalized;
 
@@ -78,7 +84,6 @@ public class CustomerWanderer : MonoBehaviour
                 return;
             }
         }
-
         
         target = transform.position;
     }

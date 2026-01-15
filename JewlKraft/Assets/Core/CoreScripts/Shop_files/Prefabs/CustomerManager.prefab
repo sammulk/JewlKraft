@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2628270428819218432}
   - component: {fileID: 9762184064751993}
   m_Layer: 5
-  m_Name: BuyersPanel
+  m_Name: CustomerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eddf3e8c050af5444a0a7ae1d3347e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customerInteractPrefab: {fileID: 6447233377875232396, guid: 65993f0b158345749b43a561713dddf2, type: 3}
+  customerSpawningPrefab: {fileID: 6447233377875232396, guid: 65993f0b158345749b43a561713dddf2, type: 3}
   itemRecipes:
   - {fileID: 11400000, guid: 47c79272a24c0524fa47a911ed9f9e4c, type: 2}
   - {fileID: 11400000, guid: 3efdda45ea645694aad5965fce49dc94, type: 2}
