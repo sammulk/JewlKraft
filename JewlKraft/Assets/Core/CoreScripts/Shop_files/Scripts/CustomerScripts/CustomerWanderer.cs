@@ -4,7 +4,7 @@ using System.Collections;
 public class CustomerWanderer : MonoBehaviour
 {
     public float Speed = 2f;
-    public float waitTime = 1.5f;
+    public Vector2 waitTimeRange = new Vector2(2f, 5f);
 
     public Vector2 minBounds;
     public Vector2 maxBounds;
@@ -87,7 +87,10 @@ public class CustomerWanderer : MonoBehaviour
     {
         waiting = true;
         animator.SetBool("isWalking", false);
-        yield return new WaitForSeconds(waitTime);
+
+        float randomWait = Random.Range(waitTimeRange.x, waitTimeRange.y);
+        yield return new WaitForSeconds(randomWait);
+
         waiting = false;
         FindNewTarget();
     }
