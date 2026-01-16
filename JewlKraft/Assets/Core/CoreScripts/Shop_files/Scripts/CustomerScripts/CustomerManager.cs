@@ -1,25 +1,32 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Core.CoreScripts.Shop_files.Scripts.CustomerScripts;
 using Core.Inventory_files.Scripts;
+using Core.Shop_files.Scripts.CustomerScripts;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
-namespace Core.Shop_files.Scripts.CustomerScripts
+namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
 {
     public class CustomerManager : MonoBehaviour, ISaveable<CustomerSaveData>
     {
-        [SerializeField] private Customer customerPrefab;
+        [FormerlySerializedAs("customerInteractPrefab")] [FormerlySerializedAs("customerPrefab")] [SerializeField] private CustomerSpawning customerSpawningPrefab;
 
         [Header("Spawn variables")] 
         
-        [SerializeField]
-        private List<Sprite> customerImages = new();
         [SerializeField] 
         private List<CraftingRecipe> itemRecipes = new();
+
+        [SerializeField] 
+        private List<Transform> saveTransforms = new();
         
-        private readonly List<Customer> _customers = new();
+        [SerializeField] 
+        private Transform spawnTransform;
+        [SerializeField] 
+        private Transform shopCounterTransform;
+        
+        private readonly List<CustomerSpawning> _customers = new();
         
         void Start()
         {
@@ -48,29 +55,49 @@ namespace Core.Shop_files.Scripts.CustomerScripts
 
         private void AddCustomer()
         {
-            Customer newCustomer = Instantiate(customerPrefab, transform);
-            newCustomer.Initialize(
-                customerImages[Random.Range(0, customerImages.Count)],
-                itemRecipes[Random.Range(0, itemRecipes.Count)], 
-                3);
+            CustomerDatabase customerDatabase = CustomerDatabase.Instance;
+
+            int lastCustomerIndex = (_customers.Count == 0) ? -1 : _customers[^1].GetSpriteID;
+            int customerIndex = (lastCustomerIndex + 1) % customerDatabase.GetCount();
+
+            CustomerData newData = new CustomerData(
+                customerIndex, 
+                itemRecipes[Random.Range(0, itemRecipes.Count)]);
             
-            _customers.Add(newCustomer);
+            AddCustomer(newData, true);
         }
 
-        private void AddCustomer(CustomerData data)
+        private void AddCustomer(CustomerData data, bool isNew = false)
         {
+            Vector2 spawnLocation = spawnTransform.position;
+            if (!isNew) spawnLocation = PositionWithOffSet(
+                saveTransforms[
+                    Random.Range(0, saveTransforms.Count)]
+                    .position, 
+                0.6f);
+            
             if (data.Recipe == null)
             {
                 Debug.LogWarning("Recipe is null");
                 return;
             }
-            Customer newCustomer = Instantiate(customerPrefab, transform);
-            newCustomer.Initialize(
-                data.image,
-                data.Recipe,
-                data.daysRemaining);
             
-            _customers.Add(newCustomer);
+            CustomerSpawning newCustomerSpawning = Instantiate(
+                customerSpawningPrefab,
+                spawnLocation, 
+                Quaternion.identity
+                );
+            
+            newCustomerSpawning.FromSaveData(data);
+            newCustomerSpawning.gameObject.name = data.SpriteLibrary.name;
+            
+            _customers.Add(newCustomerSpawning);
+            
+            if (isNew)
+            {
+                CustomerWanderer wanderer = newCustomerSpawning.GetComponent<CustomerWanderer>();
+                wanderer.SetTarget(shopCounterTransform.position);
+            }
         }
 
         private void OnDestroy()
@@ -91,14 +118,21 @@ namespace Core.Shop_files.Scripts.CustomerScripts
 
         public void FromSaveData(CustomerSaveData data)
         {
-            data.customers.ForEach(AddCustomer);
+            data.customers.ForEach(customerData => AddCustomer(customerData));
+        }
+
+        private Vector3 PositionWithOffSet(Vector3 position, float offset)
+        {
+            float offsetX = offset * Random.Range(-1, 2);
+            float offsetY = offset * Random.Range(-1, 2);
+            
+            return new Vector3(position.x + offsetX, position.y + offsetY);
         }
     }
-    
+
     [Serializable]
     public class CustomerSaveData
     {
         public List<CustomerData> customers;
     }
-
 }

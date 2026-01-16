@@ -3,6 +3,7 @@ using UnityEngine;
 public class CustomerMovement : MonoBehaviour
 {
     //not in use currently. Use CustomerMover
+    //this script is for customers who move from outside the shop to the counter
 
     public Transform WaypointParent;
     public float Speed = 2f;

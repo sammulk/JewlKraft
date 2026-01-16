@@ -194,7 +194,7 @@ namespace Core.CoreScripts.Inventory_files.Scripts.GridScripts
         }
 
         
-        [ContextMenu("Initialize Size")]
+        [ContextMenu("FromSaveData Size")]
         private void InitializeSize()
         {
             InitializeSize(gridWidth, gridHeight);

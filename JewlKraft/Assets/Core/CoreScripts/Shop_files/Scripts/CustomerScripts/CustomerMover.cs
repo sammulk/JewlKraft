@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class CustomerMover : MonoBehaviour
 {
+    //This script is for a customer who moves using waypoints
+
     public Transform WaypointParent;
     public float Speed = 2f;
     //public Animator animator;
@@ -12,10 +14,13 @@ public class CustomerMover : MonoBehaviour
     private Transform[] waypoints;
     private int currentWaypoint;
     private bool waiting;
+    private Animator animator;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         waypoints = new Transform[WaypointParent.childCount];
+
 
         for (int i = 0; i < WaypointParent.childCount; i++)
         {
@@ -28,6 +33,7 @@ public class CustomerMover : MonoBehaviour
     {
         if (waiting) 
         {
+            animator.SetBool("isWalking", false);
             return;
         }
         MoveToWaypoint();
@@ -36,8 +42,13 @@ public class CustomerMover : MonoBehaviour
     public void MoveToWaypoint()
     {
         Transform target = waypoints[currentWaypoint];
+        Vector2 direction = (target.position - transform.position).normalized;
 
         transform.position = Vector2.MoveTowards(transform.position, target.position, Speed * Time.deltaTime);
+        animator.SetFloat("InputX", direction.x);
+        animator.SetFloat("InputY", direction.y);
+        animator.SetBool("isWalking", direction.magnitude > 0.1f);
+
 
         if (Vector2.Distance(transform.position, target.position) < 0.1f)
         {
@@ -48,6 +59,7 @@ public class CustomerMover : MonoBehaviour
     IEnumerator WaitAtWaypoint()
     {
         waiting = true;
+        animator.SetBool("isWalking", false);
         yield return new WaitForSeconds(waitTime);
 
         currentWaypoint = loopWaypoints ? (currentWaypoint + 1) % waypoints.Length : Mathf.Min(currentWaypoint +1, waypoints.Length-1);

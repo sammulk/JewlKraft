@@ -3,6 +3,7 @@ using Core.CoreScripts.Inventory_files.Scripts.Databases;
 using UnityEngine;
 using UnityEngine.Serialization;
 using static Core.Inventory_files.Scripts.ItemScripts.Helpers;
+using Databases_ItemLookup = Core.CoreScripts.Inventory_files.Scripts.Databases.ItemLookup;
 
 namespace Core.Inventory_files.Scripts.ItemScripts
 {
@@ -29,7 +30,8 @@ namespace Core.Inventory_files.Scripts.ItemScripts
             {
                 if (_itemData != null) return _itemData;
                 
-                _itemData = ItemDatabase.Instance.Get(new ItemLookup(materialID, craftStageID, itemType));
+                
+                _itemData = ItemDatabase.Instance.Get(new Databases_ItemLookup(materialID, craftStageID, itemType));
                 if (_itemData == null) Debug.LogError($"{materialID}, {craftStageID}, {itemType} not found in ItemDatabase");
                 return _itemData;
             }

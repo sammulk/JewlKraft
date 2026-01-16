@@ -22,12 +22,12 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
         private void OnEnable()
         {
-            Customer.OnRecipeSelected += HandleRecipeChange;
+            CustomerSpawning.OnRecipeSelected += HandleRecipeChange;
         }
 
         private void OnDisable()
         {
-            Customer.OnRecipeSelected -= HandleRecipeChange;
+            CustomerSpawning.OnRecipeSelected -= HandleRecipeChange;
         }
 
         private void HandleRecipeChange(CraftingRecipe newRecipe)
