@@ -17,5 +17,6 @@ MonoBehaviour:
   ItemType: 1
   sprite: {fileID: 3008645933168865818, guid: c64ab284444b8a24c9784b9fcec7cb53, type: 3}
   color: {r: 0, g: 0, b: 0, a: 0}
+  goldValue: 67
   height: 2
   width: 2

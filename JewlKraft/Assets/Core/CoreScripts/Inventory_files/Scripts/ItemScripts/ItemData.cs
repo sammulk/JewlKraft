@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 using static Core.Inventory_files.Scripts.ItemScripts.Helpers;
 
 namespace Core.Inventory_files.Scripts.ItemScripts
@@ -19,6 +18,8 @@ namespace Core.Inventory_files.Scripts.ItemScripts
         
         public Sprite sprite;
         public Color color;
+
+        public int goldValue;
 
         public int height = 1;
         public int width = 1;
