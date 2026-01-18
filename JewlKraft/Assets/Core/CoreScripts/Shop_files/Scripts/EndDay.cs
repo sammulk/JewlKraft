@@ -5,6 +5,8 @@ public class EndDay : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Dungeon_scene");
+        if (!collision.CompareTag("Player")) return;
+
+        FadeController.Instance.FadeToScene("Dungeon_scene");
     }
 }
