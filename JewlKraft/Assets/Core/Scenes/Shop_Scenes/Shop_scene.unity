@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 599777844}
-  fadeDuration: 2.5
+  fadeDuration: 1
 --- !u!1 &320243876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5643,6 +5643,7 @@ MonoBehaviour:
   MainMenu: {fileID: 515847825}
   ESCPanel: {fileID: 309423756}
   SettingsPanel: {fileID: 462518948}
+  isOpen: 0
 --- !u!1 &1453118053
 GameObject:
   m_ObjectHideFlags: 0

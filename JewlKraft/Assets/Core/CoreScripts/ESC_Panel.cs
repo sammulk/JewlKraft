@@ -45,7 +45,11 @@ public class ESC_Panel : MonoBehaviour
     private void GoToMainMenu()
     {
         ESCPanel.SetActive(false);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main_menu");
+        Time.timeScale = 1f;
+        float FD = FadeController.Instance.fadeDuration;
+        FadeController.Instance.fadeDuration = 0.1f;
+        FadeController.Instance.FadeToScene("Main_menu");
+        FadeController.Instance.fadeDuration = FD;
     }
 
     void ResumeGame()
