@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Tilemaps;
 
 [RequireComponent(typeof(Tilemap))]
@@ -8,9 +9,21 @@ public class BreakableWallController : MonoBehaviour
 
     [SerializeField] private GameObject hiddenRoomGameObject;
 
+    [SerializeField] private AudioClip[] hitSounds;
+    [SerializeField, Range(0.5f, 1.5f)] private float pitchMin = 0.95f;
+    [SerializeField, Range(0.5f, 1.5f)] private float pitchMax = 1.05f;
+
+    private AudioSource audioSource;
+    [SerializeField] private AudioMixerGroup caveMixerGroup;
+
     void Awake()
     {
         map = GetComponent<Tilemap>();
+
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.loop = false;
+        audioSource.playOnAwake = false;
+        audioSource.outputAudioMixerGroup = caveMixerGroup;
     }
     public void HitTile(Vector2 worldPos)
     {
@@ -18,12 +31,16 @@ public class BreakableWallController : MonoBehaviour
         TileBase tile = map.GetTile(cell);
         if (tile == null) return;
 
+        // Play hit sound
+        if (hitSounds.Length > 0)
+        {
+            AudioClip clip = hitSounds[Random.Range(0, hitSounds.Length)];
+            audioSource.pitch = Random.Range(pitchMin, pitchMax);
+            audioSource.PlayOneShot(clip);
+        }
+
         BreakableWallTile breakable = tile as BreakableWallTile;
         if (breakable == null) return;
-
-        // SFX
-        if (breakable.breakSound != null)
-            AudioSource.PlayClipAtPoint(breakable.breakSound, map.GetCellCenterWorld(cell));
 
         // VFX
         if (breakable.breakEffect != null)

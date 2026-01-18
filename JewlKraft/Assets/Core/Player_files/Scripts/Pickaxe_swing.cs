@@ -1,5 +1,6 @@
 using Core.Dungeon_files.Scripts;
 using Core.Player_files.Scripts;
+using TMPro;
 using UnityEngine;
 
 public class PickaxeSwing : MonoBehaviour
@@ -14,6 +15,7 @@ public class PickaxeSwing : MonoBehaviour
     [Header("References")]
     [SerializeField] private BreakableWallController breakableWallController;
     [SerializeField] private InventoryButton invButton;
+    [SerializeField] private ESC_Panel escPanel;
 
     private float nextSwingTime = 0f;
     private Animator animator;
@@ -25,7 +27,7 @@ public class PickaxeSwing : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && Time.time >= nextSwingTime && invButton.isOpen == false)
+        if (Input.GetMouseButtonDown(0) && Time.time >= nextSwingTime && invButton.isOpen == false && escPanel.isOpen == false)
         {
             PlayerMovement player = GetComponent<PlayerMovement>();
 
