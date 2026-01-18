@@ -42,15 +42,21 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
 
         private void UpdateDaysRemaining()
         {
-            for (int i = _customers.Count - 1; i >= 0; i--)
+            var toRemove = _customers
+                .Where(customer => !customer.DayPassTimeOut())
+                .ToList();
+
+            foreach (var customer in toRemove)
             {
-                var customer = _customers[i];
-                if (!customer.DayPassTimeOut())
-                {
-                    Destroy(customer.gameObject);
-                    _customers.RemoveAt(i);
-                }
+                RemoveCustomer(customer);
             }
+
+        }
+
+        public void RemoveCustomer(CustomerSpawning customer)
+        {
+            _customers.Remove(customer);
+            customer.LeaveAndDelete(spawnTransform);
         }
 
         private void AddCustomer()

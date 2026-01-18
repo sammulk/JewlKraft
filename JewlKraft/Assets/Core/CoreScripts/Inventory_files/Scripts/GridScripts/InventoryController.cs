@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Core.CoreScripts.Inventory_files.Scripts.Databases;
 using Core.CoreScripts.Inventory_files.Scripts.GridScripts;
+using Core.CoreScripts.Shop_files.Scripts.CustomerScripts;
 using Core.Dungeon_files.Scripts;
 using Core.Inventory_files.Scripts.GridScripts;
 using Core.Inventory_files.Scripts.ItemScripts;
@@ -15,6 +17,8 @@ namespace Core.Inventory_files.Scripts
     public class InventoryController : MonoBehaviour
     {
         [SerializeField] private ItemGrid playerGrid;
+        [SerializeField] private LayerMask customerLayer;
+
 
         private ItemGrid _selectedGrid;
         public ItemGrid SelectedGrid
@@ -61,7 +65,7 @@ namespace Core.Inventory_files.Scripts
             Vector3 mousePosition = Input.mousePosition;
             DragItem(mousePosition);
 
-            if (Input.GetKeyDown(KeyCode.Q)) CreateRandomItem();
+            //if (Input.GetKeyDown(KeyCode.Q)) CreateRandomItem(); - ei tööta, tekkivad asjad on nö kummitused
 
             //if (Input.GetKeyDown(KeyCode.W)) InsertRandomItem();
 
@@ -69,6 +73,11 @@ namespace Core.Inventory_files.Scripts
 
             if (_selectedGrid == null)
             {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    CLickOnCustomer(mousePosition);
+                }
+
                 _inventoryHighlight.Show(false);
                 return;
             }
@@ -77,7 +86,23 @@ namespace Core.Inventory_files.Scripts
 
             if (Input.GetMouseButtonDown(0)) HandleClick(mousePosition);
         }
-        
+
+        private void CLickOnCustomer(Vector3 mousePosition)
+        {
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(mousePosition);
+
+            Collider2D hit = Physics2D.OverlapPoint(mouseWorldPos, customerLayer);
+
+            if (hit == null || !hit.CompareTag("Customer")) return;
+
+            Purchasing client = hit.gameObject.GetComponent<Purchasing>();
+            
+            if (client.OfferDesire(new ItemLookup(_selectedItem.itemData)))
+            {
+                DeleteCursorItem();
+            }
+        }
+
         private void RotateItem()
         {
             if (_selectedItem == null) return;
@@ -97,9 +122,7 @@ namespace Core.Inventory_files.Scripts
             {
                 if (_selectedGrid.CompareTag("TrashCan"))
                 {
-                    Destroy(_selectedItem.gameObject);
-                    _selectedItem = null;
-                    _highlightTarget = null;
+                    DeleteCursorItem();
                 }
                 else
                 {                
@@ -107,7 +130,14 @@ namespace Core.Inventory_files.Scripts
                 }
             }
         }
-        
+
+        private void DeleteCursorItem()
+        {
+            Destroy(_selectedItem.gameObject);
+            _selectedItem = null;
+            _highlightTarget = null;
+        }
+
         private void InsertRandomItem()
         {
             if (SelectedGrid == null) return;

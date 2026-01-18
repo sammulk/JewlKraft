@@ -13,17 +13,19 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
     [RequireComponent(typeof(SpriteLibrary))]
     public class CustomerSpawning : MonoBehaviour
     {
-        public static event Action<CraftingRecipe> OnRecipeSelected;
-
         [SerializeField] private GameObject _exclamationMarkPF;
         [SerializeField] private CraftingRecipe recipe;
         [SerializeField] private int _daysRemaining;
 
         private SpriteLibrary _spriteLibrary;
+        private Purchasing _purchasing;
+        private CustomerInteract _customerInteract;
 
         private void Awake()
         {
             _spriteLibrary = gameObject.GetComponent<SpriteLibrary>();
+            _purchasing = GetComponentInChildren<Purchasing>();
+            _customerInteract = GetComponent<CustomerInteract>();
         }
 
         public void FromSaveData(CustomerData customerData)
@@ -32,8 +34,25 @@ namespace Core.CoreScripts.Shop_files.Scripts.CustomerScripts
             else Debug.LogError("Sprite Library is null");
 
             recipe = customerData.Recipe;
+            _purchasing.SetRecipe(recipe);
+            _customerInteract.SetRecipe(recipe);
+            
             _daysRemaining = customerData.daysRemaining;
             CheckLastDayIndicator();
+
+            _purchasing.OnDesireAcquired += ForwardLeaveRequest;
+        }
+
+        private void ForwardLeaveRequest()
+        {
+            CustomerController.Instance.currentManager.RemoveCustomer(this);
+        }
+        
+        public void LeaveAndDelete(Transform spawnTransform)
+        {
+            _purchasing.gameObject.SetActive(false);
+            GetComponent<CustomerInteract>().enabled = false;
+            GetComponent<CustomerWanderer>().FinalVoyage(spawnTransform);
         }
 
         public bool DayPassTimeOut()

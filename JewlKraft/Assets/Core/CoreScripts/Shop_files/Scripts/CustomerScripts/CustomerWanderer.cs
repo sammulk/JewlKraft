@@ -1,5 +1,8 @@
+using System;
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
+using Random = UnityEngine.Random;
 
 public class CustomerWanderer : MonoBehaviour
 {
@@ -13,6 +16,7 @@ public class CustomerWanderer : MonoBehaviour
 
     private Vector2 target;
     private bool waiting = false;
+    private bool leaving = false;
     private Animator animator;
 
     void Start()
@@ -106,4 +110,15 @@ public class CustomerWanderer : MonoBehaviour
         Gizmos.DrawLine(transform.position, target);
     }
 
+    public void FinalVoyage(Transform spawnTransform)
+    {
+        StopAllCoroutines();
+        SetTarget(spawnTransform.position);
+        leaving = true;
+    }
+
+    private void OnBecameInvisible()
+    {
+        if (leaving) Destroy(gameObject);
+    }
 }

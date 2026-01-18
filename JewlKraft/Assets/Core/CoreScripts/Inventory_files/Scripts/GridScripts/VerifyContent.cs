@@ -48,6 +48,7 @@ namespace Core.Inventory_files.Scripts.GridScripts
 
         public bool CompareContents()
         {
+            Debug.Log("CompareContents");
             return _itemGrid.Contents.Select(i => i.StoreItem()).ToHashSet().SetEquals(items);
         }
 

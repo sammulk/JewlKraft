@@ -185,7 +185,7 @@ namespace Core.CoreScripts.Inventory_files.Scripts.GridScripts
             int x = Mathf.FloorToInt(scaledlocalPoint.x / TileSizeWidth);
             int y = Mathf.FloorToInt(scaledlocalPoint.y / TileSizeHeight);
             
-            Debug.Log($"x: {x}, y: {y}");
+           // Debug.Log($"x: {x}, y: {y}");
             
             x = Mathf.Clamp(x, 0, gridWidth - 1);
             y = Mathf.Clamp(y, 0, gridHeight - 1);

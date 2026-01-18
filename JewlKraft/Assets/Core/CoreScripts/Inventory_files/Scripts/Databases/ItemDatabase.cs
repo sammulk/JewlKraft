@@ -102,5 +102,14 @@ namespace Core.CoreScripts.Inventory_files.Scripts.Databases
             
             Debug.Log($"New itemdata with name {itemData.name} MaterialType {MaterialType} and CraftStage {CraftStage}");
         }
+        
+        public bool CompareToLookup(ItemLookup itemLookup)
+        {
+            if (itemLookup.ItemType != ItemType) return false;
+            if (itemLookup.MaterialType != MaterialType) return false;
+            if (itemLookup.CraftStage != CraftStage) return false;
+            
+            return true;
+        }
     }
 }
