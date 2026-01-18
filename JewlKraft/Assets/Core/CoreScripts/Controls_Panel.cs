@@ -19,6 +19,14 @@ public class Controls_Panel : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (this.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        {
+            ClosePanel();
+        }
+    }
+
     void ClosePanel()
     {
         this.gameObject.SetActive(false);
