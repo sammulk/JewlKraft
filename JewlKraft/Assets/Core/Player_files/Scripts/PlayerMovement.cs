@@ -70,7 +70,7 @@ namespace Core.Player_files.Scripts
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (!collision.CompareTag("Portal")) return;
-            SceneManager.LoadScene("Shop_scene");
+            FadeController.Instance.FadeToScene("Shop_scene");
         }
         public IEnumerator Trapped(float TimeHeld)
         {
