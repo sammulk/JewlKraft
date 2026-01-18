@@ -6,7 +6,7 @@ public class Controls_Panel : MonoBehaviour
     [SerializeField]
     private Button ExitButton;
     [SerializeField]
-    private GameObject ESCPanel;
+    private ESC_Panel ESCPanel;           // reference to the ESC_Panel component
     [SerializeField]
     private Button SettingsButton;
     [SerializeField]
@@ -32,7 +32,7 @@ public class Controls_Panel : MonoBehaviour
         this.gameObject.SetActive(false);
         if (ESCPanel != null)
         {
-            ESCPanel.SetActive(true);
+            ESCPanel.OpenPanel();
         }
     }
 
