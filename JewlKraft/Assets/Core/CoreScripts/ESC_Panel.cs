@@ -15,7 +15,7 @@ public class ESC_Panel : MonoBehaviour
     [SerializeField]
     private GameObject SettingsPanel;
 
-    private bool isOpen = false;
+    public bool isOpen = false;
 
     private void Start()
     {
