@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class EndDay : MonoBehaviour
 {
@@ -7,6 +6,7 @@ public class EndDay : MonoBehaviour
     {
         if (!collision.CompareTag("Player")) return;
 
+        GetComponent<TutorialBubble>()?.HideBubble();
         FadeController.Instance.FadeToScene("Dungeon_scene");
     }
 }

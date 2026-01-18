@@ -9,6 +9,7 @@ public class Furnace : Workstation
     {
         Debug.Log("Furnace activated! Smelting items...");
         base.Interact();
+        GetComponent<TutorialBubble>()?.HideBubble();
         OnFurnaceSelected?.Invoke();
     }
 }

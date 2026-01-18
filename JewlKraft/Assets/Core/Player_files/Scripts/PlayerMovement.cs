@@ -72,6 +72,7 @@ namespace Core.Player_files.Scripts
             if (!collision.CompareTag("Portal")) return;
             FadeController.Instance.FadeToScene("Shop_scene");
         }
+
         public IEnumerator Trapped(float TimeHeld)
         {
             float MoveSpeed_alt = moveSpeed;

@@ -72,6 +72,7 @@ namespace Core.Dungeon_files.Scripts
         private void BreakGem()
         {
             SpawnShards();
+            GetComponent<TutorialBubble>()?.HideBubble();
             Destroy(gameObject);
         }
 
