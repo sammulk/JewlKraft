@@ -15,3 +15,9 @@ MonoBehaviour:
   _spriteLibraries:
   - {fileID: 7108339969198208228, guid: 7c8d29ea34fd16c408fc1abb248089cb, type: 3}
   - {fileID: 7108339969198208228, guid: c936900fc0535a14ebd07d16f33f5ca0, type: 3}
+  - {fileID: 7108339969198208228, guid: 6813c8b23250ac74d98cb325b37b3be0, type: 3}
+  - {fileID: 7108339969198208228, guid: c274a3fc73f17734086e47429c4d0bf6, type: 3}
+  - {fileID: 7108339969198208228, guid: 0c355d42e593ec34ea19ec656d32de2d, type: 3}
+  - {fileID: 7108339969198208228, guid: dfbf729e63252784891427ce41c924c6, type: 3}
+  - {fileID: 7108339969198208228, guid: 042cad868e0d2c64b8f8e6c7976c040d, type: 3}
+  - {fileID: 7108339969198208228, guid: c5bc8659eedba274384b1b7de1bd8129, type: 3}
