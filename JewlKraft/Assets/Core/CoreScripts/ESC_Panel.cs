@@ -29,6 +29,15 @@ public class ESC_Panel : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if (Workstation.LastEscapeHandledFrame == Time.frameCount)
+                return;
+
+            if (Workstation.AnyOpen)
+            {
+                Workstation.CloseAllOpen();
+                return;
+            }
+
             ESC();
         }
     }

@@ -7,10 +7,15 @@ public class SettingsPanel : MonoBehaviour
     private Button ExitSettingsButton;
     [SerializeField]
     private GameObject ESCPanel;
+    [SerializeField] 
+    private Button ControlsButton;
+    [SerializeField]
+    private GameObject ControlsPanel;
 
     void Start()
     {
         ExitSettingsButton.onClick.AddListener(CloseSettingsPanel);
+        ControlsButton.onClick.AddListener(OpenControlsPanel);
         this.gameObject.SetActive(false);
     }
 
@@ -20,6 +25,15 @@ public class SettingsPanel : MonoBehaviour
         if (ESCPanel != null)
         {
             ESCPanel.SetActive(true);
+        }
+    }
+
+    void OpenControlsPanel()
+    {
+        if (ControlsPanel != null)
+        {
+            ControlsPanel.SetActive(true);
+            this.gameObject.SetActive(false);
         }
     }
 }

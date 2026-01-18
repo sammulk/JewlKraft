@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Workstation : MonoBehaviour
@@ -12,6 +12,12 @@ public class Workstation : MonoBehaviour
         1f);
 
     [SerializeField] protected CanvasGroup workstationUI;
+
+    private static readonly List<Workstation> _openWorkstations = new List<Workstation>();
+
+    public static int LastEscapeHandledFrame { get; private set; } = -1;
+
+    public static bool AnyOpen => _openWorkstations.Count > 0;
 
     protected virtual void Awake()
     {
@@ -29,6 +35,7 @@ public class Workstation : MonoBehaviour
         Debug.Log("Interacted with generic workstation: " + name);
         ShowUI();
     }
+
     protected void ShowUI()
     {
         if (workstationUI != null)
@@ -36,6 +43,9 @@ public class Workstation : MonoBehaviour
             workstationUI.alpha = 1f;
             workstationUI.interactable = true;
             workstationUI.blocksRaycasts = true;
+
+            if (!_openWorkstations.Contains(this))
+                _openWorkstations.Add(this);
         }
     }
 
@@ -47,6 +57,18 @@ public class Workstation : MonoBehaviour
             workstationUI.interactable = false;
             workstationUI.blocksRaycasts = false;
         }
+
+        _openWorkstations.Remove(this);
+    }
+
+    public static void CloseAllOpen()
+    {
+        var copy = _openWorkstations.ToArray();
+        foreach (var ws in copy)
+        {
+            if (ws != null)
+                ws.CloseUI();
+        }
     }
 
     protected virtual void Update()
@@ -54,6 +76,7 @@ public class Workstation : MonoBehaviour
         if (workstationUI != null && workstationUI.alpha > 0f && Input.GetKeyDown(KeyCode.Escape))
         {
             CloseUI();
+            LastEscapeHandledFrame = Time.frameCount;
         }
     }
 }
