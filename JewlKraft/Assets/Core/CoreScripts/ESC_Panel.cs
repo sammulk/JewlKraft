@@ -22,7 +22,8 @@ public class ESC_Panel : MonoBehaviour
         Resume.onClick.AddListener(ResumeGame);
         MainMenu.onClick.AddListener(GoToMainMenu);
         Settings.onClick.AddListener(OpenSettings);
-        ESCPanel.SetActive(false);
+        if (ESCPanel != null)
+            ESCPanel.SetActive(false);
     }
 
     private void Update()
@@ -44,8 +45,7 @@ public class ESC_Panel : MonoBehaviour
 
     private void GoToMainMenu()
     {
-        ESCPanel.SetActive(false);
-        Time.timeScale = 1f;
+        ClosePanel();
         float FD = FadeController.Instance.fadeDuration;
         FadeController.Instance.fadeDuration = 0.1f;
         FadeController.Instance.FadeToScene("Main_menu");
@@ -56,10 +56,7 @@ public class ESC_Panel : MonoBehaviour
     {
         if (isOpen)
         {
-            if (ESCPanel != null)
-                ESCPanel.SetActive(false);
-            isOpen = false;
-            Time.timeScale = 1f;
+            ClosePanel();
             return;
         }
     }
@@ -68,8 +65,12 @@ public class ESC_Panel : MonoBehaviour
     {
         if (SettingsPanel != null)
         {
+            // Open settings panel from ESC: keep game paused but ESC panel is not 'open'
             SettingsPanel.SetActive(true);
-            ESCPanel.SetActive(false);
+            if (ESCPanel != null)
+                ESCPanel.SetActive(false);
+            isOpen = false;
+            Time.timeScale = 0f;
         }
     }
 
@@ -77,18 +78,29 @@ public class ESC_Panel : MonoBehaviour
     {
         if (isOpen)
         {
-            if (ESCPanel != null)
-                ESCPanel.SetActive(false);
-            isOpen = false;
-            Time.timeScale = 1f;
+            ClosePanel();
             return;
         }
         else
         {
-            if (ESCPanel != null)
-                ESCPanel.SetActive(true);
-            isOpen = true;
-            Time.timeScale = 0f;
+            OpenPanel();
         }
+    }
+
+    // Public API so other panels can open/close the ESC panel correctly.
+    public void OpenPanel()
+    {
+        if (ESCPanel != null)
+            ESCPanel.SetActive(true);
+        isOpen = true;
+        Time.timeScale = 0f;
+    }
+
+    public void ClosePanel()
+    {
+        if (ESCPanel != null)
+            ESCPanel.SetActive(false);
+        isOpen = false;
+        Time.timeScale = 1f;
     }
 }
