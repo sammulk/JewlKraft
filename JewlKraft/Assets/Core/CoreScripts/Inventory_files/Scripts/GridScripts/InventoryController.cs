@@ -93,7 +93,7 @@ namespace Core.Inventory_files.Scripts
 
             Collider2D hit = Physics2D.OverlapPoint(mouseWorldPos, customerLayer);
 
-            if (hit == null || !hit.CompareTag("Customer")) return;
+            if (hit == null) return;
 
             Purchasing client = hit.gameObject.GetComponent<Purchasing>();
             

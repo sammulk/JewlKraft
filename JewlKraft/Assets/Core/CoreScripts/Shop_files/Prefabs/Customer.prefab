@@ -159,8 +159,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 213041340020883081}
-  - {fileID: 1489571930222899806}
   - {fileID: 6946558777273636719}
+  - {fileID: 1489571930222899806}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3769403516865988247
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2
-  waitTime: 1.5
+  waitTimeRange: {x: 2, y: 5}
   minBounds: {x: -8, y: -4.35}
   maxBounds: {x: 8, y: 3}
   obstacleLayer:
