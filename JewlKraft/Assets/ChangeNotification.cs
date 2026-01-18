@@ -13,6 +13,12 @@ public class ChangeNotification : MonoBehaviour
         Furnace.OnFurnaceSelected += HideMarker;
     }
 
+    private void OnDisable()
+    {
+        CustomerInteract.OnRecipeSelected -= DisplayMarker;
+        Furnace.OnFurnaceSelected -= HideMarker;
+    }
+
     private void HideMarker()
     {
         notificationMarker.SetActive(false);
